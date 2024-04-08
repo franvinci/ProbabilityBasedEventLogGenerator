@@ -9,10 +9,10 @@ def get_prefix_freq(log):
     """
 
     # keep only the sequence of completed events 
-    try:
-        log = pm4py.filter_event_attribute_values(log, 'lifecycle:transition', ['complete'], level="event", retain=True)
-    except:
-        pass
+    # try:
+    #     log = pm4py.filter_event_attribute_values(log, 'lifecycle:transition', ['complete'], level="event", retain=True)
+    # except:
+    #     pass
 
     activities = pm4py.get_event_attribute_values(log, "concept:name").keys()
     prefixes_freq_next_act = dict()
@@ -37,7 +37,7 @@ def get_prefix_freq(log):
 def get_prefix_proba(log):
     """
     
-    Returns a dictionary: {'prefix': {'actitivity': probability to executo 'activity' after 'prefix'}}
+    Returns a dictionary: {'prefix': {'actitivity': probability to execute 'activity' after 'prefix'}}
 
     """
 
