@@ -1,8 +1,10 @@
 from src.gen_seq_utils import get_prefix_proba
 from src.gen_res_utils import get_prefix_res_proba, get_possible_prefixes_act
+from src.gen_time_utils import get_kde_arrival_time, get_kde_ex_times, sample_arrival_times, sample_ex_times
 from src.prefix_utils import get_more_similar_prefix
 import random
 import pandas as pd
+from datetime import timedelta, datetime
 
 class EventLogGenerator:
     def __init__(self, log):
@@ -11,6 +13,8 @@ class EventLogGenerator:
         # compute conditional probabilities: probability to execute an activity given a prefix
         self.prefixes_proba_next_act = get_prefix_proba(log)
         self.prefixes_proba_next_res = get_prefix_res_proba(log)
+        self.arrival_times_kde = get_kde_arrival_time(log)
+        self.ex_times_kde = get_kde_ex_times(log)
 
 
     def generate_seq(self, N_seq=100):
@@ -61,21 +65,39 @@ class EventLogGenerator:
         return simulated_traces_act_res
     
 
-    def generate_timestamps(self, log_seqs):
-        return None
+    def generate_timestamps(self, log_seqs, start_timestamp):
+
+        arrival_times = sample_arrival_times(self.arrival_times_kde, len(log_seqs))
+        ex_times = sample_ex_times(self.ex_times_kde, log_seqs)
+
+        timestamps = []
+        for a_t in arrival_times:
+            start_timestamp = start_timestamp + timedelta(seconds=a_t)
+            timestamps.append([start_timestamp])
+        
+        for i in range(len(log_seqs)):
+            for j in range(1, len(log_seqs[i])):
+                prev_a = log_seqs[i][j-1]
+                cur_a = log_seqs[i][j]
+                t_seconds = ex_times[(prev_a, cur_a)].pop()
+                timestamps[i].append(timestamps[i][-1] + timedelta(seconds=t_seconds))
+
+        return timestamps
     
 
-    def apply(self, N=1000):
+    def apply(self, N=1000, start_timestamp = "2020-10-15 00:00:00"):
 
-        log = self.generate_seq(N)
-        log = self.generate_resources(log)
-        # log = self.generate_timestamps(log)
+        start_timestamp = datetime.strptime(start_timestamp, "%Y-%m-%d %H:%M:%S")
+
+        log_seq = self.generate_seq(N)
+        log = self.generate_resources(log_seq)
+        timestamps_log = self.generate_timestamps(log_seq, start_timestamp)
 
         ids = [str(i) for i in range(1, len(log)+1) for _ in range(len(log[i-1]))]
         activities = [ev[0] for trace in log for ev in trace]
-        resources = [ev[1] for trace in log for ev in trace]    
-        # timestamps = []
+        resources = [ev[1] for trace in log for ev in trace]
+        timestamps = [t for trace in timestamps_log for t in trace]
         
-        df = pd.DataFrame({'case:concpet:name': ids, 'concept:name': activities, 'org:resources': resources})
+        df = pd.DataFrame({'case:concept:name': ids, 'concept:name': activities, 'time:timestamp': timestamps, 'org:resources': resources})
 
         return df

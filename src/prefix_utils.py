@@ -11,5 +11,3 @@ def get_more_similar_prefix(p, prefixes):
             similar_prefix = cur_pref
     
     return similar_prefix
-
-
