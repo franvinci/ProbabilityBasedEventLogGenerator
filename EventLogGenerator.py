@@ -2,6 +2,7 @@ from src.gen_seq_utils import get_prefix_proba
 from src.gen_res_utils import get_prefix_res_proba, get_possible_prefixes_act
 from src.gen_time_utils import get_kde_arrival_time, get_kde_ex_times, sample_arrival_times, sample_ex_times
 from src.prefix_utils import get_more_similar_prefix
+from src.preprocess_utils import add_lc_to_act
 import random
 import pandas as pd
 from datetime import timedelta, datetime
@@ -9,6 +10,8 @@ from datetime import timedelta, datetime
 class EventLogGenerator:
     def __init__(self, log):
         self.log = log
+
+        self.log = add_lc_to_act(log)
 
         # compute conditional probabilities: probability to execute an activity given a prefix
         self.prefixes_proba_next_act = get_prefix_proba(log)
@@ -84,6 +87,13 @@ class EventLogGenerator:
 
         return timestamps
     
+    def generate_lifecyle(self, df):
+
+        df['lifecyle:transition'] = df['concept:name'].apply(lambda x: x.split('_lc:')[-1])
+        df['concept:name'] = df['concept:name'].apply(lambda x: ''.join(x.split('_lc:')[:-1]))
+
+        return df
+    
 
     def apply(self, N=1000, start_timestamp = "2020-10-15 00:00:00"):
 
@@ -99,5 +109,6 @@ class EventLogGenerator:
         timestamps = [t for trace in timestamps_log for t in trace]
         
         df = pd.DataFrame({'case:concept:name': ids, 'concept:name': activities, 'time:timestamp': timestamps, 'org:resources': resources})
+        df = self.generate_lifecyle(df)
 
         return df
