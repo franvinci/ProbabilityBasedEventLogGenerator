@@ -6,6 +6,7 @@ from src.preprocess_utils import add_lc_to_act
 import random
 import pandas as pd
 from datetime import timedelta, datetime
+from tqdm import tqdm
 
 class EventLogGenerator:
     def __init__(self, log):
@@ -32,7 +33,7 @@ class EventLogGenerator:
 
         possible_prefixes = list(self.prefixes_proba_next_act.keys())
         gen_seq_log = []
-        for _ in range(N_seq):
+        for _ in tqdm(range(N_seq)):
             prefix = ()
             trace = []
             while True:
@@ -53,7 +54,7 @@ class EventLogGenerator:
 
         possible_prefixes = get_possible_prefixes_act(self.prefixes_proba_next_res)
         simulated_traces_act_res = []
-        for sim_trace_act in log_seqs_times:
+        for sim_trace_act in tqdm(log_seqs_times):
             sim_trace_act_res = []
             prefix = tuple()
             for act in sim_trace_act:
@@ -78,7 +79,7 @@ class EventLogGenerator:
             start_timestamp = start_timestamp + timedelta(seconds=a_t)
             timestamps.append([start_timestamp])
         
-        for i in range(len(log_seqs)):
+        for i in tqdm(range(len(log_seqs))):
             for j in range(1, len(log_seqs[i])):
                 prev_a = log_seqs[i][j-1]
                 cur_a = log_seqs[i][j]
@@ -99,8 +100,11 @@ class EventLogGenerator:
 
         start_timestamp = datetime.strptime(start_timestamp, "%Y-%m-%d %H:%M:%S")
 
+        print('Generate sequences...')
         log_seq = self.generate_seq(N)
+        print('Generate resources...')
         log = self.generate_resources(log_seq)
+        print('Generate timestamps...')
         timestamps_log = self.generate_timestamps(log_seq, start_timestamp)
 
         ids = [str(i) for i in range(1, len(log)+1) for _ in range(len(log[i-1]))]

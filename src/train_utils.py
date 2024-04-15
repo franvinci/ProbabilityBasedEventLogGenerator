@@ -2,7 +2,7 @@ import pm4py
 import numpy as np
 
 
-def splitEventLog(log, train_size = 0.8, split_temporal = False, save_to = ''):
+def splitEventLog(log, train_size = 0.7, split_temporal = True, save_to = ''):
     """
     
     Split event log in train and test set
