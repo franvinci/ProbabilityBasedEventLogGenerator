@@ -1,0 +1,2941 @@
+case:concept:name,concept:name,time:timestamp,org:resources,lifecyle:transition
+1,Start,2012-03-02 15:07:57.012385,Start,start
+1,Start,2012-03-02 15:07:57.012385,Start,complete
+1,Turning,2012-03-02 15:07:57.012385,ID4932,start
+1,Turning,2012-03-02 15:44:29.594778,ID4932,complete
+1,Turning,2012-03-02 15:44:29.594778,ID4932,start
+1,Turning,2012-03-03 02:38:27.835112,ID4932,complete
+1,Turning,2012-03-03 02:38:27.835112,ID4167,start
+1,Turning,2012-03-03 05:50:07.419471,ID4167,complete
+1,Turning,2012-03-04 00:59:14.113672,ID4429,start
+1,Turning,2012-03-04 06:18:39.896263,ID4429,complete
+1,Turning,2012-03-04 06:18:39.896263,ID4932,start
+1,Turning,2012-03-04 06:38:51.203837,ID4932,complete
+1,Turning,2012-03-06 05:07:14.278224,ID4167,start
+1,Turning,2012-03-06 11:52:08.066559,ID4167,complete
+1,Turning Q.C.,2012-03-06 11:52:08.066559,ID4493,start
+1,Turning Q.C.,2012-03-06 12:10:11.560250,ID4493,complete
+1,Turning & Milling,2012-03-06 17:15:55.938913,ID4932,start
+1,Turning & Milling,2012-03-07 01:25:09.464848,ID4932,complete
+1,Turning & Milling,2012-03-07 15:57:08.816914,ID4167,start
+1,Turning & Milling,2012-03-07 23:36:45.969011,ID4167,complete
+1,Turning & Milling,2012-03-08 10:22:17.853619,ID4794,start
+1,Turning,2012-03-08 10:31:17.853619,ID4794,start
+1,Turning & Milling,2012-03-08 16:03:17.853619,ID4794,complete
+1,Turning,2012-03-08 16:03:51.518057,ID4794,complete
+1,Turning,2012-03-08 19:21:41.834218,ID4932,start
+1,Turning & Milling,2012-03-09 02:41:41.834218,ID4932,start
+1,Turning & Milling,2012-03-09 05:23:08.236877,ID4932,complete
+1,Turning,2012-03-09 05:24:50.820527,ID4932,complete
+1,Turning & Milling,2012-03-09 05:24:50.820527,ID4794,start
+1,Turning & Milling,2012-03-09 06:59:28.925823,ID4794,complete
+1,Turning & Milling,2012-03-09 20:16:03.026536,ID4167,start
+1,Turning & Milling,2012-03-10 02:55:29.280937,ID4167,complete
+1,Turning & Milling,2012-03-10 02:55:29.280937,ID4932,start
+1,Turning & Milling,2012-03-10 11:59:32.090959,ID4932,complete
+1,Turning & Milling Q.C.,2012-03-12 17:48:21.489119,ID4493,start
+1,Turning & Milling Q.C.,2012-03-12 18:04:34.062256,ID4493,complete
+1,Laser Marking,2012-03-15 15:33:31.311007,ID0998,start
+1,Laser Marking,2012-03-15 16:02:48.274905,ID0998,complete
+1,Laser Marking,2012-03-15 16:02:48.274905,ID4882,start
+1,Laser Marking,2012-03-15 16:02:48.274905,ID4882,complete
+1,Turning & Milling,2012-03-16 02:04:26.564260,ID4167,start
+1,Turning & Milling Q.C.,2012-03-16 02:14:50.400810,ID4493,start
+1,Turning & Milling Q.C.,2012-03-16 02:14:50.400810,ID4493,start
+1,Turning & Milling Q.C.,2012-03-16 03:11:48.442280,ID4493,complete
+1,Turning & Milling,2012-03-16 04:18:13.929270,ID4167,complete
+1,Turning & Milling,2012-03-16 04:18:13.929270,ID4167,start
+1,Turning & Milling Q.C.,2012-03-16 04:43:33.757611,ID4493,complete
+1,Laser Marking,2012-03-18 00:37:19.872265,ID0998,start
+1,Laser Marking,2012-03-18 01:48:15.196200,ID0998,complete
+1,End,2012-03-18 01:48:15.196200,End,start
+1,End,2012-03-18 01:48:15.196200,End,complete
+1,Turning & Milling,2012-03-18 03:18:51.162337,ID4167,complete
+2,Start,2012-04-14 15:40:02.488106,Start,start
+2,Start,2012-04-14 15:40:02.488106,Start,complete
+2,Turning & Milling Q.C.,2012-04-14 15:40:02.488106,ID4163,start
+2,Turning & Milling Q.C.,2012-04-14 16:47:33.610447,ID4163,complete
+2,Turning & Milling,2012-04-16 11:34:15.849825,ID4429,start
+2,Turning & Milling,2012-04-16 13:21:58.538048,ID4429,complete
+2,Turning & Milling,2012-04-18 17:19:13.664989,ID4932,start
+2,Turning & Milling,2012-04-18 18:52:51.608014,ID4932,complete
+2,Turning & Milling,2012-04-18 21:23:40.967543,ID4429,start
+2,Turning & Milling Q.C.,2012-04-18 22:02:04.618606,ID4163,start
+2,Turning & Milling,2012-04-18 23:31:39.564352,ID4429,complete
+2,Turning & Milling,2012-04-19 02:54:56.936435,ID4429,start
+2,Turning & Milling Q.C.,2012-04-19 02:54:56.936435,ID4163,complete
+2,Turning & Milling Q.C.,2012-04-19 02:54:56.936435,ID4287,start
+2,Turning & Milling Q.C.,2012-04-19 02:54:56.936435,ID4287,complete
+2,Turning & Milling,2012-04-19 09:14:12.398711,ID4429,complete
+2,Turning & Milling,2012-04-19 13:17:39.551927,ID4932,start
+2,Turning & Milling,2012-04-19 14:01:39.518729,ID4932,complete
+2,Turning & Milling,2012-04-19 14:01:39.518729,ID4932,start
+2,Turning & Milling,2012-04-19 15:21:40.519456,ID4932,complete
+2,Turning & Milling,2012-04-19 18:34:11.215302,ID4429,start
+2,Turning & Milling,2012-04-20 02:53:58.093294,ID4429,complete
+2,Turning & Milling,2012-04-20 06:31:45.644573,ID4529,start
+2,Turning & Milling,2012-04-20 09:28:03.352430,ID4529,complete
+2,Turning & Milling,2012-04-20 11:43:41.144324,ID4529,start
+2,Turning & Milling,2012-04-20 16:25:38.518000,ID4529,complete
+2,Turning & Milling,2012-04-20 17:01:00.562319,ID4641,start
+2,Turning & Milling,2012-04-20 17:01:00.562319,ID4641,complete
+2,Turning & Milling,2012-04-21 00:44:04.412272,ID4932,start
+2,Turning & Milling,2012-04-21 02:03:57.828233,ID4932,complete
+2,Turning & Milling Q.C.,2012-04-21 10:56:52.233960,ID4163,start
+2,Turning & Milling Q.C.,2012-04-21 12:36:05.445644,ID4163,complete
+2,Turning & Milling Q.C.,2012-04-22 10:07:20.550249,ID4163,start
+2,Turning & Milling Q.C.,2012-04-22 10:34:51.105890,ID4163,complete
+2,Turning & Milling Q.C.,2012-04-22 10:34:51.105890,ID4163,start
+2,Turning & Milling Q.C.,2012-04-22 10:40:36.823096,ID4163,complete
+2,Turning & Milling Q.C.,2012-04-22 10:40:36.823096,ID4163,start
+2,Turning & Milling Q.C.,2012-04-22 12:38:37.590591,ID4163,complete
+2,Turning & Milling Q.C.,2012-04-23 19:26:43.480084,ID4163,start
+2,Turning & Milling Q.C.,2012-04-23 20:21:40.789375,ID4163,complete
+2,Turning & Milling Q.C.,2012-04-23 20:21:40.789375,ID4163,start
+2,Turning & Milling Q.C.,2012-04-23 22:25:33.713987,ID4163,complete
+2,Turning & Milling,2012-04-25 19:46:29.180107,ID4429,start
+2,Laser Marking,2012-04-25 22:02:21.381345,ID4445,start
+2,Laser Marking,2012-04-25 22:16:26.670070,ID4445,complete
+2,Turning & Milling,2012-04-26 01:38:20.423104,ID4429,complete
+2,Lapping,2012-05-24 16:40:27.442982,ID0998,start
+2,Lapping,2012-05-24 17:18:07.425085,ID0998,complete
+2,Lapping,2012-05-25 07:29:32.469285,ID0998,start
+2,Lapping,2012-05-25 07:46:55.011729,ID4882,start
+2,Lapping,2012-05-25 08:46:11.850851,ID0998,complete
+2,Lapping,2012-05-25 12:27:46.949907,ID4882,complete
+2,Round Grinding,2012-05-25 20:46:47.710501,ID4385,start
+2,Round Grinding,2012-05-26 08:13:46.227780,ID4385,complete
+2,Round Grinding,2012-05-26 08:13:46.227780,ID4385,start
+2,Round Grinding,2012-05-26 10:09:11.927609,ID4385,complete
+2,Round Grinding,2012-05-28 11:49:43.067829,ID4355,start
+2,Lapping,2012-05-28 14:31:41.581239,ID0998,start
+2,Round Grinding,2012-05-28 15:13:59.234243,ID4355,complete
+2,Lapping,2012-05-28 18:02:33.095562,ID0998,complete
+2,Lapping,2012-05-28 21:07:36.150212,ID4882,start
+2,Lapping,2012-05-28 21:57:13.859765,ID4882,complete
+2,Final Inspection Q.C.,2012-06-04 17:37:55.199428,ID4163,start
+2,Final Inspection Q.C.,2012-06-04 18:57:01.997279,ID4163,complete
+2,Final Inspection Q.C.,2012-06-04 18:57:01.997279,ID4163,start
+2,Final Inspection Q.C.,2012-06-04 20:26:56.281011,ID4163,complete
+2,Final Inspection Q.C.,2012-06-05 15:11:31.245194,ID4163,start
+2,Final Inspection Q.C.,2012-06-05 17:03:35.249710,ID4163,complete
+2,Lapping,2012-06-05 17:03:35.249710,ID0998,start
+2,Lapping,2012-06-05 17:10:44.332913,ID0998,complete
+2,Round Grinding,2012-06-05 17:10:44.332913,ID4445,start
+2,Round Grinding,2012-06-05 22:09:37.150674,ID4445,complete
+2,Round Grinding,2012-06-08 00:07:34.764109,ID4445,start
+2,Round Grinding,2012-06-08 03:55:55.836043,ID0420,start
+2,Round Grinding,2012-06-08 06:49:55.430428,ID4445,complete
+2,Lapping,2012-06-08 15:22:57.787329,ID4882,start
+2,Turning & Milling Q.C.,2012-06-08 15:53:19.583436,ID4163,start
+2,Lapping,2012-06-08 16:14:04.954609,ID4882,complete
+2,Turning & Milling Q.C.,2012-06-08 16:27:34.398498,ID4163,complete
+2,Round Grinding,2012-06-09 05:10:18.701173,ID0420,complete
+2,Round Grinding,2012-06-10 13:57:28.415339,ID4385,start
+2,Lapping,2012-06-10 15:11:20.285888,ID4882,start
+2,Lapping,2012-06-10 16:24:24.477240,ID4882,complete
+2,Round Grinding,2012-06-10 18:28:29.906652,ID4385,complete
+2,Round Grinding,2012-06-11 03:49:39.122953,ID0420,start
+2,Turning & Milling Q.C.,2012-06-11 03:49:39.122953,ID0420,start
+2,Turning & Milling Q.C.,2012-06-11 05:58:46.623971,ID0420,complete
+2,Round Grinding,2012-06-11 10:55:23.022598,ID0420,complete
+2,Round Grinding,2012-06-11 10:55:23.022598,ID4445,start
+2,Final Inspection Q.C.,2012-06-11 12:25:16.034211,ID4163,start
+2,Final Inspection Q.C.,2012-06-11 15:18:22.934937,ID4163,complete
+2,Round Grinding,2012-06-11 20:02:21.158600,ID4445,complete
+2,Final Inspection Q.C.,2012-06-12 08:01:37.618541,ID4163,start
+2,Final Inspection Q.C.,2012-06-12 09:17:55.972464,ID4163,complete
+2,Final Inspection Q.C.,2012-06-12 22:44:48.105530,ID4163,start
+2,Final Inspection Q.C.,2012-06-12 23:16:08.501030,ID4163,complete
+2,Packing,2012-06-13 22:13:44.819742,ID4820,start
+2,Packing,2012-06-13 23:13:44.819742,ID4820,complete
+2,Final Inspection Q.C.,2012-06-13 23:13:44.819742,ID4163,start
+2,Final Inspection Q.C.,2012-06-13 23:43:43.920941,ID4163,complete
+2,Packing,2012-06-15 08:42:11.101625,ID4820,start
+2,Packing,2012-06-15 08:42:11.101625,ID4820,start
+2,Packing,2012-06-15 09:42:11.101625,ID4820,complete
+2,Packing,2012-06-15 09:42:11.101625,ID4820,complete
+2,Final Inspection Q.C.,2012-06-15 22:01:44.493478,ID4163,start
+2,Final Inspection Q.C.,2012-06-15 22:01:44.493478,ID4163,complete
+2,Final Inspection Q.C.,2012-06-15 22:01:44.493478,ID4163,start
+2,Final Inspection Q.C.,2012-06-15 22:03:49.839149,ID4163,start
+2,Final Inspection Q.C.,2012-06-16 02:37:50.838696,ID4163,complete
+2,Final Inspection Q.C.,2012-06-16 05:02:48.844238,ID4163,complete
+2,Final Inspection Q.C.,2012-06-19 00:33:13.662640,ID4163,start
+2,Final Inspection Q.C.,2012-06-19 04:19:26.738635,ID4163,complete
+2,Packing,2012-06-24 20:19:11.511850,ID4820,start
+2,Packing,2012-06-24 21:19:11.511850,ID4820,complete
+2,Final Inspection Q.C.,2012-06-25 00:51:51.334382,ID4163,start
+2,Final Inspection Q.C.,2012-06-25 01:27:35.593624,ID4163,complete
+2,Final Inspection Q.C.,2012-06-25 05:09:17.790843,ID4163,start
+2,Final Inspection Q.C.,2012-06-25 06:24:50.590182,ID4163,complete
+2,Final Inspection Q.C.,2012-06-25 06:24:50.590182,ID4163,start
+2,Final Inspection Q.C.,2012-06-25 09:46:32.856245,ID4163,complete
+2,Final Inspection Q.C.,2012-06-26 02:27:35.982940,ID4163,start
+2,Final Inspection Q.C.,2012-06-26 04:18:31.405288,ID4163,complete
+2,Final Inspection Q.C.,2012-06-26 05:48:40.083598,ID4163,start
+2,Final Inspection Q.C.,2012-06-26 06:35:26.272564,ID4163,complete
+2,Final Inspection Q.C.,2012-06-26 06:35:26.272564,ID4163,start
+2,Final Inspection Q.C.,2012-06-26 07:11:27.023803,ID4163,complete
+2,Grinding Rework,2012-06-27 03:18:00.971869,ID4872,start
+2,Grinding Rework,2012-06-27 07:19:42.274903,ID4872,complete
+2,Grinding Rework,2012-06-27 07:19:42.274903,ID4528,start
+2,Grinding Rework,2012-06-27 07:33:37.905922,ID4528,complete
+2,Final Inspection Q.C.,2012-06-30 02:37:08.050071,ID4163,start
+2,Final Inspection Q.C.,2012-06-30 04:53:02.941742,ID4163,complete
+2,Final Inspection Q.C.,2012-07-17 15:39:34.987915,ID4163,start
+2,Final Inspection Q.C.,2012-07-17 15:39:34.987915,ID4163,complete
+2,Grinding Rework,2012-08-13 09:58:03.654560,ID4528,start
+2,Grinding Rework,2012-08-13 11:49:59.702826,ID4528,complete
+2,Packing,2012-08-14 03:15:44.685498,ID4820,start
+2,Packing,2012-08-14 04:15:44.685498,ID4820,complete
+2,Final Inspection Q.C.,2012-08-14 21:46:39.280994,ID4163,start
+2,Final Inspection Q.C.,2012-08-15 04:00:53.986240,ID4163,complete
+2,Packing,2012-08-15 04:00:53.986240,ID4820,start
+2,Packing,2012-08-15 05:00:53.986240,ID4820,complete
+2,Turning & Milling Q.C.,2012-08-20 00:09:23.039780,ID4163,start
+2,Turning & Milling Q.C.,2012-08-20 02:15:15.065096,ID4163,complete
+2,End,2012-08-20 02:15:15.065096,End,start
+2,End,2012-08-20 02:15:15.065096,End,complete
+3,Start,2012-04-14 15:40:02.488106,Start,start
+3,Start,2012-04-14 15:40:02.488106,Start,complete
+3,Turning & Milling,2012-04-14 15:40:02.488106,ID4529,start
+3,Turning & Milling,2012-04-14 16:05:35.842943,ID4529,complete
+3,Turning & Milling,2012-04-14 16:05:35.842943,ID4794,start
+3,Turning & Milling,2012-04-15 02:42:45.937757,ID4794,complete
+3,Turning & Milling,2012-04-15 11:19:44.450083,ID4794,start
+3,Turning & Milling,2012-04-15 20:31:42.580068,ID4794,complete
+3,Turning & Milling,2012-04-16 06:39:33.087159,ID4529,start
+3,Turning & Milling,2012-04-16 07:54:25.571400,ID4529,complete
+3,Turning & Milling Q.C.,2012-04-21 15:39:56.956241,ID4493,start
+3,Turning & Milling Q.C.,2012-04-21 17:14:33.451937,ID4493,complete
+3,Laser Marking,2012-04-23 07:30:56.000443,ID0998,start
+3,Laser Marking,2012-04-23 11:15:58.514479,ID0998,complete
+3,Flat Grinding,2012-04-25 06:33:12.776890,ID4882,start
+3,Flat Grinding,2012-04-25 06:33:12.776890,ID4882,complete
+3,Lapping,2012-04-25 06:33:12.776890,ID0998,start
+3,Lapping,2012-04-25 07:44:22.470691,ID0998,complete
+3,Round Grinding,2012-04-25 07:44:22.470691,ID4355,start
+3,Round Grinding,2012-04-25 10:28:49.754954,ID4355,complete
+3,Round Grinding,2012-04-25 10:28:49.754954,ID4355,start
+3,Round Grinding,2012-04-25 11:49:58.068232,ID4355,complete
+3,Grinding Rework,2012-04-30 03:09:14.751440,ID4528,start
+3,Grinding Rework,2012-04-30 08:18:15.092991,ID4528,complete
+3,Final Inspection Q.C.,2012-05-03 04:20:03.678107,ID4493,start
+3,Final Inspection Q.C.,2012-05-03 06:01:32.446844,ID4493,complete
+3,Packing,2012-05-03 06:01:32.446844,ID4820,start
+3,Packing,2012-05-03 07:01:32.446844,ID4820,complete
+3,Final Inspection Q.C.,2012-05-03 17:51:56.667960,ID4493,start
+3,Final Inspection Q.C.,2012-05-03 19:07:39.770407,ID4493,complete
+3,End,2012-05-03 19:07:39.770407,End,start
+3,End,2012-05-03 19:07:39.770407,End,complete
+4,Start,2012-05-20 15:02:12.097906,Start,start
+4,Start,2012-05-20 15:02:12.097906,Start,complete
+4,Turning & Milling,2012-05-20 15:02:12.097906,ID3846,start
+4,Turning & Milling,2012-05-20 17:54:02.506909,ID3846,complete
+4,Turning & Milling,2012-05-20 17:54:02.506909,ID4641,start
+4,Turning & Milling,2012-05-21 02:02:12.846227,ID4641,complete
+4,Turning & Milling,2012-05-21 07:46:09.260858,ID4641,start
+4,Turning & Milling,2012-05-21 13:47:37.303861,ID4641,complete
+4,Turning & Milling,2012-05-22 22:41:48.588119,ID3846,start
+4,Turning & Milling,2012-05-23 00:23:11.774967,ID4529,complete
+4,Turning & Milling,2012-05-23 03:16:03.601359,ID4529,start
+4,Turning & Milling,2012-05-23 12:11:48.210570,ID4529,complete
+4,Turning & Milling Q.C.,2012-05-24 04:01:29.617289,ID4493,start
+4,Turning & Milling Q.C.,2012-05-24 04:20:48.623551,ID4493,complete
+4,Laser Marking,2012-05-25 19:25:24.568085,ID0998,start
+4,Laser Marking,2012-05-25 19:28:29.523424,ID0998,complete
+4,Lapping,2012-05-25 19:28:29.523424,ID0998,start
+4,Lapping,2012-05-25 20:50:00.857864,ID0998,complete
+4,Round Grinding,2012-05-25 20:50:00.857864,ID4355,start
+4,Round Grinding,2012-05-26 00:53:41.056924,ID4355,complete
+4,Round Grinding,2012-05-26 10:29:49.524873,ID4355,start
+4,Round Grinding,2012-05-26 21:22:11.364573,ID4355,complete
+4,Round Grinding,2012-05-26 21:22:11.364573,ID4355,start
+4,Round Grinding,2012-05-27 01:16:39.896796,ID4355,complete
+4,Round Grinding,2012-05-27 08:51:25.008518,ID4355,start
+4,Round Grinding,2012-05-27 10:00:29.386945,ID4355,complete
+4,Round Grinding,2012-05-27 13:37:34.401349,ID4355,start
+4,Round Grinding,2012-05-27 16:37:35.615617,ID4355,complete
+4,Lapping,2012-05-30 19:13:50.790826,ID0998,start
+4,Lapping,2012-05-30 19:39:43.602271,ID0998,complete
+4,Round Grinding,2012-05-30 23:47:49.832843,ID4355,start
+4,Round Grinding,2012-05-31 02:15:05.097644,ID4355,complete
+4,Round Grinding,2012-05-31 02:15:05.097644,ID4355,start
+4,Round Grinding,2012-05-31 06:33:19.599521,ID4355,start
+4,Round Grinding,2012-05-31 06:33:19.599521,ID4355,complete
+4,Round Grinding,2012-05-31 07:49:18.588890,ID4355,complete
+4,Final Inspection Q.C.,2012-05-31 07:49:18.588890,ID4493,start
+4,Final Inspection Q.C.,2012-05-31 11:37:37.006317,ID4493,complete
+4,Final Inspection Q.C.,2012-06-01 16:18:06.820125,ID4493,start
+4,Final Inspection Q.C.,2012-06-01 19:48:01.222364,ID4493,complete
+4,Final Inspection Q.C.,2012-06-02 08:12:13.079367,ID4493,start
+4,Final Inspection Q.C.,2012-06-02 09:28:58.484232,ID4493,complete
+4,Packing,2012-06-03 05:14:55.505718,ID4820,start
+4,Packing,2012-06-03 06:14:55.505718,ID4820,complete
+4,End,2012-06-03 06:14:55.505718,End,start
+4,End,2012-06-03 06:14:55.505718,End,complete
+5,Start,2012-05-20 15:02:12.097906,Start,start
+5,Start,2012-05-20 15:02:12.097906,Start,complete
+5,Turning & Milling,2012-05-20 15:02:12.097906,ID4641,start
+5,Turning & Milling,2012-05-20 15:07:00.630465,ID4641,complete
+5,Turning & Milling,2012-05-20 15:07:00.630465,ID3846,start
+5,Turning & Milling,2012-05-21 00:28:33.279812,ID3846,complete
+5,Turning & Milling,2012-05-25 12:35:55.862290,ID4641,start
+5,Turning & Milling,2012-05-25 15:24:06.548297,ID4641,complete
+5,Turning & Milling,2012-05-26 05:39:34.722841,ID4641,start
+5,Turning & Milling,2012-05-26 14:41:15.337547,ID4641,complete
+5,Turning & Milling,2012-05-27 09:09:33.340268,ID4132,start
+5,Turning & Milling,2012-05-27 10:50:12.305374,ID4132,complete
+5,Turning & Milling,2012-05-27 10:50:12.305374,ID3846,start
+5,Turning & Milling,2012-05-27 13:21:39.161279,ID3846,complete
+5,Turning & Milling,2012-05-27 13:21:39.161279,ID4641,start
+5,Turning & Milling,2012-05-27 16:25:53.253047,ID4641,complete
+5,Turning & Milling,2012-05-28 02:09:32.246952,ID4132,start
+5,Turning & Milling,2012-05-28 10:13:35.723937,ID4132,complete
+5,Turning & Milling,2012-05-28 16:08:49.878782,ID4529,start
+5,Turning & Milling,2012-05-29 07:59:59.899296,ID4529,complete
+5,Turning & Milling,2012-05-29 19:08:47.981278,ID4529,start
+5,Turning & Milling,2012-05-29 19:16:49.819258,ID4529,complete
+5,Turning & Milling,2012-05-29 19:16:49.819258,ID4529,start
+5,Turning & Milling,2012-05-30 00:49:49.183564,ID4529,complete
+5,Turning & Milling,2012-05-30 00:49:49.183564,ID4529,start
+5,Turning & Milling,2012-05-30 15:21:31.631986,ID4529,complete
+5,Turning & Milling,2012-05-30 20:17:47.474224,ID4529,start
+5,Turning & Milling,2012-05-30 21:22:19.011169,ID4529,complete
+5,Turning & Milling,2012-05-31 14:55:24.143372,ID4529,start
+5,Turning & Milling,2012-05-31 20:23:12.989499,ID4529,complete
+5,Turning & Milling,2012-06-01 07:24:43.192784,ID4529,start
+5,Turning & Milling,2012-06-01 13:50:31.817324,ID4529,complete
+5,Turning & Milling Q.C.,2012-06-02 07:03:58.633604,ID4493,start
+5,Turning & Milling Q.C.,2012-06-02 07:03:58.633604,ID4493,complete
+5,Turning & Milling,2012-06-04 17:51:46.866846,ID4529,start
+5,Turning & Milling,2012-06-04 21:35:50.115931,ID4529,complete
+5,Turning & Milling,2012-06-05 08:26:44.896144,ID4529,start
+5,Turning & Milling,2012-06-06 00:07:55.025456,ID4529,complete
+5,Turning & Milling Q.C.,2012-06-06 00:07:55.025456,ID4493,start
+5,Turning & Milling Q.C.,2012-06-06 01:28:24.492796,ID4493,complete
+5,Turning & Milling Q.C.,2012-06-06 05:48:54.649636,ID4493,start
+5,Turning & Milling Q.C.,2012-06-06 05:56:32.645299,ID4493,complete
+5,Turning & Milling,2012-06-06 05:56:32.645299,ID4529,start
+5,Turning & Milling,2012-06-06 08:43:16.510731,ID4529,complete
+5,Turning & Milling,2012-06-06 08:43:16.510731,ID4529,start
+5,Turning & Milling,2012-06-06 11:39:06.567989,ID4529,complete
+5,Turning & Milling,2012-06-06 21:47:18.203955,ID4529,start
+5,Turning & Milling,2012-06-07 07:25:54.991222,ID4529,complete
+5,Turning & Milling,2012-06-07 12:28:12.983856,ID4529,start
+5,Turning & Milling,2012-06-07 14:25:10.796055,ID4529,complete
+5,Turning & Milling,2012-06-07 17:51:06.003037,ID4529,start
+5,Turning & Milling,2012-06-08 03:10:58.116605,ID4529,complete
+5,Turning & Milling,2012-06-08 08:50:10.708604,ID4529,start
+5,Turning & Milling,2012-06-08 11:41:05.179635,ID4529,complete
+5,Turning & Milling,2012-06-08 12:09:00.964977,ID4529,start
+5,Turning & Milling,2012-06-08 18:36:59.392352,ID4529,complete
+5,Turning & Milling,2012-06-09 02:14:13.511684,ID4529,start
+5,Turning & Milling,2012-06-09 09:47:16.245666,ID4529,complete
+5,Turning & Milling,2012-06-10 00:36:07.964472,ID4529,start
+5,Turning & Milling,2012-06-10 03:04:39.910606,ID4529,complete
+5,Turning & Milling,2012-06-10 16:32:47.753523,ID4529,start
+5,Turning & Milling,2012-06-10 18:18:59.504191,ID4529,complete
+5,Turning & Milling,2012-06-11 00:09:39.756516,ID4529,start
+5,Turning & Milling,2012-06-11 18:15:33.199685,ID4529,complete
+5,Turning & Milling,2012-06-11 18:15:33.199685,ID4529,start
+5,Turning & Milling,2012-06-12 05:29:07.466080,ID4529,complete
+5,Turning & Milling,2012-06-13 01:35:31.376920,ID4529,start
+5,Turning & Milling,2012-06-13 03:11:54.926632,ID4529,complete
+5,Laser Marking,2012-06-13 03:11:54.926632,ID0998,start
+5,Laser Marking,2012-06-13 04:28:08.807120,ID0998,complete
+5,Lapping,2012-06-13 04:28:08.807120,ID0998,start
+5,Lapping,2012-06-13 04:28:17.522968,ID0998,start
+5,Lapping,2012-06-13 05:38:06.345287,ID0998,complete
+5,Lapping,2012-06-13 09:59:44.814840,ID0998,complete
+5,Lapping,2012-06-13 17:45:02.097203,ID0998,start
+5,Lapping,2012-06-13 19:05:57.918431,ID0998,complete
+5,Final Inspection Q.C.,2012-06-18 05:15:16.758585,ID4493,start
+5,Final Inspection Q.C.,2012-06-18 08:52:17.380686,ID4493,complete
+5,Packing,2012-06-20 16:04:07.078286,ID4820,start
+5,Packing,2012-06-20 17:04:07.078286,ID4820,complete
+5,Turning & Milling,2012-07-10 11:12:15.359759,ID4529,start
+5,Turning & Milling,2012-07-10 13:43:59.909693,ID4529,complete
+5,Turning & Milling,2012-07-10 13:43:59.909693,ID4529,start
+5,Turning & Milling,2012-07-10 17:17:57.694546,ID4529,complete
+5,Lapping,2012-07-17 23:46:51.078667,ID0998,start
+5,Lapping,2012-07-18 00:48:50.053549,ID0998,complete
+5,Turning & Milling Q.C.,2012-07-18 00:48:50.053549,ID4493,start
+5,Laser Marking,2012-07-18 01:21:05.192837,ID0998,start
+5,Laser Marking,2012-07-18 01:51:46.208356,ID0998,complete
+5,Laser Marking,2012-07-18 02:30:08.528154,ID0998,start
+5,Turning & Milling Q.C.,2012-07-18 02:48:52.692185,ID4493,complete
+5,Laser Marking,2012-07-18 02:48:52.692185,ID0998,complete
+5,Lapping,2012-07-22 10:22:03.882800,ID0998,start
+5,Lapping,2012-07-22 11:09:35.644841,ID0998,complete
+5,Laser Marking,2012-07-22 11:09:35.644841,ID0998,start
+5,Lapping,2012-07-22 11:09:35.644841,ID0998,start
+5,Lapping,2012-07-22 14:03:30.800737,ID0998,complete
+5,Laser Marking,2012-07-22 14:03:30.800737,ID0998,complete
+5,Final Inspection Q.C.,2012-07-25 19:53:07.861416,ID4493,start
+5,Final Inspection Q.C.,2012-07-25 20:52:51.608690,ID4493,complete
+5,Packing,2012-07-27 10:13:27.191169,ID4820,start
+5,Packing,2012-07-27 11:13:27.191169,ID4820,complete
+5,End,2012-07-27 11:13:27.191169,End,start
+5,End,2012-07-27 11:13:27.191169,End,complete
+6,Start,2012-05-20 15:02:12.097906,Start,start
+6,Start,2012-05-20 15:02:12.097906,Start,complete
+6,Packing,2012-05-20 15:02:12.097906,ID4820,start
+6,Packing,2012-05-20 16:02:12.097906,ID4820,complete
+6,Final Inspection Q.C.,2012-05-20 22:32:14.283455,ID4287,start
+6,Final Inspection Q.C.,2012-05-20 23:37:17.756829,ID4287,complete
+6,End,2012-05-20 23:37:17.756829,End,start
+6,End,2012-05-20 23:37:17.756829,End,complete
+7,Start,2012-06-06 00:43:12.751832,Start,start
+7,Start,2012-06-06 00:43:12.751832,Start,complete
+7,Turning & Milling,2012-06-06 00:43:12.751832,ID4529,start
+7,Turning & Milling Q.C.,2012-06-06 04:13:38.486385,ID4163,start
+7,Turning & Milling,2012-06-06 06:29:18.005934,ID4529,complete
+7,Turning & Milling,2012-06-06 06:29:18.005934,ID4529,start
+7,Turning & Milling,2012-06-06 07:47:17.104395,ID4529,complete
+7,Turning & Milling,2012-06-06 09:21:28.560811,ID4529,start
+7,Turning & Milling Q.C.,2012-06-06 10:41:31.832575,ID4493,complete
+7,Turning & Milling,2012-06-06 12:57:44.404528,ID4529,complete
+7,Turning & Milling,2012-06-06 15:04:05.828615,ID4529,start
+7,Turning & Milling,2012-06-06 19:53:00.321716,ID4529,complete
+7,Turning & Milling,2012-06-07 08:56:57.443655,ID4529,start
+7,Turning & Milling,2012-06-07 12:43:43.858620,ID4529,complete
+7,Turning & Milling Q.C.,2012-06-08 11:55:58.619879,ID4493,start
+7,Turning & Milling Q.C.,2012-06-08 12:29:07.047098,ID4493,complete
+7,Laser Marking,2012-06-08 12:29:07.047098,ID0998,start
+7,Laser Marking,2012-06-08 13:50:38.302198,ID0998,complete
+7,Flat Grinding,2012-06-23 21:26:20.235928,ID4882,start
+7,Flat Grinding,2012-06-23 21:26:20.235928,ID4882,complete
+7,Flat Grinding,2012-06-25 16:30:53.236343,ID4882,start
+7,Flat Grinding,2012-06-25 17:35:17.421713,ID4882,complete
+7,Flat Grinding,2012-06-25 17:35:17.421713,ID4882,start
+7,Flat Grinding,2012-06-25 17:35:17.421713,ID4882,complete
+7,Lapping,2012-07-04 12:16:24.693838,ID0998,start
+7,Lapping,2012-07-04 12:16:24.693838,ID0998,complete
+7,Final Inspection Q.C.,2012-07-04 12:16:24.693838,ID4493,start
+7,Final Inspection Q.C.,2012-07-04 15:15:14.806511,ID4493,complete
+7,Flat Grinding,2012-07-05 00:15:14.806511,ID4882,start
+7,Flat Grinding,2012-07-05 00:16:01.650495,ID4882,start
+7,Flat Grinding,2012-07-05 00:17:24.015570,ID4882,start
+7,Flat Grinding,2012-07-05 00:50:38.531834,ID4882,complete
+7,Flat Grinding,2012-07-05 02:21:49.591096,ID4882,complete
+7,Flat Grinding,2012-07-05 02:38:42.353205,ID4882,complete
+7,Final Inspection Q.C.,2012-07-05 02:38:42.353205,ID4493,start
+7,Final Inspection Q.C.,2012-07-05 03:00:08.783420,ID4493,complete
+7,Packing,2012-07-05 03:00:08.783420,ID4820,start
+7,Packing,2012-07-05 04:00:08.783420,ID4820,complete
+7,Flat Grinding,2012-07-05 13:31:08.783420,ID4882,start
+7,Flat Grinding,2012-07-05 16:40:03.532024,ID4882,complete
+7,Lapping,2012-07-06 11:23:32.544642,ID0998,start
+7,Lapping,2012-07-06 11:57:42.317643,ID0998,complete
+7,Final Inspection Q.C.,2012-07-06 16:01:27.524290,ID4493,start
+7,Final Inspection Q.C.,2012-07-06 17:47:30.166253,ID4493,complete
+7,Final Inspection Q.C.,2012-07-25 10:08:18.243205,ID4493,start
+7,Final Inspection Q.C.,2012-07-25 14:14:37.264008,ID4493,complete
+7,Packing,2012-07-29 06:59:53.108514,ID4820,start
+7,Packing,2012-07-29 06:59:53.108514,ID4820,start
+7,Packing,2012-07-29 07:59:53.108514,ID4820,complete
+7,Packing,2012-07-29 07:59:53.108514,ID4820,complete
+7,End,2012-07-29 07:59:53.108514,End,start
+7,End,2012-07-29 07:59:53.108514,End,complete
+8,Start,2012-06-06 00:43:12.751832,Start,start
+8,Start,2012-06-06 00:43:12.751832,Start,complete
+8,Turning & Milling,2012-06-06 00:43:12.751832,ID4794,start
+8,Turning & Milling,2012-06-06 06:30:44.052203,ID4794,complete
+8,Turning & Milling,2012-06-06 06:30:44.052203,ID4794,start
+8,Turning & Milling,2012-06-06 10:49:07.938948,ID4794,complete
+8,Turning & Milling,2012-06-06 13:48:12.043260,ID4167,start
+8,Turning & Milling,2012-06-06 13:48:12.043260,ID4167,complete
+8,Turning & Milling,2012-06-06 22:58:03.037253,ID4529,start
+8,Turning & Milling Q.C.,2012-06-07 00:50:37.846923,ID4493,start
+8,Turning & Milling Q.C.,2012-06-07 04:53:53.755714,ID4493,complete
+8,Turning & Milling,2012-06-07 06:50:21.810538,ID4529,complete
+8,Turning & Milling Q.C.,2012-06-08 18:22:09.693844,ID4493,start
+8,Turning & Milling Q.C.,2012-06-08 20:13:21.592880,ID4493,complete
+8,Laser Marking,2012-06-13 06:44:51.483176,ID0998,start
+8,Laser Marking,2012-06-13 07:09:56.940688,ID0998,complete
+8,Flat Grinding,2012-06-14 15:14:05.003349,ID4882,start
+8,Flat Grinding,2012-06-14 16:22:59.881743,ID4882,complete
+8,Lapping,2012-06-24 08:42:15.735309,ID0998,start
+8,Lapping,2012-06-24 09:19:49.699337,ID0998,complete
+8,Round Grinding,2012-06-25 20:33:55.401200,ID4355,start
+8,Round Grinding,2012-06-25 23:24:04.494171,ID4355,complete
+8,Round Grinding,2012-06-26 15:32:45.164134,ID4355,start
+8,Round Grinding,2012-06-27 01:29:43.790025,ID4355,complete
+8,Round Grinding,2012-06-27 01:58:40.615186,ID4355,start
+8,Round Grinding,2012-06-27 09:17:20.547691,ID4355,complete
+8,Round Grinding,2012-06-27 09:17:20.547691,ID4355,start
+8,Round Grinding,2012-06-27 10:04:44.435887,ID4355,complete
+8,Lapping,2012-07-24 09:19:21.791200,ID0998,start
+8,Lapping,2012-07-24 10:29:08.046865,ID0998,complete
+8,Lapping,2012-07-24 21:29:33.335685,ID0998,start
+8,Lapping,2012-07-24 22:12:07.699111,ID0998,complete
+8,Round Grinding,2012-07-25 21:53:10.810178,ID4355,start
+8,Round Grinding,2012-07-25 21:53:10.810178,ID4355,complete
+8,Round Grinding,2012-07-25 21:53:10.810178,ID4355,start
+8,Round Grinding,2012-07-26 05:21:40.238422,ID4355,complete
+8,Round Grinding,2012-07-26 05:21:40.238422,ID4355,start
+8,Round Grinding,2012-07-26 10:41:00.956053,ID4355,complete
+8,Final Inspection Q.C.,2012-07-26 10:41:00.956053,ID4493,start
+8,Final Inspection Q.C.,2012-07-26 11:22:19.024156,ID4493,complete
+8,Final Inspection Q.C.,2012-07-26 11:22:19.024156,ID4493,start
+8,Final Inspection Q.C.,2012-07-26 14:19:21.815265,ID4493,complete
+8,Laser Marking,2012-07-26 14:19:21.815265,ID0998,start
+8,Laser Marking,2012-07-26 15:23:59.578078,ID0998,complete
+8,Grinding Rework,2012-07-26 17:24:25.593547,ID4528,start
+8,Grinding Rework,2012-07-26 20:40:35.911800,ID4528,complete
+8,Final Inspection Q.C.,2012-07-30 21:08:20.258417,ID4493,start
+8,Final Inspection Q.C.,2012-07-30 23:51:49.766570,ID4493,complete
+8,Final Inspection Q.C.,2012-07-30 23:51:49.766570,ID4493,start
+8,Final Inspection Q.C.,2012-07-30 23:51:49.766570,ID4493,complete
+8,Packing,2012-07-31 12:06:12.175912,ID4820,start
+8,Packing,2012-07-31 13:06:12.175912,ID4820,complete
+8,End,2012-07-31 13:06:12.175912,End,start
+8,End,2012-07-31 13:06:12.175912,End,complete
+9,Start,2012-06-06 18:07:29.135503,Start,start
+9,Start,2012-06-06 18:07:29.135503,Start,complete
+9,Round Grinding,2012-06-06 18:07:29.135503,ID4528,start
+9,Round Grinding,2012-06-06 18:22:04.813669,ID4528,complete
+9,Round Grinding,2012-06-07 17:03:24.367139,ID4528,start
+9,Round Grinding,2012-06-07 17:36:22.176782,ID4528,complete
+9,Grinding Rework,2012-06-22 04:35:36.168691,ID4528,start
+9,Grinding Rework,2012-06-22 05:34:27.533906,ID4528,complete
+9,Grinding Rework,2012-06-22 19:07:37.381202,ID4528,start
+9,Lapping,2012-06-22 19:07:37.381202,ID0998,start
+9,Lapping,2012-06-22 19:18:19.694802,ID0998,start
+9,Grinding Rework,2012-06-22 23:44:47.045628,ID4528,complete
+9,Lapping,2012-06-23 00:52:48.693512,ID0998,complete
+9,Lapping,2012-06-23 01:53:40.610323,ID0998,complete
+9,Grinding Rework,2012-06-23 09:11:38.144117,ID4528,start
+9,Grinding Rework,2012-06-23 12:28:38.144117,ID4528,start
+9,Grinding Rework,2012-06-23 14:48:41.778309,ID4528,complete
+9,Grinding Rework,2012-06-23 19:44:41.778309,ID4528,complete
+9,Grinding Rework,2012-06-25 02:53:31.628275,ID4528,start
+9,Grinding Rework,2012-06-25 04:58:01.529123,ID4528,complete
+9,Fix,2012-06-25 05:10:01.529123,ID4219,start
+9,Fix,2012-06-25 07:32:33.945336,ID4219,complete
+9,Grinding Rework,2012-06-25 07:48:33.945336,ID4528,start
+9,Grinding Rework,2012-06-25 10:44:41.343779,ID4528,complete
+9,Grinding Rework,2012-06-28 16:41:47.129434,ID4528,start
+9,Grinding Rework,2012-06-28 19:06:19.334219,ID4528,complete
+9,Grinding Rework,2012-07-18 12:37:38.879832,ID4528,start
+9,Grinding Rework,2012-07-18 13:08:27.280005,ID4528,complete
+9,Grinding Rework,2012-07-18 13:08:27.280005,ID4528,start
+9,Grinding Rework,2012-07-18 17:29:17.937290,ID4528,complete
+9,Grinding Rework,2012-07-23 08:07:24.257326,ID4528,start
+9,Grinding Rework,2012-07-23 12:52:44.922031,ID4528,complete
+9,Grinding Rework,2012-07-23 12:52:44.922031,ID4528,start
+9,Grinding Rework,2012-07-23 17:48:37.765426,ID4528,complete
+9,Grinding Rework,2012-07-29 05:22:57.203074,ID4528,start
+9,Grinding Rework,2012-07-29 07:44:39.124144,ID4528,complete
+9,Grinding Rework,2012-08-05 01:17:46.350243,ID4528,start
+9,Grinding Rework,2012-08-05 02:44:15.051683,ID4528,complete
+9,Grinding Rework,2012-08-05 23:18:06.518030,ID4528,start
+9,Grinding Rework,2012-08-06 01:30:25.539687,ID4528,complete
+9,Grinding Rework,2012-08-22 01:42:44.817242,ID4528,start
+9,Grinding Rework,2012-08-22 04:47:25.753027,ID4528,complete
+9,Grinding Rework,2012-08-22 04:47:25.753027,ID4528,start
+9,Grinding Rework,2012-08-22 08:18:47.205508,ID4528,complete
+9,Grinding Rework,2012-08-22 08:18:47.205508,ID4528,start
+9,Grinding Rework,2012-08-22 10:22:21.303180,ID4528,complete
+9,Grinding Rework,2012-08-22 10:22:21.303180,ID4528,start
+9,Grinding Rework,2012-08-22 11:54:02.160252,ID4528,complete
+9,Grinding Rework,2012-08-24 02:50:01.335887,ID4528,start
+9,Grinding Rework,2012-08-24 09:23:02.734052,ID4528,complete
+9,Grinding Rework,2012-08-24 09:23:02.734052,ID4528,start
+9,Grinding Rework,2012-08-24 15:10:58.348012,ID4528,complete
+9,Grinding Rework,2012-08-28 08:31:05.849068,ID4528,start
+9,Grinding Rework,2012-08-28 12:51:12.111816,ID4528,complete
+9,Grinding Rework,2012-08-29 23:32:12.710765,ID4528,start
+9,Grinding Rework,2012-08-30 03:08:33.843147,ID4528,complete
+9,Grinding Rework,2012-08-30 03:08:33.843147,ID4528,start
+9,Grinding Rework,2012-08-30 03:20:11.015723,ID4528,complete
+9,Grinding Rework,2012-08-30 03:20:11.015723,ID4528,start
+9,Grinding Rework,2012-08-30 06:54:44.005332,ID4528,complete
+9,Turning & Milling Q.C.,2012-08-30 07:38:44.005332,ID4493,start
+9,Turning & Milling Q.C.,2012-08-30 08:21:01.534081,ID4493,complete
+9,Lapping,2012-08-31 12:49:43.109902,ID0998,start
+9,Laser Marking,2012-08-31 14:08:53.147978,ID0998,start
+9,Round Grinding,2012-08-31 14:12:58.574982,ID4355,start
+9,Round Grinding,2012-08-31 15:55:29.095325,ID4355,start
+9,Lapping,2012-08-31 16:01:13.757504,ID0998,complete
+9,Round Grinding,2012-08-31 19:36:21.302243,ID4355,complete
+9,Round Grinding,2012-08-31 21:06:35.029787,ID4355,complete
+9,Laser Marking,2012-08-31 21:06:35.029787,ID0998,complete
+9,End,2012-08-31 21:06:35.029787,End,start
+9,End,2012-08-31 21:06:35.029787,End,complete
+10,Start,2012-06-09 05:49:23.608081,Start,start
+10,Start,2012-06-09 05:49:23.608081,Start,complete
+10,Turning,2012-06-09 05:49:23.608081,ID4219,start
+10,Turning,2012-06-09 12:30:04.435260,ID4219,complete
+10,Turning,2012-06-09 12:30:04.435260,ID0997,start
+10,Turning,2012-06-09 12:30:04.435260,ID0997,complete
+10,Turning,2012-06-09 14:11:27.900207,ID0997,start
+10,Turning,2012-06-09 17:40:46.529903,ID0997,complete
+10,Turning,2012-06-09 17:43:54.098599,ID4219,start
+10,Turning,2012-06-09 19:19:21.034444,ID0997,complete
+10,Turning Q.C.,2012-06-09 19:19:21.034444,ID4287,start
+10,Turning Q.C.,2012-06-09 19:44:41.611768,ID4287,complete
+10,Flat Grinding,2012-06-10 15:10:41.611768,ID4882,start
+10,Flat Grinding,2012-06-10 16:00:10.625833,ID4882,complete
+10,Lapping,2012-06-10 16:00:10.625833,ID0998,start
+10,Lapping,2012-06-10 16:54:26.575346,ID0998,complete
+10,Final Inspection Q.C.,2012-06-10 16:54:26.575346,ID4493,start
+10,Final Inspection Q.C.,2012-06-10 19:30:05.427029,ID4493,complete
+10,Turning Q.C.,2012-06-11 14:24:12.657957,ID4287,start
+10,Turning Q.C.,2012-06-11 16:16:11.457330,ID4287,complete
+10,Lapping,2012-06-12 12:42:11.457330,ID0998,start
+10,Laser Marking,2012-06-12 12:42:11.457330,ID0998,start
+10,Laser Marking,2012-06-12 14:06:13.534426,ID0998,complete
+10,Lapping,2012-06-12 17:26:55.456382,ID0998,complete
+10,Packing,2012-06-20 18:37:20.433385,ID4820,start
+10,Packing,2012-06-20 19:37:20.433385,ID4820,complete
+10,Final Inspection Q.C.,2012-06-21 05:33:56.234235,ID4493,start
+10,Final Inspection Q.C.,2012-06-21 06:43:56.781257,ID4493,complete
+10,End,2012-06-21 06:43:56.781257,End,start
+10,End,2012-06-21 06:43:56.781257,End,complete
+11,Start,2012-06-09 05:49:23.608081,Start,start
+11,Start,2012-06-09 05:49:23.608081,Start,complete
+11,Turning & Milling,2012-06-09 05:49:23.608081,ID4429,start
+11,Turning & Milling,2012-06-09 10:02:20.178567,ID4429,complete
+11,Turning & Milling,2012-06-09 21:35:52.254194,ID4167,start
+11,Turning & Milling,2012-06-09 23:08:11.896062,ID4167,complete
+11,Turning & Milling Q.C.,2012-06-14 01:43:18.469534,ID4493,start
+11,Turning & Milling,2012-06-14 01:53:04.771109,ID4529,start
+11,Turning & Milling,2012-06-14 11:04:55.845369,ID4529,start
+11,Turning & Milling,2012-06-14 12:50:24.400235,ID4529,complete
+11,Turning & Milling,2012-06-14 17:28:21.992172,ID4529,complete
+11,Turning & Milling Q.C.,2012-06-14 17:52:51.639095,ID4493,complete
+11,Turning & Milling,2012-06-14 17:52:51.639095,ID4529,start
+11,Turning & Milling,2012-06-14 19:40:28.334096,ID4529,start
+11,Turning & Milling,2012-06-15 02:00:25.230136,ID4529,complete
+11,Turning & Milling,2012-06-15 08:40:14.862350,ID4529,start
+11,Turning & Milling Q.C.,2012-06-15 11:25:58.643392,ID4493,start
+11,Turning & Milling Q.C.,2012-06-15 12:38:09.946980,ID4493,complete
+11,Turning & Milling,2012-06-15 14:32:42.074543,ID4529,complete
+11,Turning & Milling,2012-06-15 19:56:23.529140,ID4529,complete
+11,Turning & Milling Q.C.,2012-06-17 00:41:29.945377,ID4493,start
+11,Turning & Milling Q.C.,2012-06-17 01:21:46.110920,ID4493,complete
+11,Turning & Milling Q.C.,2012-06-17 01:21:46.110920,ID4493,start
+11,Turning & Milling Q.C.,2012-06-17 03:36:41.543280,ID4493,start
+11,Turning & Milling Q.C.,2012-06-17 05:13:44.337288,ID4493,complete
+11,Turning & Milling Q.C.,2012-06-17 05:13:44.337288,ID4493,complete
+11,Laser Marking,2012-06-17 05:13:44.337288,ID0998,start
+11,Laser Marking,2012-06-17 06:29:43.480035,ID0998,complete
+11,Round Grinding,2012-06-17 17:46:03.194442,ID4355,start
+11,Round Grinding,2012-06-17 18:15:04.773288,ID4355,complete
+11,Round Grinding,2012-06-17 18:15:04.773288,ID4355,start
+11,Round Grinding,2012-06-17 18:23:37.182985,ID4355,start
+11,Round Grinding,2012-06-17 21:21:16.483290,ID4355,complete
+11,Round Grinding,2012-06-17 21:21:16.483290,ID4355,start
+11,Round Grinding,2012-06-18 01:39:08.934991,ID4355,complete
+11,Round Grinding,2012-06-18 01:39:08.934991,ID4355,start
+11,Round Grinding,2012-06-18 01:46:57.632180,ID4355,complete
+11,Round Grinding,2012-06-18 01:46:57.632180,ID4355,complete
+11,Round Grinding,2012-06-18 01:46:57.632180,ID4355,start
+11,Round Grinding,2012-06-18 01:53:32.803946,ID4355,complete
+11,Round Grinding,2012-06-18 01:53:32.803946,ID4355,start
+11,Round Grinding,2012-06-18 07:33:59.434783,ID4355,complete
+11,Turning & Milling Q.C.,2012-06-20 01:06:57.413836,ID4493,start
+11,Round Grinding,2012-06-20 01:14:25.803510,ID4355,start
+11,Turning & Milling Q.C.,2012-06-20 01:14:25.803510,ID4493,complete
+11,Round Grinding,2012-06-20 04:30:58.654105,ID4355,complete
+11,Round Grinding,2012-06-21 15:57:41.898129,ID4355,start
+11,Round Grinding,2012-06-21 16:38:25.678794,ID4355,complete
+11,Final Inspection Q.C.,2012-06-21 16:38:25.678794,ID4493,start
+11,Final Inspection Q.C.,2012-06-21 17:31:03.169966,ID4493,complete
+11,Final Inspection Q.C.,2012-06-21 17:31:03.169966,ID4493,start
+11,Final Inspection Q.C.,2012-06-21 18:55:56.700918,ID4493,complete
+11,Round Grinding,2012-06-22 03:13:23.642979,ID4355,start
+11,Round Grinding,2012-06-22 06:18:30.294701,ID4355,complete
+11,Round Grinding,2012-06-22 11:30:09.532393,ID4355,start
+11,Round Grinding,2012-06-22 13:09:12.433250,ID4355,complete
+11,Final Inspection Q.C.,2012-06-29 11:33:44.185862,ID4493,start
+11,Final Inspection Q.C.,2012-06-29 13:12:16.269738,ID4493,complete
+11,Packing,2012-07-01 21:55:21.354964,ID4820,start
+11,Packing,2012-07-01 22:55:21.354964,ID4820,complete
+11,End,2012-07-01 22:55:21.354964,End,start
+11,End,2012-07-01 22:55:21.354964,End,complete
+12,Start,2012-06-09 05:49:23.608081,Start,start
+12,Start,2012-06-09 05:49:23.608081,Start,complete
+12,Turning & Milling,2012-06-09 05:49:23.608081,ID4429,start
+12,Turning & Milling,2012-06-09 10:36:58.073415,ID4429,complete
+12,Turning & Milling,2012-06-10 11:30:02.997251,ID4167,start
+12,Turning & Milling,2012-06-10 13:13:26.565457,ID4167,complete
+12,Turning & Milling,2012-06-10 18:02:16.988945,ID4932,start
+12,Turning & Milling,2012-06-11 00:14:22.956191,ID4529,complete
+12,Turning & Milling Q.C.,2012-06-11 10:59:47.046925,ID4493,start
+12,Turning & Milling,2012-06-11 11:13:21.758732,ID4529,start
+12,Turning & Milling,2012-06-11 14:16:33.738602,ID4529,complete
+12,Turning & Milling Q.C.,2012-06-11 14:25:30.256367,ID4493,complete
+12,Turning & Milling,2012-06-12 22:22:56.285240,ID4529,start
+12,Turning & Milling,2012-06-13 04:44:25.445751,ID4529,complete
+12,Turning & Milling,2012-06-13 04:44:25.445751,ID4529,start
+12,Turning & Milling,2012-06-13 04:44:25.445751,ID4529,complete
+12,Turning & Milling,2012-06-13 04:44:25.445751,ID4529,start
+12,Turning & Milling,2012-06-13 13:49:28.410137,ID4529,complete
+12,Turning & Milling,2012-06-14 01:36:19.387452,ID4529,start
+12,Turning & Milling,2012-06-14 07:58:54.826551,ID4529,complete
+12,Turning & Milling Q.C.,2012-06-14 13:26:52.905160,ID4493,start
+12,Turning & Milling Q.C.,2012-06-14 15:38:48.711481,ID4493,complete
+12,Laser Marking,2012-06-17 16:05:36.208586,ID0998,start
+12,Laser Marking,2012-06-17 16:24:09.572975,ID0998,complete
+12,Turning Rework,2012-07-01 10:49:09.572975,ID4442,start
+12,Turning Rework,2012-07-01 12:19:09.572975,ID4442,complete
+12,Turning & Milling Q.C.,2012-07-02 12:00:09.572975,ID4493,start
+12,Turning & Milling Q.C.,2012-07-02 13:55:59.788692,ID4493,complete
+12,Lapping,2012-07-13 10:12:48.490362,ID0998,start
+12,Lapping,2012-07-13 10:51:22.062669,ID0998,complete
+12,Lapping,2012-07-13 10:51:22.062669,ID0998,start
+12,Lapping,2012-07-13 11:47:36.046898,ID0998,complete
+12,Lapping,2012-07-14 06:38:42.459794,ID0998,start
+12,Lapping,2012-07-14 07:36:51.067825,ID0998,complete
+12,Lapping,2012-07-15 11:52:57.623185,ID0998,start
+12,Lapping,2012-07-15 13:19:36.746144,ID0998,complete
+12,Lapping,2012-07-16 06:29:36.185297,ID0998,start
+12,Lapping,2012-07-16 06:29:36.185297,ID0998,complete
+12,Laser Marking,2012-07-16 11:32:57.534385,ID0998,start
+12,Lapping,2012-07-16 11:34:04.380999,ID0998,start
+12,Lapping,2012-07-16 15:12:10.472685,ID0998,complete
+12,Laser Marking,2012-07-16 17:07:01.826567,ID0998,complete
+12,Round Grinding,2012-07-19 16:12:35.252776,ID4355,start
+12,Round Grinding,2012-07-19 17:59:05.377537,ID4355,complete
+12,Round Grinding,2012-07-20 13:44:36.158692,ID4355,start
+12,Round Grinding,2012-07-20 13:44:36.158692,ID4355,complete
+12,Round Grinding,2012-07-21 10:33:28.948908,ID4355,start
+12,Round Grinding,2012-07-21 10:34:47.824235,ID4355,complete
+12,Round Grinding,2012-07-22 04:07:26.980942,ID4355,start
+12,Round Grinding,2012-07-22 06:33:27.218690,ID4355,complete
+12,Round Grinding,2012-07-22 12:38:55.857830,ID4355,start
+12,Round Grinding,2012-07-22 14:49:46.426656,ID4355,complete
+12,Round Grinding,2012-07-23 04:18:09.718527,ID4355,start
+12,Round Grinding,2012-07-23 05:37:48.929489,ID4355,complete
+12,Round Grinding,2012-07-24 09:52:55.910513,ID4355,start
+12,Round Grinding,2012-07-24 18:24:49.742113,ID4355,complete
+12,Round Grinding,2012-07-24 18:24:49.742113,ID4355,start
+12,Round Grinding,2012-07-24 21:29:21.285810,ID4355,complete
+12,Round Grinding,2012-07-25 13:26:59.585943,ID4355,start
+12,Round Grinding,2012-07-25 16:15:15.002449,ID4355,complete
+12,Final Inspection Q.C.,2012-07-28 02:47:05.785943,ID4493,start
+12,Final Inspection Q.C.,2012-07-28 04:15:14.411452,ID4493,complete
+12,Packing,2012-07-30 01:54:11.199818,ID4820,start
+12,Packing,2012-07-30 02:54:11.199818,ID4820,complete
+12,Packing,2012-08-03 20:28:31.910943,ID4820,start
+12,Packing,2012-08-03 21:28:31.910943,ID4820,complete
+12,Final Inspection Q.C.,2012-08-04 03:09:24.191528,ID4493,start
+12,Final Inspection Q.C.,2012-08-04 04:41:07.792265,ID4493,complete
+12,Grinding Rework,2012-08-04 04:41:07.792265,ID4528,start
+12,Grinding Rework,2012-08-04 08:12:40.734461,ID4528,complete
+12,Packing,2012-08-06 19:39:20.428288,ID4820,start
+12,Packing,2012-08-06 20:39:20.428288,ID4820,complete
+12,Final Inspection Q.C.,2012-08-07 10:15:54.888647,ID4493,start
+12,Final Inspection Q.C.,2012-08-07 11:14:06.560201,ID4493,complete
+12,Laser Marking,2012-08-17 20:20:20.630526,ID0998,start
+12,Laser Marking,2012-08-17 21:09:08.870851,ID0998,complete
+12,End,2012-08-17 21:09:08.870851,End,start
+12,End,2012-08-17 21:09:08.870851,End,complete
+13,Start,2012-06-09 05:49:23.608081,Start,start
+13,Start,2012-06-09 05:49:23.608081,Start,complete
+13,Turning & Milling,2012-06-09 05:49:23.608081,ID4429,start
+13,Turning & Milling,2012-06-09 05:49:23.608081,ID4529,start
+13,Turning & Milling,2012-06-09 08:31:59.030615,ID4429,complete
+13,Turning & Milling,2012-06-09 08:31:59.030615,ID4529,complete
+13,Turning & Milling,2012-06-09 08:31:59.030615,ID4429,start
+13,Turning & Milling,2012-06-09 17:39:55.567518,ID4529,start
+13,Turning & Milling,2012-06-09 22:58:05.200104,ID4429,complete
+13,Turning & Milling,2012-06-09 22:58:05.200104,ID4529,complete
+13,Turning & Milling,2012-06-09 22:58:05.200104,ID4529,start
+13,Turning & Milling,2012-06-10 04:52:04.479585,ID4529,complete
+13,Turning & Milling,2012-06-10 12:38:51.407308,ID4794,start
+13,Turning & Milling,2012-06-10 22:49:00.432062,ID4794,complete
+13,Turning & Milling,2012-06-10 22:49:00.432062,ID4529,start
+13,Turning & Milling,2012-06-10 22:49:00.432062,ID4429,start
+13,Turning & Milling,2012-06-10 22:49:00.432062,ID4429,start
+13,Turning & Milling,2012-06-11 02:23:05.053352,ID4529,complete
+13,Turning & Milling,2012-06-11 03:40:46.657143,ID4429,complete
+13,Turning & Milling,2012-06-11 08:30:21.072518,ID4429,complete
+13,Turning & Milling,2012-06-12 00:50:57.826689,ID4429,start
+13,Turning & Milling,2012-06-12 09:09:47.303034,ID4429,complete
+13,Turning & Milling,2012-06-12 09:09:47.303034,ID4794,start
+13,Turning & Milling,2012-06-12 12:18:31.590036,ID4794,complete
+13,Turning & Milling,2012-06-12 20:52:29.454810,ID4718,start
+13,Turning & Milling,2012-06-12 22:05:17.278389,ID4529,start
+13,Turning & Milling,2012-06-13 02:45:10.949609,ID4718,complete
+13,Turning & Milling,2012-06-13 07:26:29.922557,ID4529,complete
+13,Turning & Milling,2012-06-14 11:30:18.648815,ID4794,start
+13,Turning & Milling,2012-06-14 17:37:51.042252,ID4794,complete
+13,Turning & Milling,2012-06-14 22:26:11.747303,ID4529,start
+13,Turning & Milling,2012-06-14 22:43:31.738575,ID4529,start
+13,Turning & Milling,2012-06-14 23:14:14.734058,ID4529,complete
+13,Turning & Milling,2012-06-15 00:33:01.054976,ID4529,complete
+13,Turning & Milling Q.C.,2012-06-15 19:31:42.389146,ID4163,start
+13,Turning & Milling Q.C.,2012-06-15 21:35:11.240478,ID4163,complete
+13,Turning & Milling Q.C.,2012-06-28 02:54:21.756366,ID4163,start
+13,Turning & Milling Q.C.,2012-06-28 03:05:14.998042,ID4163,complete
+13,Turning & Milling Q.C.,2012-06-28 21:51:12.541987,ID4163,start
+13,Turning & Milling Q.C.,2012-06-28 23:11:10.242356,ID4163,complete
+13,Turning & Milling Q.C.,2012-06-29 10:26:34.799257,ID4163,start
+13,Turning & Milling Q.C.,2012-06-29 14:00:40.740301,ID4163,complete
+13,Turning & Milling,2012-07-02 08:39:48.985033,ID4429,start
+13,Turning & Milling,2012-07-02 10:57:41.059010,ID4429,complete
+13,Turning & Milling Q.C.,2012-07-02 10:57:41.059010,ID4163,start
+13,Turning & Milling Q.C.,2012-07-02 11:43:01.073624,ID4163,complete
+13,Lapping,2012-07-02 11:43:01.073624,ID4882,start
+13,Lapping,2012-07-02 12:19:54.768109,ID4882,complete
+13,Laser Marking,2012-07-02 13:51:08.670388,ID0998,start
+13,Laser Marking,2012-07-02 14:41:04.510598,ID0998,complete
+13,Lapping,2012-07-06 03:22:33.298082,ID0998,start
+13,Lapping,2012-07-06 05:47:52.007038,ID0998,complete
+13,Laser Marking,2012-07-06 20:20:57.295902,ID0998,start
+13,Laser Marking,2012-07-06 20:40:22.749271,ID0998,complete
+13,Lapping,2012-07-06 20:40:22.749271,ID0998,start
+13,Lapping,2012-07-07 03:42:48.528164,ID0998,complete
+13,Round Grinding,2012-07-07 03:42:48.528164,ID4385,start
+13,Round Grinding,2012-07-07 05:22:31.251618,ID4385,complete
+13,Round Grinding,2012-07-07 09:47:58.457311,ID4385,start
+13,Round Grinding,2012-07-07 10:17:48.644181,ID4385,complete
+13,Round Grinding,2012-07-08 13:02:05.629354,ID4385,start
+13,Round Grinding,2012-07-08 13:21:28.057453,ID4385,complete
+13,Round Grinding,2012-07-08 13:21:28.057453,ID0420,start
+13,Round Grinding,2012-07-08 20:43:51.733783,ID0420,complete
+13,Round Grinding,2012-07-09 08:31:17.386547,ID4872,start
+13,Round Grinding,2012-07-09 10:00:22.795219,ID4872,complete
+13,Round Grinding,2012-07-09 10:00:22.795219,ID4385,start
+13,Round Grinding,2012-07-09 14:35:11.085543,ID4385,complete
+13,Final Inspection Q.C.,2012-07-10 05:09:25.897238,ID4163,start
+13,Final Inspection Q.C.,2012-07-10 05:53:37.772126,ID4163,complete
+13,Final Inspection Q.C.,2012-07-10 05:53:37.772126,ID4163,start
+13,Final Inspection Q.C.,2012-07-10 07:59:23.071257,ID4163,complete
+13,Final Inspection Q.C.,2012-07-10 07:59:23.071257,ID4163,start
+13,Final Inspection Q.C.,2012-07-10 12:21:20.738107,ID4163,complete
+13,Final Inspection Q.C.,2012-07-11 10:03:45.767438,ID4163,start
+13,Final Inspection Q.C.,2012-07-11 10:03:45.767438,ID4163,start
+13,Final Inspection Q.C.,2012-07-11 14:04:07.929777,ID4163,complete
+13,Final Inspection Q.C.,2012-07-11 15:15:06.573444,ID4163,complete
+13,Final Inspection Q.C.,2012-07-11 19:36:00.707923,ID4163,start
+13,Final Inspection Q.C.,2012-07-12 01:36:30.042820,ID4163,complete
+13,Packing,2012-07-16 19:35:34.396724,ID4820,start
+13,Packing,2012-07-16 19:35:34.396724,ID4820,start
+13,Packing,2012-07-16 20:35:34.396724,ID4820,complete
+13,Packing,2012-07-16 20:35:34.396724,ID4820,complete
+13,End,2012-07-16 20:35:34.396724,End,start
+13,End,2012-07-16 20:35:34.396724,End,complete
+14,Start,2012-06-09 05:49:23.608081,Start,start
+14,Start,2012-06-09 05:49:23.608081,Start,complete
+14,Turning & Milling Q.C.,2012-06-09 05:49:23.608081,ID4163,start
+14,Turning & Milling Q.C.,2012-06-09 07:39:19.625674,ID4163,complete
+14,Turning & Milling Q.C.,2012-06-09 07:39:19.625674,ID4163,start
+14,Turning & Milling Q.C.,2012-06-09 08:40:44.105699,ID4163,complete
+14,Turning & Milling Q.C.,2012-06-10 10:20:46.312893,ID4163,start
+14,Turning & Milling Q.C.,2012-06-10 10:59:20.535548,ID4163,complete
+14,End,2012-06-10 10:59:20.535548,End,start
+14,End,2012-06-10 10:59:20.535548,End,complete
+15,Start,2012-06-09 05:49:23.608081,Start,start
+15,Start,2012-06-09 05:49:23.608081,Start,complete
+15,Turning & Milling Q.C.,2012-06-09 05:49:23.608081,ID4163,start
+15,Turning & Milling Q.C.,2012-06-09 07:17:54.568416,ID4163,complete
+15,Grinding Rework,2012-07-28 01:58:28.286054,ID4528,start
+15,Grinding Rework,2012-07-28 02:32:32.339290,ID4528,complete
+15,Final Inspection Q.C.,2012-07-30 15:46:01.986619,ID4493,start
+15,Final Inspection Q.C.,2012-07-30 16:05:09.992198,ID4493,complete
+15,Turning & Milling Q.C.,2012-08-03 02:47:10.908598,ID4493,start
+15,Turning & Milling Q.C.,2012-08-03 03:12:28.261268,ID4493,complete
+15,Packing,2012-09-06 09:24:18.287168,ID4820,start
+15,Packing,2012-09-06 10:24:18.287168,ID4820,complete
+15,Turning & Milling Q.C.,2012-09-17 04:47:03.612310,ID4493,start
+15,Turning & Milling Q.C.,2012-09-17 05:26:26.337119,ID4493,complete
+15,Turning & Milling,2012-09-17 19:41:58.310274,ID4529,start
+15,Turning & Milling,2012-09-17 20:17:55.141326,ID4529,complete
+15,Laser Marking,2012-09-24 14:11:07.770426,ID0998,start
+15,Laser Marking,2012-09-24 14:39:16.565288,ID0998,complete
+15,Lapping,2012-09-25 12:42:26.165978,ID0998,start
+15,Lapping,2012-09-25 14:19:37.790950,ID0998,complete
+15,Turning & Milling Q.C.,2012-09-25 14:19:37.790950,ID4493,start
+15,Turning & Milling Q.C.,2012-09-25 14:19:37.790950,ID4493,complete
+15,Packing,2012-09-29 10:17:39.828673,ID4820,start
+15,Packing,2012-09-29 11:17:39.828673,ID4820,complete
+15,Round Grinding,2012-09-30 07:42:13.858837,ID4355,start
+15,Round Grinding,2012-09-30 09:19:42.086388,ID4355,complete
+15,Final Inspection Q.C.,2012-10-05 04:18:18.230679,ID4493,start
+15,Final Inspection Q.C.,2012-10-05 09:34:56.617226,ID4493,complete
+15,End,2012-10-05 09:34:56.617226,End,start
+15,End,2012-10-05 09:34:56.617226,End,complete
+16,Start,2012-06-09 05:49:23.608081,Start,start
+16,Start,2012-06-09 05:49:23.608081,Start,complete
+16,Round Grinding,2012-06-09 05:49:23.608081,ID4528,start
+16,Round Grinding,2012-06-09 08:28:30.856293,ID4528,complete
+16,Round Grinding,2012-06-10 09:30:55.241042,ID4528,start
+16,Round Grinding,2012-06-10 11:02:24.170252,ID4528,complete
+16,Final Inspection Q.C.,2012-06-13 13:17:43.001680,ID4287,start
+16,Final Inspection Q.C.,2012-06-13 18:10:38.185959,ID4287,complete
+16,Packing,2012-06-13 18:10:38.185959,ID4820,start
+16,Packing,2012-06-13 19:10:38.185959,ID4820,complete
+16,End,2012-06-13 19:10:38.185959,End,start
+16,End,2012-06-13 19:10:38.185959,End,complete
+17,Start,2012-06-21 17:58:50.820994,Start,start
+17,Start,2012-06-21 17:58:50.820994,Start,complete
+17,Turning & Milling Q.C.,2012-06-21 17:58:50.820994,ID4163,start
+17,Turning & Milling,2012-06-21 17:58:50.820994,ID4529,start
+17,Turning & Milling Q.C.,2012-06-21 17:58:50.820994,ID4493,complete
+17,Laser Marking,2012-06-29 07:27:06.075431,ID0998,start
+17,Turning & Milling,2012-06-29 08:09:57.484219,ID4529,complete
+17,Laser Marking,2012-06-29 09:29:07.469262,ID0998,complete
+17,Lapping,2012-07-11 01:52:12.195275,ID0998,start
+17,Lapping,2012-07-11 05:06:05.984512,ID0998,complete
+17,Round Grinding,2012-07-11 13:43:48.858363,ID4355,start
+17,Round Grinding,2012-07-11 15:34:39.071328,ID4355,complete
+17,Round Grinding,2012-07-12 11:35:39.554520,ID4355,start
+17,Round Grinding,2012-07-12 14:26:36.681960,ID4355,complete
+17,Round Grinding,2012-07-14 06:20:23.755263,ID4355,start
+17,Round Grinding,2012-07-14 06:20:23.755263,ID4355,complete
+17,Lapping,2012-07-14 06:20:23.755263,ID0998,start
+17,Lapping,2012-07-14 07:09:51.711229,ID0998,complete
+17,Round Grinding,2012-07-14 07:09:51.711229,ID4355,start
+17,Round Grinding,2012-07-14 08:41:55.219059,ID4355,complete
+17,Round Grinding,2012-07-26 14:43:52.937971,ID4355,start
+17,Round Grinding,2012-07-26 20:57:11.769872,ID4355,complete
+17,Round Grinding,2012-07-26 20:57:11.769872,ID4355,start
+17,Round Grinding,2012-07-27 08:25:41.010737,ID4355,complete
+17,Round Grinding,2012-07-27 08:25:41.010737,ID4355,start
+17,Round Grinding,2012-07-27 12:14:45.345338,ID4355,complete
+17,Round Grinding,2012-07-27 12:14:45.345338,ID4355,start
+17,Round Grinding,2012-07-27 13:59:21.483142,ID4355,complete
+17,Round Grinding,2012-07-28 23:00:51.791571,ID4355,start
+17,Round Grinding,2012-07-28 23:45:26.186350,ID4355,complete
+17,Round Grinding,2012-07-28 23:45:26.186350,ID4355,start
+17,Round Grinding,2012-07-29 00:57:18.651782,ID4355,complete
+17,Round Grinding,2012-07-29 00:57:18.651782,ID4355,start
+17,Round Grinding,2012-07-29 10:47:50.695842,ID4355,complete
+17,Final Inspection Q.C.,2012-07-30 19:21:39.991659,ID4493,start
+17,Final Inspection Q.C.,2012-07-30 21:39:00.942729,ID4493,complete
+17,Packing,2012-08-04 01:55:51.600962,ID4820,start
+17,Packing,2012-08-04 02:55:51.600962,ID4820,complete
+17,Final Inspection Q.C.,2012-08-04 06:32:49.894420,ID4493,start
+17,Final Inspection Q.C.,2012-08-04 07:34:24.716509,ID4493,complete
+17,End,2012-08-04 07:34:24.716509,End,start
+17,End,2012-08-04 07:34:24.716509,End,complete
+18,Start,2012-06-21 17:58:50.820994,Start,start
+18,Start,2012-06-21 17:58:50.820994,Start,complete
+18,Turning & Milling,2012-06-21 17:58:50.820994,ID4794,start
+18,Turning Q.C.,2012-06-21 22:28:50.407215,ID4287,start
+18,Turning & Milling,2012-06-21 22:33:50.407215,ID4529,complete
+18,Turning Q.C.,2012-06-21 22:43:50.407215,ID4287,complete
+18,Turning & Milling,2012-06-25 19:31:15.402443,ID4529,start
+18,Turning & Milling,2012-06-26 02:40:40.503830,ID4529,complete
+18,Turning & Milling,2012-06-26 03:31:38.763223,ID4529,start
+18,Turning & Milling,2012-06-26 05:03:59.435902,ID4529,complete
+18,Turning & Milling,2012-06-26 17:05:57.946836,ID4529,start
+18,Turning & Milling,2012-06-26 18:51:56.391311,ID4529,complete
+18,Turning & Milling,2012-06-27 00:48:22.811481,ID4529,start
+18,Turning & Milling,2012-06-27 06:37:12.324409,ID4529,complete
+18,Turning & Milling,2012-06-27 08:02:45.411222,ID4529,start
+18,Turning & Milling,2012-06-27 15:05:04.578323,ID4529,complete
+18,Turning & Milling,2012-06-27 15:05:04.578323,ID4529,start
+18,Turning & Milling,2012-06-27 15:05:04.578323,ID4529,complete
+18,Turning & Milling,2012-06-27 15:05:04.578323,ID4529,start
+18,Turning & Milling,2012-06-27 23:48:32.123006,ID4529,complete
+18,Turning & Milling,2012-06-28 14:15:22.347516,ID4529,start
+18,Turning & Milling,2012-06-28 15:07:02.231918,ID4529,complete
+18,Turning & Milling,2012-06-28 15:07:02.231918,ID4529,start
+18,Turning & Milling,2012-06-28 17:45:36.475563,ID4529,complete
+18,Turning & Milling,2012-06-28 17:45:36.475563,ID4529,start
+18,Turning & Milling,2012-06-28 22:18:47.792330,ID4529,complete
+18,Turning & Milling,2012-06-29 05:14:59.306340,ID4529,start
+18,Turning & Milling,2012-06-29 11:36:14.616825,ID4529,complete
+18,Turning & Milling,2012-06-29 13:38:48.835423,ID4529,start
+18,Turning & Milling,2012-06-29 23:16:51.733243,ID4529,complete
+18,Turning & Milling,2012-06-30 11:25:09.984999,ID4529,start
+18,Turning & Milling,2012-06-30 14:09:41.083096,ID4529,complete
+18,Turning Q.C.,2012-06-30 14:43:09.216017,ID4287,start
+18,Turning Q.C.,2012-06-30 15:18:32.261574,ID4287,complete
+18,Laser Marking,2012-06-30 15:18:32.261574,ID0998,start
+18,Laser Marking,2012-06-30 16:37:00.942048,ID0998,complete
+18,Laser Marking,2012-06-30 20:21:48.203258,ID0998,start
+18,Laser Marking,2012-06-30 21:44:03.982159,ID0998,complete
+18,Laser Marking,2012-07-01 00:19:10.188669,ID0998,start
+18,Laser Marking,2012-07-01 00:22:17.142546,ID0998,complete
+18,Flat Grinding,2012-07-03 14:48:13.330714,ID4882,start
+18,Flat Grinding,2012-07-03 15:49:11.543181,ID4882,complete
+18,Flat Grinding,2012-07-04 14:35:24.744871,ID4882,start
+18,Flat Grinding,2012-07-04 16:41:29.307189,ID4882,complete
+18,Flat Grinding,2012-07-05 00:44:40.289136,ID4882,start
+18,Flat Grinding,2012-07-05 02:18:47.256625,ID4882,complete
+18,Final Inspection Q.C.,2012-07-06 07:18:36.266276,ID4493,start
+18,Final Inspection Q.C.,2012-07-06 09:35:09.184393,ID4493,complete
+18,Packing,2012-07-08 09:34:13.745156,ID4820,start
+18,Packing,2012-07-08 10:34:13.745156,ID4820,complete
+18,End,2012-07-08 10:34:13.745156,End,start
+18,End,2012-07-08 10:34:13.745156,End,complete
+19,Start,2012-06-21 17:58:50.820994,Start,start
+19,Start,2012-06-21 17:58:50.820994,Start,complete
+19,Turning & Milling,2012-06-21 17:58:50.820994,ID4641,start
+19,Turning & Milling,2012-06-22 03:52:32.286497,ID4641,complete
+19,Turning & Milling,2012-06-22 03:52:32.286497,ID3846,start
+19,Turning & Milling,2012-06-22 05:49:53.520361,ID3846,complete
+19,Turning & Milling Q.C.,2012-06-23 09:52:18.947704,ID4493,start
+19,Turning & Milling,2012-06-23 09:52:18.947704,ID4529,start
+19,Turning & Milling Q.C.,2012-06-23 09:52:18.947704,ID4493,complete
+19,Turning & Milling Q.C.,2012-06-23 09:52:18.947704,ID4493,start
+19,Turning & Milling,2012-06-23 10:19:45.860182,ID4529,complete
+19,Turning & Milling Q.C.,2012-06-23 10:35:56.386069,ID4493,complete
+19,Laser Marking,2012-06-23 10:35:56.386069,ID0998,start
+19,Laser Marking,2012-06-23 12:07:44.096824,ID0998,complete
+19,Lapping,2012-07-15 06:08:22.479684,ID0998,start
+19,Lapping,2012-07-15 06:26:33.293489,ID0998,start
+19,Flat Grinding,2012-07-15 06:32:44.577029,ID4882,start
+19,Flat Grinding,2012-07-15 07:18:08.151761,ID4882,complete
+19,Lapping,2012-07-15 08:44:37.644037,ID0998,complete
+19,Lapping,2012-07-15 11:52:48.356494,ID0998,complete
+19,Lapping,2012-07-17 07:24:47.904529,ID0998,start
+19,Lapping,2012-07-17 12:11:37.405307,ID0998,complete
+19,Laser Marking,2012-07-17 15:18:32.442963,ID0998,start
+19,Laser Marking,2012-07-17 15:53:34.985133,ID0998,complete
+19,Final Inspection Q.C.,2012-07-19 13:21:11.443933,ID4493,start
+19,Final Inspection Q.C.,2012-07-19 14:49:20.616894,ID4493,complete
+19,Packing,2012-07-19 14:49:20.616894,ID4820,start
+19,Packing,2012-07-19 14:49:20.616894,ID4820,start
+19,Packing,2012-07-19 15:49:20.616894,ID4820,complete
+19,Packing,2012-07-19 15:49:20.616894,ID4820,complete
+19,End,2012-07-19 15:49:20.616894,End,start
+19,End,2012-07-19 15:49:20.616894,End,complete
+20,Start,2012-07-05 02:34:00.576701,Start,start
+20,Start,2012-07-05 02:34:00.576701,Start,complete
+20,Turning & Milling,2012-07-05 02:34:00.576701,ID4219,start
+20,Turning & Milling,2012-07-05 08:27:20.662136,ID4219,complete
+20,Turning & Milling,2012-07-05 08:27:20.662136,ID0997,start
+20,Turning & Milling,2012-07-05 11:54:30.548064,ID0997,complete
+20,Turning & Milling,2012-07-05 11:54:30.548064,ID4219,start
+20,Turning & Milling,2012-07-05 18:53:57.696127,ID4219,complete
+20,Turning & Milling,2012-07-05 22:58:01.253307,ID0997,start
+20,Turning & Milling,2012-07-06 05:14:30.180844,ID0997,complete
+20,Turning & Milling Q.C.,2012-07-08 07:17:15.082675,ID4493,start
+20,Turning & Milling Q.C.,2012-07-08 09:37:36.675967,ID4493,complete
+20,Turning & Milling Q.C.,2012-07-09 05:52:31.967873,ID4493,start
+20,Turning & Milling Q.C.,2012-07-09 07:28:16.054740,ID4493,complete
+20,Laser Marking,2012-07-19 00:20:55.080774,ID0998,start
+20,Laser Marking,2012-07-19 00:20:55.080774,ID0998,complete
+20,Flat Grinding,2012-08-03 07:00:57.155622,ID4882,start
+20,Flat Grinding,2012-08-03 08:59:27.641367,ID4882,complete
+20,Flat Grinding,2012-08-03 08:59:27.641367,ID4882,start
+20,Flat Grinding,2012-08-03 10:13:03.649551,ID4882,complete
+20,Flat Grinding,2012-08-03 21:30:37.600789,ID4882,start
+20,Flat Grinding,2012-08-04 03:30:56.559566,ID4882,complete
+20,Flat Grinding,2012-08-09 06:38:29.886571,ID4882,start
+20,Flat Grinding,2012-08-09 06:38:29.886571,ID4882,start
+20,Flat Grinding,2012-08-09 08:02:55.167766,ID4882,complete
+20,Flat Grinding,2012-08-09 08:49:04.065874,ID4882,complete
+20,Flat Grinding,2012-08-10 03:28:35.758971,ID4882,start
+20,Flat Grinding,2012-08-10 06:02:53.883172,ID4882,complete
+20,Round Grinding,2012-08-14 07:45:25.036591,ID4355,start
+20,Round Grinding,2012-08-14 12:49:22.339984,ID4355,complete
+20,Round Grinding,2012-08-14 23:16:54.778410,ID4355,start
+20,Round Grinding,2012-08-15 01:00:12.504486,ID4355,complete
+20,Round Grinding,2012-08-15 01:00:12.504486,ID4355,start
+20,Round Grinding,2012-08-15 02:02:53.138157,ID4355,complete
+20,Round Grinding,2012-08-15 02:02:53.138157,ID4355,start
+20,Round Grinding,2012-08-15 04:03:26.673443,ID4355,start
+20,Round Grinding,2012-08-15 07:50:06.737777,ID4355,complete
+20,Lapping,2012-08-15 07:50:06.737777,ID0998,start
+20,Lapping,2012-08-15 10:30:13.940420,ID0998,complete
+20,Round Grinding,2012-08-15 11:19:10.575718,ID4355,complete
+20,Round Grinding,2012-08-15 16:55:37.399582,ID4355,start
+20,Lapping,2012-08-15 18:54:55.579622,ID0998,start
+20,Round Grinding,2012-08-15 18:54:55.579622,ID4355,complete
+20,Lapping,2012-08-15 19:25:16.644896,ID0998,complete
+20,Round Grinding,2012-08-15 19:25:16.644896,ID4355,start
+20,Round Grinding,2012-08-15 21:48:11.095620,ID4355,complete
+20,Round Grinding,2012-08-16 21:14:33.005977,ID4355,start
+20,Round Grinding,2012-08-17 03:39:08.854105,ID4355,complete
+20,Round Grinding,2012-08-17 05:15:08.614128,ID4355,start
+20,Round Grinding,2012-08-17 05:44:01.511947,ID4355,complete
+20,Final Inspection Q.C.,2012-08-19 02:26:01.366029,ID4493,start
+20,Laser Marking,2012-08-19 03:00:05.653772,ID0998,start
+20,Laser Marking,2012-08-19 03:16:28.453512,ID0998,complete
+20,Final Inspection Q.C.,2012-08-19 04:03:13.118698,ID4493,complete
+20,Final Inspection Q.C.,2012-08-19 18:29:19.260181,ID4493,start
+20,Final Inspection Q.C.,2012-08-19 21:41:54.637533,ID4493,complete
+20,Final Inspection Q.C.,2012-08-21 13:53:44.829326,ID4493,start
+20,Final Inspection Q.C.,2012-08-21 13:53:44.829326,ID4493,complete
+20,End,2012-08-21 13:53:44.829326,End,start
+20,End,2012-08-21 13:53:44.829326,End,complete
+21,Start,2012-07-05 02:34:00.576701,Start,start
+21,Start,2012-07-05 02:34:00.576701,Start,complete
+21,Turning & Milling,2012-07-05 02:34:00.576701,ID4932,start
+21,Turning & Milling,2012-07-05 08:16:34.446708,ID4932,complete
+21,End,2012-07-05 08:16:34.446708,End,start
+21,End,2012-07-05 08:16:34.446708,End,complete
+22,Start,2012-07-11 03:07:41.896096,Start,start
+22,Start,2012-07-11 03:07:41.896096,Start,complete
+22,Turning & Milling,2012-07-11 03:07:41.896096,ID4429,start
+22,Turning & Milling,2012-07-11 14:10:21.663821,ID4429,complete
+22,Turning & Milling,2012-07-12 04:48:01.826165,ID4932,start
+22,Turning & Milling,2012-07-12 05:04:15.922165,ID4932,complete
+22,Turning & Milling,2012-07-12 05:21:15.209523,ID4167,start
+22,Turning & Milling,2012-07-12 11:13:35.808549,ID4167,complete
+22,Turning & Milling Q.C.,2012-07-12 18:38:50.101524,ID4163,start
+22,Turning & Milling Q.C.,2012-07-12 18:38:50.101524,ID4163,complete
+22,End,2012-07-12 18:38:50.101524,End,start
+22,End,2012-07-12 18:38:50.101524,End,complete
+23,Start,2012-07-11 03:07:41.896096,Start,start
+23,Start,2012-07-11 03:07:41.896096,Start,complete
+23,Turning & Milling,2012-07-11 03:07:41.896096,ID4219,start
+23,Turning & Milling,2012-07-11 03:07:41.896096,ID4219,complete
+23,Turning & Milling Q.C.,2012-07-11 03:07:41.896096,ID4493,start
+23,Turning & Milling,2012-07-11 03:07:41.896096,ID4529,start
+23,Turning & Milling,2012-07-11 09:15:02.205330,ID4529,complete
+23,Turning & Milling Q.C.,2012-07-11 09:31:08.980690,ID4493,complete
+23,Turning & Milling,2012-07-11 20:48:02.986510,ID4529,start
+23,Turning & Milling,2012-07-11 23:16:46.536116,ID4529,complete
+23,Turning & Milling,2012-07-12 08:29:22.417067,ID4529,start
+23,Turning & Milling,2012-07-12 11:44:52.811661,ID4529,complete
+23,Turning & Milling,2012-07-12 16:55:02.879077,ID4529,start
+23,Turning & Milling,2012-07-13 02:50:20.347156,ID4529,complete
+23,Turning & Milling,2012-07-13 02:50:20.347156,ID4529,start
+23,Turning & Milling,2012-07-13 09:45:58.205535,ID4529,complete
+23,Turning & Milling,2012-07-14 05:01:08.583600,ID4529,start
+23,Turning & Milling,2012-07-14 05:01:08.583600,ID4529,complete
+23,Turning & Milling,2012-07-14 12:59:52.488636,ID4529,start
+23,Turning & Milling,2012-07-14 15:31:08.482087,ID4529,complete
+23,Turning & Milling Q.C.,2012-07-14 15:31:08.482087,ID4493,start
+23,Turning & Milling,2012-07-14 15:54:43.825191,ID4529,start
+23,Turning & Milling Q.C.,2012-07-14 15:55:04.601541,ID4493,complete
+23,Turning & Milling,2012-07-14 15:55:04.601541,ID4529,complete
+23,Laser Marking,2012-07-14 15:55:04.601541,ID0998,start
+23,Laser Marking,2012-07-14 17:00:02.955176,ID0998,complete
+23,Round Grinding,2012-07-14 17:00:02.955176,ID4355,start
+23,Round Grinding,2012-07-14 18:38:25.221093,ID4355,complete
+23,Round Grinding,2012-07-15 16:30:42.645459,ID4355,start
+23,Round Grinding,2012-07-15 17:14:13.233520,ID4355,complete
+23,Round Grinding,2012-07-15 17:14:13.233520,ID4355,start
+23,Round Grinding,2012-07-15 18:38:56.972010,ID4355,complete
+23,Round Grinding,2012-07-24 23:14:19.784681,ID4355,start
+23,Round Grinding,2012-07-25 05:32:52.721761,ID4355,complete
+23,Round Grinding,2012-07-26 22:30:26.407585,ID4355,start
+23,Round Grinding,2012-07-27 01:39:56.166862,ID4355,complete
+23,Round Grinding,2012-07-27 04:00:19.174985,ID4355,start
+23,Round Grinding,2012-07-27 07:18:50.269787,ID4355,complete
+23,Round Grinding,2012-07-28 01:26:14.046187,ID4355,start
+23,Round Grinding,2012-07-28 09:42:02.802410,ID4355,complete
+23,Turning & Milling Q.C.,2012-08-02 21:54:48.232942,ID4493,start
+23,Turning & Milling Q.C.,2012-08-02 21:54:48.232942,ID4493,complete
+23,Round Grinding,2012-08-02 21:54:48.232942,ID4355,start
+23,Round Grinding,2012-08-03 00:00:06.133821,ID4355,complete
+23,Round Grinding,2012-08-03 23:24:30.373858,ID4355,start
+23,Round Grinding,2012-08-04 02:10:52.322545,ID4355,complete
+23,Round Grinding,2012-08-04 04:14:23.356394,ID4355,start
+23,Round Grinding,2012-08-04 08:36:00.473811,ID4355,complete
+23,Final Inspection Q.C.,2012-08-04 08:36:00.473811,ID4493,start
+23,Final Inspection Q.C.,2012-08-04 08:52:35.903461,ID4493,complete
+23,Packing,2012-08-05 06:19:05.152260,ID4820,start
+23,Packing,2012-08-05 07:19:05.152260,ID4820,complete
+23,End,2012-08-05 07:19:05.152260,End,start
+23,End,2012-08-05 07:19:05.152260,End,complete
+24,Start,2012-08-01 21:30:32.684349,Start,start
+24,Start,2012-08-01 21:30:32.684349,Start,complete
+24,Turning & Milling,2012-08-01 21:30:32.684349,ID4429,start
+24,Turning & Milling,2012-08-01 21:30:32.684349,ID4429,complete
+24,Turning & Milling,2012-08-02 06:40:15.553223,ID4529,start
+24,Turning & Milling Q.C.,2012-08-02 07:47:45.783864,ID4493,start
+24,Turning & Milling,2012-08-02 09:26:59.938005,ID4529,complete
+24,Turning & Milling,2012-08-02 12:51:03.860988,ID4529,start
+24,Turning & Milling Q.C.,2012-08-02 13:02:03.851659,ID4493,complete
+24,Turning & Milling,2012-08-02 21:10:20.768977,ID4529,complete
+24,Turning & Milling Q.C.,2012-08-03 10:15:33.257370,ID4493,start
+24,Turning & Milling Q.C.,2012-08-03 10:15:33.257370,ID4493,complete
+24,Laser Marking,2012-08-15 12:43:18.618208,ID0998,start
+24,Laser Marking,2012-08-15 12:43:18.618208,ID0998,complete
+24,Lapping,2012-08-15 12:43:18.618208,ID0998,start
+24,Lapping,2012-08-15 13:50:33.519590,ID0998,complete
+24,Round Grinding,2012-08-15 13:50:33.519590,ID4355,start
+24,Round Grinding,2012-08-15 15:18:18.182652,ID4355,complete
+24,Round Grinding,2012-08-16 19:46:12.207515,ID4355,start
+24,Round Grinding,2012-08-16 20:42:56.731076,ID4355,complete
+24,Final Inspection Q.C.,2012-08-17 13:07:04.498392,ID4493,start
+24,Final Inspection Q.C.,2012-08-17 14:00:10.667909,ID4493,complete
+24,Final Inspection Q.C.,2012-08-19 20:44:04.033875,ID4493,start
+24,Final Inspection Q.C.,2012-08-19 22:42:41.937986,ID4493,complete
+24,Packing,2012-08-23 06:00:52.067961,ID4820,start
+24,Packing,2012-08-23 07:00:52.067961,ID4820,complete
+24,Final Inspection Q.C.,2012-08-23 17:12:02.568061,ID4493,start
+24,Final Inspection Q.C.,2012-08-23 18:57:35.237101,ID4493,complete
+24,End,2012-08-23 18:57:35.237101,End,start
+24,End,2012-08-23 18:57:35.237101,End,complete
+25,Start,2012-08-01 21:30:32.684349,Start,start
+25,Start,2012-08-01 21:30:32.684349,Start,complete
+25,Turning & Milling,2012-08-01 21:30:32.684349,ID3846,start
+25,Turning & Milling,2012-08-02 06:14:46.907739,ID3846,complete
+25,Turning & Milling,2012-08-02 16:47:57.612973,ID3846,start
+25,Turning & Milling,2012-08-02 22:29:23.515606,ID3846,complete
+25,Turning & Milling,2012-08-04 13:06:37.801161,ID4641,start
+25,Turning & Milling,2012-08-04 16:58:19.207074,ID4641,complete
+25,Turning & Milling,2012-08-06 10:08:02.679704,ID4529,start
+25,Turning & Milling,2012-08-06 16:40:53.544174,ID4529,complete
+25,Turning & Milling,2012-08-06 16:40:53.544174,ID4529,start
+25,Turning & Milling,2012-08-06 22:29:31.841610,ID4529,complete
+25,Turning & Milling,2012-08-06 22:29:31.841610,ID4529,start
+25,Turning & Milling,2012-08-07 00:21:14.550862,ID4529,complete
+25,Turning & Milling Q.C.,2012-08-08 09:46:28.856492,ID4493,start
+25,Turning & Milling,2012-08-08 09:46:28.856492,ID4529,start
+25,Turning & Milling Q.C.,2012-08-08 09:47:44.700832,ID4493,complete
+25,Turning & Milling,2012-08-08 11:39:45.547404,ID4529,complete
+25,Turning & Milling,2012-08-08 21:24:45.187256,ID4529,start
+25,Turning & Milling,2012-08-09 08:57:26.327636,ID4529,complete
+25,Turning & Milling Q.C.,2012-08-10 09:05:18.840758,ID4493,start
+25,Turning & Milling Q.C.,2012-08-10 09:48:32.057595,ID4493,complete
+25,Turning & Milling Q.C.,2012-08-10 09:48:32.057595,ID4493,start
+25,Turning & Milling Q.C.,2012-08-10 10:36:12.797466,ID4493,complete
+25,Turning & Milling,2012-08-12 10:53:21.608922,ID4529,start
+25,Turning & Milling,2012-08-12 13:27:00.284035,ID4529,complete
+25,Turning & Milling,2012-08-12 13:27:00.284035,ID4529,start
+25,Turning & Milling,2012-08-12 21:59:15.692041,ID4529,start
+25,Turning & Milling,2012-08-12 23:31:26.461762,ID4529,complete
+25,Turning & Milling,2012-08-13 04:35:53.579483,ID4529,complete
+25,Turning & Milling Q.C.,2012-08-13 04:35:53.579483,ID4493,start
+25,Turning & Milling Q.C.,2012-08-13 05:14:13.057453,ID4493,complete
+25,Turning & Milling Q.C.,2012-08-13 05:14:13.057453,ID4493,start
+25,Turning & Milling Q.C.,2012-08-13 06:32:54.335715,ID4493,complete
+25,Turning & Milling,2012-08-13 06:32:54.335715,ID4529,start
+25,Turning & Milling,2012-08-13 16:52:38.951778,ID4529,start
+25,Turning & Milling,2012-08-14 04:14:55.760511,ID4529,complete
+25,Turning & Milling,2012-08-14 04:14:55.760511,ID4529,start
+25,Turning & Milling,2012-08-14 13:40:01.011619,ID4529,complete
+25,Turning & Milling,2012-08-14 17:43:16.224106,ID4529,complete
+25,Turning & Milling,2012-08-15 02:51:45.463712,ID4529,start
+25,Turning & Milling,2012-08-15 07:18:59.799029,ID4529,complete
+25,Turning & Milling,2012-08-15 07:18:59.799029,ID4529,start
+25,Turning & Milling,2012-08-15 15:12:15.510955,ID4529,complete
+25,Turning & Milling,2012-08-16 17:49:02.837547,ID4529,start
+25,Turning & Milling,2012-08-16 21:41:19.472066,ID4529,complete
+25,Turning & Milling Q.C.,2012-08-18 13:54:55.594978,ID4493,start
+25,Turning & Milling,2012-08-18 13:54:55.594978,ID4529,start
+25,Turning & Milling Q.C.,2012-08-18 14:17:56.737842,ID4493,complete
+25,Turning & Milling,2012-08-18 18:35:46.837848,ID4529,complete
+25,Turning & Milling,2012-08-18 23:30:48.481623,ID4529,start
+25,Turning & Milling,2012-08-19 06:45:36.257659,ID4529,complete
+25,Turning & Milling,2012-08-19 06:45:36.257659,ID4529,start
+25,Turning & Milling,2012-08-19 12:52:41.981864,ID4529,complete
+25,Turning & Milling,2012-08-19 20:10:20.982082,ID4529,start
+25,Turning & Milling Q.C.,2012-08-19 20:10:20.982082,ID4493,start
+25,Turning & Milling,2012-08-19 20:27:07.150001,ID4529,complete
+25,Turning & Milling Q.C.,2012-08-19 20:27:07.150001,ID4493,complete
+25,Turning & Milling Q.C.,2012-08-22 21:19:28.159534,ID4493,start
+25,Turning & Milling Q.C.,2012-08-22 23:00:56.614834,ID4493,complete
+25,Laser Marking,2012-08-24 18:19:11.895931,ID0998,start
+25,Laser Marking,2012-08-24 18:52:38.180639,ID0998,complete
+25,Turning & Milling Q.C.,2012-08-31 16:01:54.171508,ID4493,start
+25,Turning & Milling Q.C.,2012-08-31 17:20:37.412671,ID4493,complete
+25,Laser Marking,2012-09-03 03:56:53.427399,ID0998,start
+25,Laser Marking,2012-09-03 04:58:52.771957,ID0998,complete
+25,Flat Grinding,2012-09-03 04:58:52.771957,ID4882,start
+25,Lapping,2012-09-03 06:54:38.772393,ID0998,start
+25,Lapping,2012-09-03 06:58:52.654714,ID0998,start
+25,Flat Grinding,2012-09-03 06:58:52.654714,ID4882,complete
+25,Lapping,2012-09-03 06:58:52.654714,ID0998,complete
+25,Lapping,2012-09-03 08:02:37.993517,ID0998,complete
+25,Laser Marking,2012-09-03 08:02:37.993517,ID0998,start
+25,Flat Grinding,2012-09-03 08:02:37.993517,ID4882,start
+25,Flat Grinding,2012-09-03 08:12:40.324913,ID4882,complete
+25,Flat Grinding,2012-09-04 06:02:14.982979,ID4882,start
+25,Laser Marking,2012-09-04 06:15:49.040582,ID0998,complete
+25,Round Grinding,2012-09-04 06:15:49.040582,ID4355,start
+25,Round Grinding,2012-09-04 10:00:51.958845,ID4355,complete
+25,Lapping,2012-09-04 10:00:51.958845,ID0998,start
+25,Round Grinding,2012-09-04 10:00:51.958845,ID4355,start
+25,Lapping,2012-09-04 10:56:40.659792,ID0998,complete
+25,Lapping,2012-09-04 15:17:01.767254,ID0998,start
+25,Flat Grinding,2012-09-04 15:39:16.984358,ID4882,complete
+25,Lapping,2012-09-04 15:39:16.984358,ID0998,complete
+25,Round Grinding,2012-09-04 15:44:03.341229,ID4355,complete
+25,Round Grinding,2012-09-06 03:23:50.654450,ID4355,start
+25,Round Grinding,2012-09-06 13:06:31.301621,ID4355,complete
+25,Round Grinding,2012-09-06 13:06:31.301621,ID4355,start
+25,Flat Grinding,2012-09-06 14:21:00.988820,ID4882,start
+25,Lapping,2012-09-06 14:27:08.746523,ID0998,start
+25,Flat Grinding,2012-09-06 16:41:36.151051,ID4882,complete
+25,Lapping,2012-09-06 17:49:43.571319,ID0998,complete
+25,Round Grinding,2012-09-06 20:19:30.886010,ID4355,complete
+25,Round Grinding,2012-09-06 20:19:30.886010,ID4355,start
+25,Round Grinding,2012-09-06 22:35:19.819844,ID4355,complete
+25,Round Grinding,2012-09-06 22:35:19.819844,ID4355,start
+25,Round Grinding,2012-09-07 07:42:47.576633,ID4355,complete
+25,Final Inspection Q.C.,2012-09-08 11:37:12.558803,ID4493,start
+25,Final Inspection Q.C.,2012-09-08 11:37:12.558803,ID4493,start
+25,Final Inspection Q.C.,2012-09-08 12:23:11.048724,ID4493,complete
+25,Final Inspection Q.C.,2012-09-08 12:27:16.080338,ID4493,complete
+25,Final Inspection Q.C.,2012-09-09 02:45:09.726357,ID4493,start
+25,Final Inspection Q.C.,2012-09-09 03:35:01.966076,ID4493,complete
+25,Packing,2012-09-13 18:36:44.729854,ID4820,start
+25,Packing,2012-09-13 19:36:44.729854,ID4820,complete
+25,Fix,2012-10-21 14:35:11.461186,ID4219,start
+25,Fix,2012-10-21 15:56:21.456955,ID4219,complete
+25,Fix,2012-10-21 15:56:21.456955,ID4219,start
+25,Fix,2012-10-21 19:55:10.602894,ID4219,complete
+25,Packing,2012-10-22 01:08:10.602894,ID4820,start
+25,Packing,2012-10-22 02:08:10.602894,ID4820,complete
+25,Turning & Milling Q.C.,2012-10-22 02:08:10.602894,ID4493,start
+25,Turning & Milling Q.C.,2012-10-22 02:08:10.602894,ID4493,complete
+25,Final Inspection Q.C.,2012-11-05 06:30:29.204318,ID4493,start
+25,Final Inspection Q.C.,2012-11-05 07:46:09.852151,ID4493,complete
+25,End,2012-11-05 07:46:09.852151,End,start
+25,End,2012-11-05 07:46:09.852151,End,complete
+26,Start,2012-08-03 07:59:43.247747,Start,start
+26,Start,2012-08-03 07:59:43.247747,Start,complete
+26,Turning & Milling Q.C.,2012-08-03 07:59:43.247747,ID4163,start
+26,Turning & Milling Q.C.,2012-08-03 10:18:19.697299,ID4163,complete
+26,Laser Marking,2012-08-03 21:42:02.143787,ID0998,start
+26,Laser Marking,2012-08-03 21:51:01.837561,ID0998,complete
+26,Lapping,2012-08-13 12:22:44.101221,ID0998,start
+26,Lapping,2012-08-13 13:27:07.116979,ID0998,complete
+26,Round Grinding,2012-08-14 02:07:09.241678,ID4355,start
+26,Round Grinding,2012-08-14 04:01:17.635220,ID4355,complete
+26,Round Grinding,2012-08-14 04:01:17.635220,ID4355,start
+26,Round Grinding,2012-08-14 10:04:29.289758,ID4355,complete
+26,Final Inspection Q.C.,2012-08-18 13:55:01.781791,ID4493,start
+26,Final Inspection Q.C.,2012-08-18 16:50:50.827620,ID4493,complete
+26,Final Inspection Q.C.,2012-08-19 21:00:24.817143,ID4493,start
+26,Final Inspection Q.C.,2012-08-19 21:38:50.361369,ID4493,complete
+26,Packing,2012-08-20 17:50:48.756217,ID4820,start
+26,Packing,2012-08-20 18:50:48.756217,ID4820,complete
+26,Round Grinding,2012-08-20 18:50:48.756217,ID4355,start
+26,Round Grinding,2012-08-20 18:50:48.756217,ID4355,complete
+26,Round Grinding,2012-08-20 18:50:48.756217,ID4355,start
+26,Round Grinding,2012-08-20 21:06:42.775084,ID4355,complete
+26,Round Grinding,2012-08-22 20:09:14.068046,ID4355,start
+26,Round Grinding,2012-08-23 01:51:47.356479,ID4355,complete
+26,Final Inspection Q.C.,2012-08-26 06:46:55.213248,ID4493,start
+26,Final Inspection Q.C.,2012-08-26 06:46:55.213248,ID4493,complete
+26,Final Inspection Q.C.,2012-08-26 06:46:55.213248,ID4493,start
+26,Final Inspection Q.C.,2012-08-26 08:32:21.566306,ID4493,complete
+26,Packing,2012-08-26 21:31:19.099772,ID4820,start
+26,Packing,2012-08-26 22:31:19.099772,ID4820,complete
+26,End,2012-08-26 22:31:19.099772,End,start
+26,End,2012-08-26 22:31:19.099772,End,complete
+27,Start,2012-08-17 08:05:07.337653,Start,start
+27,Start,2012-08-17 08:05:07.337653,Start,complete
+27,Turning & Milling,2012-08-17 08:05:07.337653,ID4132,start
+27,Turning & Milling,2012-08-17 14:36:07.454971,ID4132,complete
+27,Turning & Milling,2012-08-18 05:50:13.185983,ID4132,start
+27,Turning & Milling Q.C.,2012-08-18 05:50:13.185983,ID4287,start
+27,Turning & Milling Q.C.,2012-08-18 06:53:53.318706,ID4493,complete
+27,Turning & Milling,2012-08-18 09:35:49.988345,ID4529,complete
+27,Turning & Milling,2012-08-18 09:35:49.988345,ID4529,start
+27,Turning & Milling Q.C.,2012-08-18 10:25:39.928358,ID4493,start
+27,Flat Grinding,2012-08-18 10:45:28.944725,ID4882,start
+27,Turning & Milling,2012-08-18 10:46:28.944725,ID4529,complete
+27,Turning & Milling Q.C.,2012-08-18 10:46:28.944725,ID4493,complete
+27,Flat Grinding,2012-08-18 11:02:28.944725,ID4882,complete
+27,Lapping,2012-08-18 11:02:28.944725,ID0998,start
+27,Lapping,2012-08-18 14:34:02.137439,ID0998,complete
+27,Round Grinding,2012-08-18 14:34:02.137439,ID4355,start
+27,Round Grinding,2012-08-18 20:21:09.410386,ID4355,complete
+27,Round Grinding,2012-08-19 23:16:54.517491,ID4355,start
+27,Round Grinding,2012-08-20 01:09:37.962538,ID4355,complete
+27,Laser Marking,2012-08-21 17:27:56.185645,ID0998,start
+27,Final Inspection Q.C.,2012-08-21 17:58:55.299731,ID4493,start
+27,Laser Marking,2012-08-21 19:02:57.220579,ID0998,complete
+27,Final Inspection Q.C.,2012-08-21 19:52:08.395414,ID4493,complete
+27,Final Inspection Q.C.,2012-08-22 03:51:01.025937,ID4493,start
+27,Final Inspection Q.C.,2012-08-22 04:45:03.013973,ID4493,complete
+27,Packing,2012-08-22 07:35:59.134487,ID4820,start
+27,Packing,2012-08-22 08:35:59.134487,ID4820,complete
+27,End,2012-08-22 08:35:59.134487,End,start
+27,End,2012-08-22 08:35:59.134487,End,complete
+28,Start,2012-08-17 08:05:07.337653,Start,start
+28,Start,2012-08-17 08:05:07.337653,Start,complete
+28,Turning & Milling,2012-08-17 08:05:07.337653,ID0997,start
+28,Turning & Milling Q.C.,2012-08-17 15:41:04.682993,ID4287,start
+28,Turning & Milling Q.C.,2012-08-17 17:40:30.898566,ID4493,complete
+28,Turning & Milling,2012-08-17 22:02:01.544535,ID4529,complete
+28,Turning & Milling,2012-08-17 22:21:16.086303,ID4529,start
+28,Turning & Milling,2012-08-18 03:49:57.872416,ID4529,complete
+28,Turning & Milling,2012-08-19 05:25:33.462557,ID4529,start
+28,Turning & Milling,2012-08-19 12:45:04.383711,ID4529,complete
+28,Turning & Milling Q.C.,2012-08-20 11:40:50.630033,ID4493,start
+28,Turning & Milling Q.C.,2012-08-20 12:30:44.689819,ID4493,complete
+28,Lapping,2012-09-03 16:37:23.273909,ID0998,start
+28,Lapping,2012-09-03 18:48:45.987526,ID0998,complete
+28,Lapping,2012-09-04 08:18:54.492839,ID0998,start
+28,Lapping,2012-09-04 12:26:43.355335,ID0998,complete
+28,Packing,2012-09-06 00:17:04.190288,ID4820,start
+28,Packing,2012-09-06 01:17:04.190288,ID4820,complete
+28,Final Inspection Q.C.,2012-09-06 14:02:49.195756,ID4493,start
+28,Final Inspection Q.C.,2012-09-06 14:55:50.763889,ID4493,complete
+28,Laser Marking,2012-09-06 14:55:50.763889,ID0998,start
+28,Laser Marking,2012-09-06 15:49:30.447452,ID0998,complete
+28,End,2012-09-06 15:49:30.447452,End,start
+28,End,2012-09-06 15:49:30.447452,End,complete
+29,Start,2012-09-02 19:08:14.447403,Start,start
+29,Start,2012-09-02 19:08:14.447403,Start,complete
+29,Turning & Milling Q.C.,2012-09-02 19:08:14.447403,ID4163,start
+29,Turning & Milling Q.C.,2012-09-02 21:22:34.455829,ID4163,complete
+29,Laser Marking,2012-09-02 21:22:34.455829,ID0998,start
+29,Laser Marking,2012-09-02 22:33:01.169503,ID0998,complete
+29,Lapping,2012-09-05 09:11:30.224134,ID0998,start
+29,Lapping,2012-09-05 09:11:30.224134,ID0998,complete
+29,Flat Grinding,2012-09-05 09:11:30.224134,ID4882,start
+29,Flat Grinding,2012-09-05 10:19:39.265984,ID4882,complete
+29,Lapping,2012-09-10 02:14:55.345585,ID0998,start
+29,Lapping,2012-09-10 02:14:55.345585,ID0998,complete
+29,Packing,2012-09-19 02:04:51.740884,ID4820,start
+29,Packing,2012-09-19 03:04:51.740884,ID4820,complete
+29,Final Inspection Q.C.,2012-09-19 08:44:47.368192,ID4493,start
+29,Final Inspection Q.C.,2012-09-19 13:54:47.963239,ID4493,complete
+29,End,2012-09-19 13:54:47.963239,End,start
+29,End,2012-09-19 13:54:47.963239,End,complete
+30,Start,2012-09-02 19:08:14.447403,Start,start
+30,Start,2012-09-02 19:08:14.447403,Start,complete
+30,Turning & Milling Q.C.,2012-09-02 19:08:14.447403,ID4163,start
+30,Turning & Milling Q.C.,2012-09-02 21:25:28.627208,ID4163,complete
+30,Turning & Milling,2012-09-04 06:36:43.032293,ID4429,start
+30,Turning & Milling,2012-09-04 15:11:38.914037,ID4429,complete
+30,Turning & Milling Q.C.,2012-09-04 20:56:56.950994,ID4493,start
+30,Turning & Milling Q.C.,2012-09-04 22:36:32.615675,ID4493,complete
+30,Turning & Milling Q.C.,2012-09-07 02:40:42.540041,ID4493,start
+30,Turning & Milling Q.C.,2012-09-07 02:58:52.101830,ID4493,complete
+30,Laser Marking,2012-09-10 14:52:16.228228,ID0998,start
+30,Laser Marking,2012-09-10 15:36:26.506844,ID0998,start
+30,Laser Marking,2012-09-10 16:02:35.563122,ID0998,complete
+30,Laser Marking,2012-09-10 18:05:00.668036,ID0998,complete
+30,Round Grinding,2012-09-17 02:24:41.329101,ID4355,start
+30,Round Grinding,2012-09-17 03:36:25.283012,ID4355,complete
+30,Round Grinding,2012-09-17 03:36:25.283012,ID4355,start
+30,Round Grinding,2012-09-17 10:28:10.743750,ID4355,complete
+30,Round Grinding,2012-09-17 10:28:10.743750,ID4355,start
+30,Round Grinding,2012-09-17 15:15:15.902470,ID4355,complete
+30,Round Grinding,2012-09-18 00:04:24.306087,ID4355,start
+30,Round Grinding,2012-09-18 00:04:24.306087,ID4355,complete
+30,Round Grinding,2012-09-20 14:44:31.101523,ID4355,start
+30,Round Grinding,2012-09-20 15:26:36.191420,ID4355,complete
+30,Round Grinding,2012-09-20 15:26:36.191420,ID4355,start
+30,Round Grinding,2012-09-20 18:25:22.912834,ID4355,complete
+30,Round Grinding,2012-10-16 16:23:42.886731,ID4355,start
+30,Round Grinding,2012-10-16 17:26:00.279240,ID4355,complete
+30,Round Grinding,2012-10-16 17:26:00.279240,ID4355,start
+30,Round Grinding,2012-10-16 17:55:09.730145,ID4355,complete
+30,Round Grinding,2012-10-17 01:58:15.331275,ID4355,start
+30,Round Grinding,2012-10-17 04:01:11.894302,ID4355,complete
+30,Round Grinding,2012-10-17 09:34:27.456435,ID4355,start
+30,Round Grinding,2012-10-17 13:04:26.174762,ID4355,complete
+30,Round Grinding,2012-10-19 03:57:49.972973,ID4355,start
+30,Round Grinding,2012-10-19 07:22:39.298544,ID4355,complete
+30,Round Grinding,2012-10-19 20:36:03.329884,ID4355,start
+30,Round Grinding,2012-10-20 01:29:04.114621,ID4355,complete
+30,Round Grinding,2012-10-20 01:29:04.114621,ID4355,start
+30,Round Grinding,2012-10-20 01:29:04.114621,ID4355,complete
+30,Round Grinding,2012-10-20 01:29:04.114621,ID4355,start
+30,Round Grinding,2012-10-20 01:59:27.667543,ID4355,complete
+30,Round Grinding,2012-10-21 20:30:42.715956,ID4355,start
+30,Round Grinding,2012-10-21 20:58:17.790873,ID4355,complete
+30,Round Grinding,2012-10-21 22:22:35.345502,ID4355,start
+30,Round Grinding,2012-10-22 01:47:52.324395,ID4355,complete
+30,Round Grinding,2012-10-22 01:47:52.324395,ID4355,start
+30,Round Grinding,2012-10-22 04:03:53.437005,ID4355,complete
+30,Round Grinding,2012-10-22 04:36:06.411093,ID4355,start
+30,Round Grinding,2012-10-22 08:27:57.728196,ID4355,complete
+30,Round Grinding,2012-10-23 02:12:29.577390,ID4355,start
+30,Round Grinding,2012-10-23 13:53:54.598971,ID4355,complete
+30,Round Grinding,2012-10-25 06:44:55.237436,ID4355,start
+30,Round Grinding,2012-10-25 08:06:54.140446,ID4355,complete
+30,Final Inspection Q.C.,2012-10-25 08:06:54.140446,ID4493,start
+30,Final Inspection Q.C.,2012-10-25 09:52:32.891292,ID4493,complete
+30,Packing,2012-10-25 09:52:32.891292,ID4820,start
+30,Packing,2012-10-25 10:52:32.891292,ID4820,complete
+30,Final Inspection Q.C.,2012-10-25 18:11:05.498386,ID4493,start
+30,Final Inspection Q.C.,2012-10-25 18:32:39.994453,ID4493,complete
+30,Final Inspection Q.C.,2012-10-27 18:19:56.533448,ID4493,start
+30,Final Inspection Q.C.,2012-10-27 18:19:56.533448,ID4493,complete
+30,Round Grinding,2012-10-30 08:19:35.710515,ID4355,start
+30,Round Grinding,2012-10-30 10:08:32.632760,ID4355,complete
+30,Round Grinding,2012-10-30 23:17:57.976202,ID4355,start
+30,Round Grinding,2012-10-31 03:22:18.626233,ID4355,complete
+30,Round Grinding,2012-10-31 03:22:18.626233,ID4355,start
+30,Round Grinding,2012-10-31 08:29:32.567651,ID4355,complete
+30,Final Inspection Q.C.,2012-11-01 13:22:49.538957,ID4493,start
+30,Final Inspection Q.C.,2012-11-01 15:12:18.195022,ID4493,complete
+30,Final Inspection Q.C.,2012-11-03 00:23:08.048410,ID4493,start
+30,Final Inspection Q.C.,2012-11-03 00:49:43.904160,ID4493,complete
+30,Final Inspection Q.C.,2012-11-04 15:44:50.880321,ID4493,start
+30,Final Inspection Q.C.,2012-11-04 15:44:50.880321,ID4493,complete
+30,Packing,2012-11-04 15:44:50.880321,ID4820,start
+30,Packing,2012-11-04 16:44:50.880321,ID4820,complete
+30,Grinding Rework,2012-11-04 16:44:50.880321,ID4528,start
+30,Grinding Rework,2012-11-04 16:57:40.057450,ID4528,complete
+30,Grinding Rework,2012-11-06 09:12:24.743896,ID4528,start
+30,Grinding Rework,2012-11-06 10:29:20.290629,ID4528,complete
+30,End,2012-11-06 10:29:20.290629,End,start
+30,End,2012-11-06 10:29:20.290629,End,complete
+31,Start,2012-09-02 19:08:14.447403,Start,start
+31,Start,2012-09-02 19:08:14.447403,Start,complete
+31,Turning & Milling Q.C.,2012-09-02 19:08:14.447403,ID4618,start
+31,Turning & Milling Q.C.,2012-09-02 19:29:13.031523,ID4618,complete
+31,Grinding Rework,2012-10-21 10:09:43.080008,ID4528,start
+31,Grinding Rework,2012-10-21 13:42:39.494184,ID4528,complete
+31,Final Inspection Q.C.,2012-10-22 19:04:52.762089,ID4618,start
+31,Final Inspection Q.C.,2012-10-22 19:58:58.103568,ID4618,complete
+31,Turning & Milling Q.C.,2012-10-25 04:44:40.050315,ID4618,start
+31,Turning & Milling Q.C.,2012-10-25 05:10:05.494303,ID4618,complete
+31,Packing,2012-11-15 21:26:05.191565,ID4820,start
+31,Packing,2012-11-15 22:26:05.191565,ID4820,complete
+31,Turning & Milling Q.C.,2012-11-24 00:23:05.884705,ID4618,start
+31,Turning & Milling Q.C.,2012-11-24 02:56:14.675052,ID4618,complete
+31,Turning & Milling,2012-11-24 02:56:14.675052,ID0937,start
+31,Turning & Milling,2012-11-24 09:56:15.602109,ID0937,complete
+31,Laser Marking,2012-11-24 15:23:55.481734,ID0998,start
+31,Laser Marking,2012-11-24 16:23:04.671670,ID0998,complete
+31,Lapping,2012-11-26 16:42:02.111022,ID4882,start
+31,Lapping,2012-11-26 16:51:08.763726,ID4882,complete
+31,Turning & Milling Q.C.,2012-11-26 16:51:08.763726,ID4618,start
+31,Turning & Milling Q.C.,2012-11-26 17:26:52.380696,ID4618,complete
+31,Packing,2013-01-11 16:47:10.804186,ID4820,start
+31,Packing,2013-01-11 17:47:10.804186,ID4820,complete
+31,Round Grinding,2013-01-14 11:33:45.943092,ID4872,start
+31,Round Grinding,2013-01-14 11:33:45.943092,ID4872,complete
+31,Final Inspection Q.C.,2013-01-16 19:16:12.678298,ID4618,start
+31,Final Inspection Q.C.,2013-01-16 21:19:43.344217,ID4618,complete
+31,End,2013-01-16 21:19:43.344217,End,start
+31,End,2013-01-16 21:19:43.344217,End,complete
+32,Start,2012-09-12 07:00:13.383124,Start,start
+32,Start,2012-09-12 07:00:13.383124,Start,complete
+32,Turning & Milling,2012-09-12 07:00:13.383124,ID4132,start
+32,Turning & Milling,2012-09-12 07:07:15.763001,ID4132,complete
+32,Turning & Milling Q.C.,2012-09-12 10:02:48.042130,ID4493,start
+32,Turning & Milling,2012-09-12 10:09:10.457170,ID4529,start
+32,Turning & Milling,2012-09-12 19:59:07.118242,ID4529,complete
+32,Turning & Milling Q.C.,2012-09-12 19:59:07.118242,ID4493,complete
+32,Turning & Milling,2012-09-12 19:59:07.118242,ID4529,start
+32,Turning & Milling,2012-09-13 00:27:45.225914,ID4529,complete
+32,Turning & Milling,2012-09-13 00:27:45.225914,ID4529,start
+32,Turning & Milling,2012-09-13 06:48:45.452264,ID4529,complete
+32,Turning & Milling,2012-09-13 09:44:49.110122,ID4529,start
+32,Turning & Milling,2012-09-13 20:41:54.118865,ID4529,complete
+32,Turning & Milling,2012-09-14 01:05:22.126206,ID4529,start
+32,Turning & Milling,2012-09-14 01:52:34.776703,ID4529,complete
+32,Turning & Milling,2012-09-14 19:16:09.538287,ID4529,start
+32,Turning & Milling,2012-09-15 02:58:34.626943,ID4529,complete
+32,Turning & Milling,2012-09-15 02:58:34.626943,ID4529,start
+32,Turning & Milling,2012-09-15 06:25:47.899924,ID4529,complete
+32,Turning & Milling Q.C.,2012-09-16 01:16:12.310404,ID4493,start
+32,Turning & Milling,2012-09-16 02:12:38.600733,ID4529,start
+32,Turning & Milling Q.C.,2012-09-16 03:21:33.980909,ID4493,complete
+32,Turning & Milling,2012-09-16 03:49:58.457262,ID4529,complete
+32,Laser Marking,2012-09-17 21:45:41.213412,ID0998,start
+32,Laser Marking,2012-09-17 21:45:41.213412,ID0998,complete
+32,Round Grinding,2012-09-22 23:21:46.495294,ID4355,start
+32,Round Grinding,2012-09-23 02:11:01.506721,ID4355,complete
+32,Round Grinding,2012-09-23 02:11:01.506721,ID4355,start
+32,Round Grinding,2012-09-23 05:40:54.459356,ID4355,complete
+32,Round Grinding,2012-09-23 05:40:54.459356,ID4355,start
+32,Round Grinding,2012-09-23 14:12:04.914828,ID4355,complete
+32,Round Grinding,2012-09-24 00:14:37.778510,ID4355,start
+32,Round Grinding,2012-09-24 02:17:05.804854,ID4355,complete
+32,Round Grinding,2012-09-24 06:20:25.107317,ID4355,start
+32,Round Grinding,2012-09-24 08:49:54.244671,ID4355,complete
+32,Round Grinding,2012-09-24 08:49:54.244671,ID4355,start
+32,Round Grinding,2012-09-24 17:42:20.671844,ID4355,complete
+32,Round Grinding,2012-09-25 11:47:06.301360,ID4355,start
+32,Round Grinding,2012-09-25 14:53:54.872240,ID4355,complete
+32,Turning & Milling Q.C.,2012-09-29 10:13:45.797347,ID4493,start
+32,Turning & Milling Q.C.,2012-09-29 11:57:36.186804,ID4493,complete
+32,Round Grinding,2012-09-29 11:57:36.186804,ID4355,start
+32,Round Grinding,2012-09-29 14:33:26.635566,ID4355,complete
+32,Round Grinding,2012-09-30 01:42:56.480022,ID4355,start
+32,Round Grinding,2012-09-30 02:03:44.896286,ID4355,complete
+32,Round Grinding,2012-10-01 02:41:19.362583,ID4355,start
+32,Round Grinding,2012-10-01 05:05:23.471107,ID4355,complete
+32,Final Inspection Q.C.,2012-10-01 05:34:13.517973,ID4493,start
+32,Final Inspection Q.C.,2012-10-01 06:45:48.491598,ID4493,complete
+32,Packing,2012-10-01 16:49:58.630028,ID4820,start
+32,Packing,2012-10-01 17:49:58.630028,ID4820,complete
+32,End,2012-10-01 17:49:58.630028,End,start
+32,End,2012-10-01 17:49:58.630028,End,complete
+33,Start,2012-09-18 19:15:23.247074,Start,start
+33,Start,2012-09-18 19:15:23.247074,Start,complete
+33,Turning & Milling,2012-09-18 19:15:23.247074,ID4641,start
+33,Turning & Milling,2012-09-18 22:22:21.070526,ID4641,complete
+33,Turning & Milling,2012-09-18 22:22:21.070526,ID4641,start
+33,Turning & Milling,2012-09-19 05:35:21.407020,ID4641,complete
+33,Turning & Milling,2012-09-19 05:35:21.407020,ID4132,start
+33,Turning & Milling,2012-09-19 08:29:24.824560,ID4132,complete
+33,Turning & Milling Q.C.,2012-09-20 11:44:24.689342,ID4493,start
+33,Turning & Milling Q.C.,2012-09-20 11:44:24.689342,ID4493,complete
+33,Turning & Milling Q.C.,2012-09-20 11:44:24.689342,ID4493,start
+33,Turning & Milling Q.C.,2012-09-20 13:18:31.043154,ID4493,complete
+33,Turning & Milling Q.C.,2012-09-20 13:18:31.043154,ID4493,start
+33,Turning & Milling Q.C.,2012-09-20 21:42:10.281008,ID4493,complete
+33,Laser Marking,2012-09-21 09:41:43.340955,ID0998,start
+33,Flat Grinding,2012-09-21 10:04:16.944427,ID4882,start
+33,Laser Marking,2012-09-21 10:12:28.583652,ID0998,complete
+33,Flat Grinding,2012-09-21 10:33:39.952365,ID4882,complete
+33,Final Inspection Q.C.,2012-09-22 02:14:03.804878,ID4493,start
+33,Final Inspection Q.C.,2012-09-22 04:06:23.479083,ID4493,complete
+33,Final Inspection Q.C.,2012-09-28 08:23:41.687437,ID4493,start
+33,Final Inspection Q.C.,2012-09-28 09:08:57.119755,ID4493,complete
+33,Packing,2012-09-29 10:52:01.772284,ID4820,start
+33,Packing,2012-09-29 11:52:01.772284,ID4820,complete
+33,End,2012-09-29 11:52:01.772284,End,start
+33,End,2012-09-29 11:52:01.772284,End,complete
+34,Start,2012-09-18 19:15:23.247074,Start,start
+34,Start,2012-09-18 19:15:23.247074,Start,complete
+34,Milling,2012-09-18 19:15:23.247074,ID4326,start
+34,Milling,2012-09-19 00:04:34.213709,ID4326,complete
+34,Grinding Rework,2012-09-21 16:34:34.213709,ID4528,start
+34,Grinding Rework,2012-09-21 19:38:24.195625,ID4528,complete
+34,Final Inspection Q.C.,2012-09-22 18:27:57.782147,ID4493,start
+34,Final Inspection Q.C.,2012-09-22 19:46:35.991047,ID4493,complete
+34,Final Inspection Q.C.,2012-09-24 18:31:30.107447,ID4493,start
+34,Final Inspection Q.C.,2012-09-24 19:34:45.251892,ID4493,complete
+34,Packing,2012-09-24 19:34:45.251892,ID4820,start
+34,Packing,2012-09-24 20:34:45.251892,ID4820,complete
+34,Lapping,2012-10-27 11:50:58.735845,ID0998,start
+34,Round Grinding,2012-10-27 13:07:40.156768,ID4355,start
+34,Lapping,2012-10-27 13:07:40.156768,ID0998,complete
+34,Round Grinding,2012-10-27 15:51:17.293427,ID4355,complete
+34,End,2012-10-27 15:51:17.293427,End,start
+34,End,2012-10-27 15:51:17.293427,End,complete
+35,Start,2012-09-29 13:08:45.803341,Start,start
+35,Start,2012-09-29 13:08:45.803341,Start,complete
+35,Turning & Milling Q.C.,2012-09-29 13:08:45.803341,ID4163,start
+35,Turning & Milling Q.C.,2012-09-29 13:40:00.596249,ID4163,complete
+35,Laser Marking,2012-10-04 01:55:56.420838,ID0998,start
+35,Laser Marking,2012-10-04 02:55:00.847334,ID0998,complete
+35,Lapping,2012-10-09 11:14:58.460130,ID0998,start
+35,Lapping,2012-10-09 12:14:24.606591,ID0998,complete
+35,Flat Grinding,2012-10-09 21:45:57.220331,ID4882,start
+35,Flat Grinding,2012-10-09 23:34:51.013410,ID4882,complete
+35,Lapping,2012-10-11 08:18:42.530910,ID0998,start
+35,Lapping,2012-10-11 11:32:57.628562,ID0998,complete
+35,Packing,2012-10-17 12:09:17.119847,ID4820,start
+35,Packing,2012-10-17 13:09:17.119847,ID4820,complete
+35,Final Inspection Q.C.,2012-10-17 22:07:34.105432,ID4493,start
+35,Final Inspection Q.C.,2012-10-17 23:49:08.709525,ID4493,complete
+35,End,2012-10-17 23:49:08.709525,End,start
+35,End,2012-10-17 23:49:08.709525,End,complete
+36,Start,2012-09-29 13:08:45.803341,Start,start
+36,Start,2012-09-29 13:08:45.803341,Start,complete
+36,Round Grinding,2012-09-29 13:08:45.803341,ID4493,start
+36,Round Grinding,2012-09-29 14:11:53.802557,ID4493,complete
+36,Round Grinding,2012-09-30 00:21:42.296982,ID4355,start
+36,Round Grinding,2012-09-30 02:13:30.171304,ID4355,complete
+36,Final Inspection Q.C.,2012-09-30 02:13:30.171304,ID4493,start
+36,Final Inspection Q.C.,2012-09-30 02:39:44.486269,ID4493,complete
+36,Packing,2012-10-01 00:20:19.434213,ID4820,start
+36,Packing,2012-10-01 01:20:19.434213,ID4820,complete
+36,End,2012-10-01 01:20:19.434213,End,start
+36,End,2012-10-01 01:20:19.434213,End,complete
+37,Start,2012-09-29 13:08:45.803341,Start,start
+37,Start,2012-09-29 13:08:45.803341,Start,complete
+37,Turning & Milling,2012-09-29 13:08:45.803341,ID4794,start
+37,Turning & Milling,2012-09-29 18:00:43.472391,ID4794,complete
+37,Turning & Milling,2012-09-30 01:04:40.532180,ID4794,start
+37,Turning & Milling,2012-09-30 07:52:39.652282,ID4794,complete
+37,Turning & Milling,2012-09-30 20:47:51.254062,ID4167,start
+37,Turning & Milling Q.C.,2012-09-30 21:46:04.866205,ID4618,start
+37,Turning & Milling,2012-09-30 22:12:24.905481,ID4529,complete
+37,Turning & Milling Q.C.,2012-09-30 22:12:24.905481,ID4493,complete
+37,Turning & Milling Q.C.,2012-09-30 22:12:24.905481,ID4493,start
+37,Turning & Milling Q.C.,2012-09-30 22:39:20.653032,ID4493,complete
+37,Laser Marking,2012-10-02 05:06:57.226493,ID0998,start
+37,Laser Marking,2012-10-02 05:23:00.802847,ID0998,complete
+37,End,2012-10-02 05:23:00.802847,End,start
+37,End,2012-10-02 05:23:00.802847,End,complete
+38,Start,2012-10-30 01:05:04.489458,Start,start
+38,Start,2012-10-30 01:05:04.489458,Start,complete
+38,Turning & Milling,2012-10-30 01:05:04.489458,ID4219,start
+38,Turning & Milling,2012-10-30 08:14:48.887859,ID4219,complete
+38,Turning & Milling,2012-10-30 08:14:48.887859,ID4529,start
+38,Turning & Milling,2012-10-30 16:36:35.516686,ID4529,complete
+38,Turning & Milling,2012-10-30 16:36:35.516686,ID4219,start
+38,Turning & Milling,2012-10-30 22:49:46.066386,ID4219,complete
+38,Turning & Milling Q.C.,2012-11-03 11:58:32.550481,ID4493,start
+38,Turning & Milling,2012-11-03 12:00:25.603884,ID4529,start
+38,Turning & Milling,2012-11-03 23:17:49.069211,ID4529,complete
+38,Turning & Milling Q.C.,2012-11-03 23:17:49.069211,ID4493,complete
+38,Turning & Milling,2012-11-03 23:17:49.069211,ID4529,start
+38,Turning & Milling,2012-11-04 07:42:44.854018,ID4529,complete
+38,Turning & Milling,2012-11-04 11:17:57.527383,ID4529,start
+38,Turning & Milling,2012-11-04 20:39:23.498467,ID4529,complete
+38,Turning & Milling,2012-11-04 20:39:23.498467,ID4529,start
+38,Turning & Milling,2012-11-04 20:39:23.498467,ID4529,complete
+38,Turning & Milling,2012-11-05 01:55:43.391295,ID4529,start
+38,Turning & Milling,2012-11-05 01:55:43.391295,ID4529,complete
+38,Turning & Milling Q.C.,2012-11-05 01:55:43.391295,ID4493,start
+38,Turning & Milling Q.C.,2012-11-05 03:23:58.316325,ID4493,complete
+38,Laser Marking,2012-11-05 03:23:58.316325,ID0998,start
+38,Laser Marking,2012-11-05 04:01:38.073805,ID0998,complete
+38,Turning Rework,2012-11-18 22:26:38.073805,ID4442,start
+38,Turning Rework,2012-11-18 23:56:38.073805,ID4442,complete
+38,Turning & Milling Q.C.,2012-11-19 23:37:38.073805,ID4493,start
+38,Turning & Milling Q.C.,2012-11-20 00:27:47.423990,ID4493,complete
+38,Lapping,2012-12-01 08:38:23.571832,ID0998,start
+38,Lapping,2012-12-01 09:28:02.019350,ID0998,complete
+38,Lapping,2012-12-01 14:54:05.062427,ID0998,start
+38,Lapping,2012-12-01 15:47:50.640989,ID0998,complete
+38,Lapping,2012-12-02 04:25:08.644944,ID0998,start
+38,Lapping,2012-12-02 04:25:08.644944,ID0998,complete
+38,Lapping,2012-12-03 07:38:23.391326,ID0998,start
+38,Lapping,2012-12-03 08:50:53.002302,ID0998,complete
+38,Lapping,2012-12-04 18:16:41.381536,ID0998,start
+38,Lapping,2012-12-04 21:24:09.402454,ID0998,complete
+38,Laser Marking,2012-12-05 00:15:26.727261,ID0998,start
+38,Lapping,2012-12-05 00:15:26.727261,ID0998,start
+38,Lapping,2012-12-05 00:51:01.797483,ID0998,complete
+38,Laser Marking,2012-12-05 02:16:04.164393,ID0998,complete
+38,Round Grinding,2012-12-10 04:54:54.637396,ID4355,start
+38,Round Grinding,2012-12-10 07:54:54.931837,ID4355,complete
+38,Round Grinding,2013-01-06 13:38:04.339947,ID4355,start
+38,Round Grinding,2013-01-06 19:33:11.091391,ID4355,complete
+38,Round Grinding,2013-01-06 19:33:11.091391,ID4355,start
+38,Round Grinding,2013-01-06 22:08:28.444923,ID4355,complete
+38,Round Grinding,2013-01-08 01:10:28.368020,ID4355,start
+38,Round Grinding,2013-01-08 08:06:01.783481,ID4355,complete
+38,Round Grinding,2013-01-11 04:12:15.983011,ID4355,start
+38,Round Grinding,2013-01-11 05:37:05.286072,ID4355,complete
+38,Round Grinding,2013-01-12 12:26:41.842810,ID4355,start
+38,Round Grinding,2013-01-12 12:32:01.319956,ID4355,complete
+38,Round Grinding,2013-01-12 12:32:01.319956,ID4355,start
+38,Round Grinding,2013-01-12 12:32:01.319956,ID4355,complete
+38,Round Grinding,2013-01-17 06:50:39.223252,ID4355,start
+38,Round Grinding,2013-01-17 08:02:27.352543,ID4355,complete
+38,Round Grinding,2013-01-18 21:54:35.597634,ID4355,start
+38,Round Grinding,2013-01-18 22:52:50.926480,ID4355,complete
+38,Final Inspection Q.C.,2013-01-19 21:39:37.620127,ID4493,start
+38,Final Inspection Q.C.,2013-01-20 00:01:39.447567,ID4493,complete
+38,Packing,2013-01-21 04:54:36.571721,ID4820,start
+38,Packing,2013-01-21 05:54:36.571721,ID4820,complete
+38,Packing,2013-01-28 04:03:42.700960,ID4820,start
+38,Packing,2013-01-28 05:03:42.700960,ID4820,complete
+38,Final Inspection Q.C.,2013-01-28 21:12:52.515747,ID4493,start
+38,Final Inspection Q.C.,2013-01-29 02:02:22.251130,ID4493,complete
+38,Grinding Rework,2013-01-29 02:02:22.251130,ID4528,start
+38,Grinding Rework,2013-01-29 06:35:56.967526,ID4528,complete
+38,Packing,2013-01-29 06:35:56.967526,ID4820,start
+38,Packing,2013-01-29 07:35:56.967526,ID4820,complete
+38,Final Inspection Q.C.,2013-01-29 18:17:50.531123,ID4493,start
+38,Final Inspection Q.C.,2013-01-29 18:22:02.336312,ID4493,complete
+38,Laser Marking,2013-02-15 23:13:20.673734,ID0998,start
+38,Laser Marking,2013-02-16 00:12:03.895375,ID0998,complete
+38,End,2013-02-16 00:12:03.895375,End,start
+38,End,2013-02-16 00:12:03.895375,End,complete
+39,Start,2012-11-29 02:39:13.551430,Start,start
+39,Start,2012-11-29 02:39:13.551430,Start,complete
+39,Turning & Milling,2012-11-29 02:39:13.551430,ID4641,start
+39,Turning & Milling,2012-11-29 06:53:08.691865,ID4641,complete
+39,Turning & Milling,2012-11-29 18:38:06.509331,ID3846,start
+39,Turning & Milling,2012-11-29 21:06:18.305963,ID3846,complete
+39,Turning & Milling,2012-11-29 21:06:18.305963,ID3846,start
+39,Turning & Milling,2012-11-30 05:22:03.369536,ID3846,complete
+39,Lapping,2012-11-30 05:22:03.369536,ID0998,start
+39,Lapping,2012-11-30 06:44:39.081542,ID0998,complete
+39,Turning & Milling Q.C.,2012-11-30 08:29:44.383145,ID4493,start
+39,Turning & Milling Q.C.,2012-11-30 11:06:57.815920,ID4493,complete
+39,Laser Marking,2012-12-03 13:33:41.491460,ID0998,start
+39,Laser Marking,2012-12-03 13:45:56.155766,ID0998,complete
+39,Flat Grinding,2012-12-05 04:45:37.550306,ID4882,start
+39,Flat Grinding,2012-12-05 04:45:37.550306,ID4882,start
+39,Lapping,2012-12-05 04:45:37.550306,ID0998,start
+39,Flat Grinding,2012-12-05 06:46:39.826036,ID4882,complete
+39,Flat Grinding,2012-12-05 08:56:19.281693,ID4882,complete
+39,Lapping,2012-12-05 08:56:19.281693,ID0998,complete
+39,Round Grinding,2012-12-05 16:34:33.476384,ID4355,start
+39,Round Grinding,2012-12-05 21:04:05.736553,ID4355,complete
+39,Round Grinding,2012-12-05 21:04:05.736553,ID4355,start
+39,Round Grinding,2012-12-05 21:25:02.796488,ID4355,complete
+39,Round Grinding,2012-12-05 23:50:10.588021,ID4355,start
+39,Round Grinding,2012-12-06 00:15:10.215976,ID4355,complete
+39,Final Inspection Q.C.,2012-12-06 03:45:29.608522,ID4493,start
+39,Final Inspection Q.C.,2012-12-06 06:16:25.127055,ID4493,complete
+39,Packing,2012-12-07 12:59:41.663227,ID4820,start
+39,Packing,2012-12-07 13:59:41.663227,ID4820,complete
+39,Final Inspection Q.C.,2012-12-08 06:04:45.644214,ID4493,start
+39,Final Inspection Q.C.,2012-12-08 07:50:26.019629,ID4493,complete
+39,End,2012-12-08 07:50:26.019629,End,start
+39,End,2012-12-08 07:50:26.019629,End,complete
+40,Start,2012-12-29 11:28:15.835928,Start,start
+40,Start,2012-12-29 11:28:15.835928,Start,complete
+40,Turning & Milling,2012-12-29 11:28:15.835928,ID4641,start
+40,Turning & Milling,2012-12-29 19:08:40.927572,ID4641,complete
+40,Turning & Milling,2012-12-29 23:54:05.265636,ID3846,start
+40,Turning & Milling,2012-12-30 08:58:00.506571,ID3846,complete
+40,Turning & Milling,2012-12-30 12:57:37.705903,ID3846,start
+40,Turning & Milling Q.C.,2012-12-30 20:00:02.964638,ID4493,start
+40,Turning & Milling,2012-12-30 22:15:42.708754,ID4529,complete
+40,Turning & Milling Q.C.,2012-12-30 22:15:42.708754,ID4493,complete
+40,Turning & Milling Q.C.,2013-01-02 20:42:47.450466,ID4493,start
+40,Turning & Milling Q.C.,2013-01-02 23:31:52.099050,ID4493,complete
+40,Laser Marking,2013-01-03 19:41:02.750605,ID0998,start
+40,Laser Marking,2013-01-03 20:16:41.294462,ID0998,complete
+40,End,2013-01-03 20:16:41.294462,End,start
+40,End,2013-01-03 20:16:41.294462,End,complete
+41,Start,2012-12-29 11:28:15.835928,Start,start
+41,Start,2012-12-29 11:28:15.835928,Start,complete
+41,Packing,2012-12-29 11:28:15.835928,ID4820,start
+41,Packing,2012-12-29 12:28:15.835928,ID4820,complete
+41,Final Inspection Q.C.,2012-12-29 13:23:41.330535,ID4287,start
+41,Final Inspection Q.C.,2012-12-29 13:41:19.288479,ID4287,complete
+41,Turning Q.C.,2013-01-06 03:35:00.573570,ID4287,start
+41,Turning Q.C.,2013-01-06 04:33:38.116157,ID4287,complete
+41,Turning Q.C.,2013-01-06 04:33:38.116157,ID4287,start
+41,Turning Q.C.,2013-01-06 07:46:13.499526,ID4287,complete
+41,Turning,2013-01-06 07:46:13.499526,ID0997,start
+41,Turning,2013-01-06 08:18:17.414555,ID0997,complete
+41,Final Inspection Q.C.,2013-01-08 01:03:17.414555,ID4493,start
+41,Final Inspection Q.C.,2013-01-08 01:03:17.414555,ID4493,start
+41,Packing,2013-01-08 01:03:17.414555,ID4820,start
+41,Packing,2013-01-08 02:03:17.414555,ID4820,complete
+41,Final Inspection Q.C.,2013-01-08 02:18:00.358947,ID4493,complete
+41,Final Inspection Q.C.,2013-01-08 02:18:00.358947,ID4493,complete
+41,Final Inspection Q.C.,2013-01-08 02:18:00.358947,ID4493,start
+41,Final Inspection Q.C.,2013-01-08 03:04:30.118436,ID4493,complete
+41,Final Inspection Q.C.,2013-01-08 03:04:30.118436,ID4493,start
+41,Final Inspection Q.C.,2013-01-08 03:04:30.118436,ID4493,complete
+41,Packing,2013-01-09 05:10:40.188160,ID4820,start
+41,Packing,2013-01-09 06:10:40.188160,ID4820,complete
+41,Final Inspection Q.C.,2013-01-09 14:16:19.467032,ID4493,start
+41,Final Inspection Q.C.,2013-01-09 18:45:34.182602,ID4493,complete
+41,Final Inspection Q.C.,2013-01-10 19:50:23.082356,ID4493,start
+41,Final Inspection Q.C.,2013-01-10 20:29:54.296489,ID4493,complete
+41,End,2013-01-10 20:29:54.296489,End,start
+41,End,2013-01-10 20:29:54.296489,End,complete
+42,Start,2012-12-29 11:28:15.835928,Start,start
+42,Start,2012-12-29 11:28:15.835928,Start,complete
+42,Turning & Milling,2012-12-29 11:28:15.835928,ID0997,start
+42,Turning & Milling,2012-12-29 12:03:02.254329,ID0997,complete
+42,Turning & Milling,2012-12-29 12:03:02.254329,ID0997,start
+42,Turning & Milling,2012-12-29 21:56:31.557489,ID0997,complete
+42,Turning & Milling,2012-12-30 04:21:37.455190,ID4445,start
+42,Turning & Milling Q.C.,2012-12-30 04:21:37.455190,ID4493,start
+42,Turning & Milling,2012-12-30 04:36:47.131196,ID4529,complete
+42,Turning & Milling Q.C.,2012-12-30 06:17:08.049875,ID4493,complete
+42,Turning & Milling,2013-01-01 23:41:12.847727,ID4529,start
+42,Turning & Milling,2013-01-02 11:16:13.286630,ID4529,complete
+42,Turning & Milling,2013-01-02 11:16:13.286630,ID4529,start
+42,Turning & Milling,2013-01-02 14:51:20.687525,ID4529,complete
+42,Turning & Milling Q.C.,2013-01-04 00:35:30.779646,ID4493,start
+42,Turning & Milling Q.C.,2013-01-04 01:00:11.954713,ID4493,complete
+42,Turning & Milling Q.C.,2013-01-04 01:00:11.954713,ID4493,start
+42,Turning & Milling Q.C.,2013-01-04 01:00:11.954713,ID4493,complete
+42,Laser Marking,2013-01-06 11:45:48.786453,ID0998,start
+42,Laser Marking,2013-01-06 12:40:32.054878,ID0998,complete
+42,Lapping,2013-01-06 12:40:32.054878,ID0998,start
+42,Lapping,2013-01-06 13:57:45.209154,ID0998,complete
+42,Lapping,2013-01-07 11:01:18.367655,ID0998,start
+42,Lapping,2013-01-07 11:35:42.429067,ID0998,complete
+42,Final Inspection Q.C.,2013-01-11 18:31:32.252277,ID4493,start
+42,Final Inspection Q.C.,2013-01-11 20:18:11.324465,ID4493,complete
+42,Packing,2013-01-11 20:18:11.324465,ID4820,start
+42,Packing,2013-01-11 21:18:11.324465,ID4820,complete
+42,Final Inspection Q.C.,2013-01-12 04:40:07.833367,ID4493,start
+42,Final Inspection Q.C.,2013-01-12 05:51:54.461451,ID4493,complete
+42,End,2013-01-12 05:51:54.461451,End,start
+42,End,2013-01-12 05:51:54.461451,End,complete
+43,Start,2012-12-29 11:28:15.835928,Start,start
+43,Start,2012-12-29 11:28:15.835928,Start,complete
+43,Turning & Milling,2012-12-29 11:28:15.835928,ID4932,start
+43,Turning & Milling,2012-12-29 23:04:57.440883,ID4932,complete
+43,Turning & Milling,2012-12-29 23:04:57.440883,ID4932,start
+43,Turning & Milling Q.C.,2012-12-30 03:43:30.297898,ID4493,start
+43,Turning & Milling,2012-12-30 04:15:00.156813,ID4529,complete
+43,Turning & Milling,2012-12-30 04:15:00.156813,ID4529,start
+43,Turning & Milling Q.C.,2012-12-30 05:37:57.990524,ID4493,complete
+43,Turning & Milling,2012-12-30 10:19:43.352348,ID4529,complete
+43,Turning & Milling,2012-12-30 20:07:16.191221,ID4529,start
+43,Turning & Milling,2012-12-30 22:45:49.119161,ID4529,complete
+43,Turning & Milling,2013-01-02 03:45:01.574784,ID4529,start
+43,Turning & Milling,2013-01-02 08:51:59.788682,ID4529,complete
+43,Turning & Milling,2013-01-02 08:51:59.788682,ID4529,start
+43,Turning & Milling,2013-01-02 13:22:23.245422,ID4529,complete
+43,Turning & Milling Q.C.,2013-01-03 01:52:20.224070,ID4493,start
+43,Turning & Milling,2013-01-03 01:52:20.224070,ID4529,start
+43,Turning & Milling,2013-01-03 06:14:03.833058,ID4529,start
+43,Turning & Milling Q.C.,2013-01-03 07:42:20.782667,ID4493,complete
+43,Turning & Milling,2013-01-03 12:12:34.138595,ID4529,complete
+43,Turning & Milling,2013-01-03 12:12:34.138595,ID4529,complete
+43,Turning & Milling,2013-01-03 20:46:50.780578,ID4529,start
+43,Turning & Milling Q.C.,2013-01-04 02:24:35.638464,ID4493,start
+43,Turning & Milling Q.C.,2013-01-04 03:19:52.958076,ID4493,complete
+43,Turning & Milling,2013-01-04 06:17:09.788364,ID4529,complete
+43,Turning & Milling,2013-01-04 06:17:09.788364,ID4529,start
+43,Turning & Milling,2013-01-04 09:47:18.789821,ID4529,complete
+43,Turning & Milling,2013-01-04 09:47:18.789821,ID4529,start
+43,Turning & Milling,2013-01-04 12:30:16.493485,ID4529,complete
+43,Turning & Milling,2013-01-04 12:30:16.493485,ID4529,start
+43,Turning & Milling,2013-01-04 13:11:55.971085,ID4529,complete
+43,Laser Marking,2013-01-06 03:33:20.141363,ID0998,start
+43,Laser Marking,2013-01-06 04:07:30.067669,ID0998,complete
+43,Turning & Milling Q.C.,2013-01-06 04:07:30.067669,ID4493,start
+43,Turning & Milling Q.C.,2013-01-06 05:12:18.974776,ID4493,complete
+43,Laser Marking,2013-01-07 16:12:48.135928,ID0998,start
+43,Laser Marking,2013-01-07 17:19:36.902623,ID0998,complete
+43,Packing,2013-01-08 01:32:29.247372,ID4820,start
+43,Packing,2013-01-08 02:32:29.247372,ID4820,complete
+43,Final Inspection Q.C.,2013-01-08 11:32:06.550773,ID4493,start
+43,Final Inspection Q.C.,2013-01-08 14:59:53.704923,ID4493,complete
+43,Turning & Milling Q.C.,2013-01-10 02:32:26.772472,ID4493,start
+43,Turning & Milling Q.C.,2013-01-10 02:32:26.772472,ID4493,complete
+43,End,2013-01-10 02:32:26.772472,End,start
+43,End,2013-01-10 02:32:26.772472,End,complete
+44,Start,2012-12-29 11:28:15.835928,Start,start
+44,Start,2012-12-29 11:28:15.835928,Start,complete
+44,Round Grinding,2012-12-29 11:28:15.835928,ID4872,start
+44,Round Grinding,2012-12-29 14:06:27.577812,ID4872,complete
+44,Round Grinding,2012-12-29 14:06:27.577812,ID4872,start
+44,Round Grinding,2012-12-29 18:19:37.657448,ID4872,complete
+44,Grinding Rework,2012-12-30 07:25:15.442458,ID4528,start
+44,Grinding Rework,2012-12-30 12:00:44.129853,ID4528,complete
+44,Grinding Rework,2012-12-31 15:24:25.348384,ID4528,start
+44,Lapping,2012-12-31 16:36:13.362016,ID0998,start
+44,Lapping,2012-12-31 16:36:13.362016,ID0998,start
+44,Grinding Rework,2012-12-31 17:50:43.807517,ID4528,complete
+44,Lapping,2012-12-31 18:30:25.705901,ID0998,complete
+44,Lapping,2012-12-31 18:30:25.705901,ID0998,complete
+44,Grinding Rework,2013-01-01 00:59:11.018696,ID4528,start
+44,Grinding Rework,2013-01-01 04:16:11.018696,ID4528,start
+44,Grinding Rework,2013-01-01 07:03:18.661497,ID4528,complete
+44,Grinding Rework,2013-01-01 11:59:18.661497,ID4528,complete
+44,Grinding Rework,2013-01-05 00:01:28.678610,ID4528,start
+44,Grinding Rework,2013-01-05 03:59:01.112962,ID4528,complete
+44,Fix,2013-01-05 04:11:01.112962,ID4219,start
+44,Fix,2013-01-05 07:20:25.391203,ID4219,complete
+44,Grinding Rework,2013-01-05 07:36:25.391203,ID4528,start
+44,Grinding Rework,2013-01-05 08:14:57.313138,ID4528,complete
+44,Grinding Rework,2013-01-08 17:18:44.669385,ID4528,start
+44,Grinding Rework,2013-01-08 19:25:03.551076,ID4528,complete
+44,Grinding Rework,2013-01-08 19:25:03.551076,ID4528,start
+44,Grinding Rework,2013-01-08 19:33:13.140651,ID4528,complete
+44,Grinding Rework,2013-01-10 11:55:24.451529,ID4528,start
+44,Grinding Rework,2013-01-10 15:59:36.561647,ID4528,complete
+44,Grinding Rework,2013-01-17 11:15:22.925990,ID4528,start
+44,Grinding Rework,2013-01-17 12:26:08.777755,ID4528,complete
+44,Grinding Rework,2013-01-17 12:26:08.777755,ID4528,start
+44,Grinding Rework,2013-01-17 13:54:26.788033,ID4528,complete
+44,Grinding Rework,2013-01-19 22:46:13.477455,ID4528,start
+44,Grinding Rework,2013-01-19 22:59:26.065471,ID4528,complete
+44,Grinding Rework,2013-01-24 09:10:12.397470,ID4528,start
+44,Grinding Rework,2013-01-24 11:32:37.806763,ID4528,complete
+44,Grinding Rework,2013-01-24 11:32:37.806763,ID4528,start
+44,Grinding Rework,2013-01-24 13:26:44.881863,ID4528,complete
+44,Grinding Rework,2013-01-24 13:26:44.881863,ID4528,start
+44,Grinding Rework,2013-01-24 15:26:23.199052,ID4528,complete
+44,Grinding Rework,2013-01-31 09:26:39.380588,ID4528,start
+44,Grinding Rework,2013-01-31 11:43:12.288335,ID4528,complete
+44,Grinding Rework,2013-01-31 18:09:59.427923,ID4528,start
+44,Grinding Rework,2013-01-31 19:20:46.135663,ID4528,complete
+44,Grinding Rework,2013-02-02 07:34:48.645770,ID4528,start
+44,Grinding Rework,2013-02-02 14:38:00.493010,ID4528,complete
+44,Grinding Rework,2013-02-02 14:38:00.493010,ID4528,start
+44,Grinding Rework,2013-02-02 14:46:11.384929,ID4528,complete
+44,Grinding Rework,2013-02-04 19:02:15.028650,ID4528,start
+44,Grinding Rework,2013-02-04 20:20:13.438086,ID4528,complete
+44,Grinding Rework,2013-02-04 20:20:13.438086,ID4528,start
+44,Grinding Rework,2013-02-04 23:30:54.809987,ID4528,complete
+44,Grinding Rework,2013-02-08 22:06:35.687604,ID4528,start
+44,Grinding Rework,2013-02-08 22:20:42.058636,ID4528,complete
+44,Grinding Rework,2013-02-08 22:20:42.058636,ID4528,start
+44,Grinding Rework,2013-02-09 01:35:50.303021,ID4528,complete
+44,Grinding Rework,2013-02-09 01:35:50.303021,ID4528,start
+44,Grinding Rework,2013-02-09 04:33:16.157377,ID4528,complete
+44,Turning & Milling Q.C.,2013-02-09 05:17:16.157377,ID4493,start
+44,Turning & Milling Q.C.,2013-02-09 08:49:42.040217,ID4493,complete
+44,Lapping,2013-03-24 01:00:16.695601,ID0998,start
+44,Laser Marking,2013-03-24 04:52:05.814552,ID0998,start
+44,Round Grinding,2013-03-24 07:00:04.821794,ID4355,start
+44,Round Grinding,2013-03-24 09:27:43.364076,ID4355,start
+44,Lapping,2013-03-24 09:40:17.478315,ID0998,complete
+44,Round Grinding,2013-03-24 09:40:17.478315,ID4355,complete
+44,Round Grinding,2013-03-24 11:47:14.292967,ID4355,complete
+44,Laser Marking,2013-03-24 11:47:14.292967,ID0998,complete
+44,End,2013-03-24 11:47:14.292967,End,start
+44,End,2013-03-24 11:47:14.292967,End,complete
+45,Start,2012-12-29 11:28:15.835928,Start,start
+45,Start,2012-12-29 11:28:15.835928,Start,complete
+45,Turning & Milling,2012-12-29 11:28:15.835928,ID4794,start
+45,Turning & Milling,2012-12-29 12:57:09.181344,ID4794,complete
+45,Turning & Milling,2012-12-29 21:12:52.214177,ID4529,start
+45,Turning & Milling,2012-12-29 22:07:43.519268,ID4529,complete
+45,Turning & Milling,2012-12-29 22:07:43.519268,ID4529,start
+45,Turning & Milling,2012-12-29 22:07:43.519268,ID4529,complete
+45,Turning & Milling Q.C.,2012-12-29 22:07:43.519268,ID4493,start
+45,Turning & Milling Q.C.,2012-12-29 22:41:26.757534,ID4493,complete
+45,End,2012-12-29 22:41:26.757534,End,start
+45,End,2012-12-29 22:41:26.757534,End,complete
+46,Start,2013-01-12 15:11:29.809529,Start,start
+46,Start,2013-01-12 15:11:29.809529,Start,complete
+46,Packing,2013-01-12 15:11:29.809529,ID4491,start
+46,Packing,2013-01-12 16:11:29.809529,ID4491,complete
+46,Final Inspection Q.C.,2013-01-13 02:33:46.906200,ID4287,start
+46,Final Inspection Q.C.,2013-01-13 02:49:43.863800,ID4287,complete
+46,End,2013-01-13 02:49:43.863800,End,start
+46,End,2013-01-13 02:49:43.863800,End,complete
+47,Start,2013-01-12 15:11:29.809529,Start,start
+47,Start,2013-01-12 15:11:29.809529,Start,complete
+47,Turning,2013-01-12 15:11:29.809529,ID4641,start
+47,Turning,2013-01-12 16:39:35.321650,ID4641,complete
+47,Turning Q.C.,2013-01-16 05:50:07.664304,ID4287,start
+47,Turning Q.C.,2013-01-16 08:15:31.625173,ID4287,complete
+47,Laser Marking,2013-01-24 20:00:15.224164,ID0998,start
+47,Laser Marking,2013-01-24 22:01:46.641176,ID0998,complete
+47,Final Inspection Q.C.,2013-01-26 05:37:29.949237,ID4493,start
+47,Final Inspection Q.C.,2013-01-26 07:53:59.401142,ID4493,complete
+47,Packing,2013-01-26 13:31:57.387628,ID4820,start
+47,Packing,2013-01-26 14:31:57.387628,ID4820,complete
+47,End,2013-01-26 14:31:57.387628,End,start
+47,End,2013-01-26 14:31:57.387628,End,complete
+48,Start,2013-01-22 01:16:35.180570,Start,start
+48,Start,2013-01-22 01:16:35.180570,Start,complete
+48,Setup,2013-01-22 01:16:35.180570,ID4219,start
+48,Setup,2013-01-22 02:32:35.180570,ID4219,complete
+48,Turning & Milling,2013-01-22 03:07:35.180570,ID4219,start
+48,Turning & Milling,2013-01-22 12:42:37.368735,ID4219,complete
+48,Turning & Milling,2013-01-22 14:28:32.871370,ID4219,start
+48,Turning & Milling,2013-01-22 15:31:09.222444,ID4219,complete
+48,Turning & Milling,2013-01-22 16:14:23.582079,ID4219,start
+48,Turning & Milling,2013-01-23 00:54:41.547767,ID4219,complete
+48,Turning & Milling,2013-01-23 13:47:52.686840,ID4794,start
+48,Turning & Milling,2013-01-23 23:36:20.131916,ID4794,complete
+48,Turning & Milling,2013-01-23 23:36:20.131916,ID0997,start
+48,Turning & Milling,2013-01-23 23:36:20.131916,ID0997,complete
+48,Turning & Milling,2013-01-23 23:36:20.131916,ID0997,start
+48,Turning & Milling,2013-01-24 00:19:38.902666,ID0997,complete
+48,Turning & Milling,2013-01-24 01:18:52.974243,ID0997,start
+48,Turning & Milling,2013-01-24 01:23:29.311173,ID0997,complete
+48,Turning & Milling Q.C.,2013-01-24 05:58:55.986570,ID4618,start
+48,Turning & Milling Q.C.,2013-01-24 07:31:20.500560,ID4618,complete
+48,Flat Grinding,2013-01-24 07:31:20.500560,ID0998,start
+48,Flat Grinding,2013-01-24 13:13:21.941777,ID0998,complete
+48,Lapping,2013-01-25 11:11:59.746818,ID0998,start
+48,Lapping,2013-01-25 11:40:31.507508,ID0998,complete
+48,Round Grinding,2013-01-26 03:08:46.252691,ID4528,start
+48,Round Grinding,2013-01-26 05:21:04.532990,ID4528,complete
+48,Round Grinding,2013-01-26 05:21:04.532990,ID4528,start
+48,Round Grinding,2013-01-26 05:28:16.627621,ID4528,complete
+48,Final Inspection Q.C.,2013-01-26 17:06:44.264911,ID4618,start
+48,Lapping,2013-01-26 17:06:44.264911,ID0998,start
+48,Lapping,2013-01-26 19:01:11.428519,ID0998,complete
+48,Laser Marking,2013-01-27 05:39:03.384113,ID0998,start
+48,Laser Marking,2013-01-27 06:48:08.898652,ID0998,complete
+48,Final Inspection Q.C.,2013-01-27 08:39:30.305962,ID4618,complete
+48,Packing,2013-01-27 08:39:30.305962,ID4820,start
+48,Packing,2013-01-27 09:39:30.305962,ID4820,complete
+48,End,2013-01-27 09:39:30.305962,End,start
+48,End,2013-01-27 09:39:30.305962,End,complete
+49,Start,2013-01-22 06:47:43.498758,Start,start
+49,Start,2013-01-22 06:47:43.498758,Start,complete
+49,Turning & Milling,2013-01-22 06:47:43.498758,ID4529,start
+49,Turning & Milling,2013-01-22 12:58:26.463146,ID4529,complete
+49,Turning & Milling,2013-01-22 20:19:00.223199,ID4794,start
+49,Turning & Milling,2013-01-23 01:40:28.582290,ID4794,complete
+49,Turning & Milling,2013-01-23 10:21:38.041276,ID4794,start
+49,Turning & Milling,2013-01-24 04:12:17.828177,ID4794,complete
+49,Turning & Milling,2013-01-24 04:12:17.828177,ID4529,start
+49,Turning & Milling,2013-01-24 06:25:43.309487,ID4529,complete
+49,Turning & Milling,2013-01-24 15:53:43.393963,ID4794,start
+49,Turning & Milling,2013-01-24 23:30:12.465334,ID4794,complete
+49,Turning & Milling,2013-01-29 02:27:24.988025,ID4529,start
+49,Turning & Milling,2013-01-29 04:55:10.428895,ID4529,complete
+49,Turning & Milling,2013-01-29 06:47:08.930512,ID4529,start
+49,Turning & Milling,2013-01-29 11:27:21.046777,ID4529,complete
+49,Turning & Milling,2013-01-30 06:54:25.454091,ID4529,start
+49,Turning & Milling,2013-01-30 13:02:42.623125,ID4529,complete
+49,Turning & Milling,2013-01-30 16:30:01.843906,ID4529,start
+49,Turning & Milling,2013-01-30 17:48:33.830147,ID4529,complete
+49,Turning & Milling,2013-01-31 00:27:37.772960,ID4529,start
+49,Turning & Milling Q.C.,2013-01-31 02:15:33.011106,ID4493,start
+49,Turning & Milling Q.C.,2013-01-31 04:18:06.583466,ID4493,complete
+49,Turning & Milling,2013-01-31 10:19:11.295312,ID4529,complete
+49,Turning & Milling,2013-01-31 17:01:42.836952,ID4529,start
+49,Turning & Milling,2013-01-31 17:01:42.836952,ID4529,start
+49,Turning & Milling,2013-01-31 23:36:38.098623,ID4529,complete
+49,Turning & Milling,2013-02-01 06:40:58.909352,ID4529,start
+49,Turning & Milling,2013-02-01 15:51:53.357543,ID4529,complete
+49,Turning & Milling,2013-02-01 15:51:53.357543,ID4529,start
+49,Turning & Milling Q.C.,2013-02-01 16:26:12.855396,ID4493,start
+49,Turning & Milling,2013-02-01 16:53:39.639508,ID4529,complete
+49,Turning & Milling,2013-02-01 16:53:39.639508,ID4529,start
+49,Turning & Milling,2013-02-01 20:13:22.242209,ID4529,complete
+49,Turning & Milling,2013-02-01 20:13:22.242209,ID4529,start
+49,Turning & Milling,2013-02-01 23:45:30.274707,ID4529,complete
+49,Turning & Milling Q.C.,2013-02-02 00:49:55.230284,ID4493,complete
+49,Turning & Milling,2013-02-02 03:11:32.445399,ID4529,complete
+49,Laser Marking,2013-02-02 03:11:32.445399,ID0998,start
+49,Laser Marking,2013-02-02 03:15:03.095277,ID0998,complete
+49,End,2013-02-02 03:15:03.095277,End,start
+49,End,2013-02-02 03:15:03.095277,End,complete
+50,Start,2013-01-26 05:03:06.205549,Start,start
+50,Start,2013-01-26 05:03:06.205549,Start,complete
+50,Turning & Milling,2013-01-26 05:03:06.205549,ID4794,start
+50,Turning & Milling,2013-01-26 11:19:17.158757,ID4794,complete
+50,Turning & Milling,2013-01-26 11:19:17.158757,ID4167,start
+50,Turning & Milling,2013-01-26 14:28:38.245251,ID4167,complete
+50,End,2013-01-26 14:28:38.245251,End,start
+50,End,2013-01-26 14:28:38.245251,End,complete
+51,Start,2013-02-23 06:38:09.747453,Start,start
+51,Start,2013-02-23 06:38:09.747453,Start,complete
+51,Round Grinding,2013-02-23 06:38:09.747453,ID4493,start
+51,Round Grinding,2013-02-23 15:24:28.381449,ID4493,complete
+51,Round Grinding,2013-02-24 15:21:09.947571,ID4355,start
+51,Round Grinding,2013-02-24 15:28:35.886827,ID4355,complete
+51,Turning & Milling Q.C.,2013-02-25 17:51:52.208664,ID4493,start
+51,Round Grinding,2013-02-25 18:08:44.321967,ID4355,start
+51,Turning & Milling Q.C.,2013-02-25 19:04:17.408207,ID4493,complete
+51,Round Grinding,2013-02-26 01:33:52.622379,ID4355,complete
+51,Round Grinding,2013-02-26 08:50:30.639127,ID4355,start
+51,Round Grinding,2013-02-26 12:16:33.609776,ID4355,complete
+51,Round Grinding,2013-02-26 12:16:33.609776,ID4355,start
+51,Round Grinding,2013-02-26 14:14:50.104560,ID4355,complete
+51,Final Inspection Q.C.,2013-02-26 14:14:50.104560,ID4493,start
+51,Final Inspection Q.C.,2013-02-26 15:43:07.237350,ID4493,complete
+51,Packing,2013-02-26 22:16:03.146400,ID4820,start
+51,Packing,2013-02-26 23:16:03.146400,ID4820,complete
+51,End,2013-02-26 23:16:03.146400,End,start
+51,End,2013-02-26 23:16:03.146400,End,complete
+52,Start,2013-02-23 06:38:09.747453,Start,start
+52,Start,2013-02-23 06:38:09.747453,Start,complete
+52,Turning & Milling,2013-02-23 06:38:09.747453,ID4529,start
+52,Turning & Milling,2013-02-23 08:35:12.874162,ID4529,complete
+52,Turning & Milling,2013-02-23 22:02:20.696639,ID4429,start
+52,Turning & Milling,2013-02-24 01:52:11.491972,ID4529,start
+52,Turning & Milling,2013-02-24 07:58:16.555532,ID4529,complete
+52,Turning & Milling,2013-02-24 12:58:12.996027,ID4529,complete
+52,Turning & Milling Q.C.,2013-02-24 18:48:37.555627,ID4493,start
+52,Turning & Milling Q.C.,2013-02-24 19:38:23.414625,ID4493,complete
+52,Turning & Milling,2013-03-25 14:11:53.217905,ID4529,start
+52,Turning & Milling,2013-03-26 01:29:03.595226,ID4529,complete
+52,Turning & Milling Q.C.,2013-03-27 07:32:51.450593,ID4493,start
+52,Turning & Milling Q.C.,2013-03-27 09:04:20.163157,ID4493,complete
+52,Laser Marking,2013-03-27 09:04:20.163157,ID0998,start
+52,Laser Marking,2013-03-27 09:40:14.642638,ID0998,complete
+52,Lapping,2013-03-30 08:50:39.986879,ID0998,start
+52,Lapping,2013-03-30 11:18:45.064045,ID0998,complete
+52,Final Inspection Q.C.,2013-03-30 11:18:45.064045,ID4493,start
+52,Final Inspection Q.C.,2013-03-30 12:09:31.132918,ID4493,complete
+52,Final Inspection Q.C.,2013-03-31 02:19:27.810068,ID4493,start
+52,Final Inspection Q.C.,2013-03-31 05:41:46.052908,ID4493,complete
+52,Packing,2013-04-01 09:56:07.740340,ID4820,start
+52,Packing,2013-04-01 10:56:07.740340,ID4820,complete
+52,End,2013-04-01 10:56:07.740340,End,start
+52,End,2013-04-01 10:56:07.740340,End,complete
+53,Start,2013-03-04 01:39:58.042026,Start,start
+53,Start,2013-03-04 01:39:58.042026,Start,complete
+53,Turning & Milling,2013-03-04 01:39:58.042026,ID4167,start
+53,Turning & Milling,2013-03-04 12:26:36.616491,ID4167,complete
+53,Turning & Milling,2013-03-04 23:02:22.137937,ID4794,start
+53,Turning & Milling,2013-03-05 01:44:30.842033,ID4794,complete
+53,Turning & Milling,2013-03-05 05:36:54.265381,ID4794,start
+53,Turning & Milling,2013-03-05 15:15:44.572977,ID4794,complete
+53,Turning & Milling,2013-03-05 15:15:44.572977,ID4167,start
+53,Turning & Milling,2013-03-05 18:18:00.895011,ID4529,complete
+53,Turning & Milling,2013-03-06 04:51:05.985650,ID4529,start
+53,Turning & Milling,2013-03-06 09:28:43.726762,ID4529,complete
+53,Turning & Milling,2013-03-07 01:55:35.915441,ID4529,start
+53,Turning & Milling,2013-03-07 12:56:39.287518,ID4529,complete
+53,Turning & Milling,2013-03-07 21:30:56.348147,ID4529,start
+53,Turning & Milling,2013-03-08 07:53:14.528702,ID4529,complete
+53,Turning & Milling Q.C.,2013-03-09 04:38:46.224856,ID4493,start
+53,Turning & Milling Q.C.,2013-03-09 04:53:28.318916,ID4493,complete
+53,Lapping,2013-03-16 06:07:00.208851,ID0998,start
+53,Lapping,2013-03-16 08:48:05.928671,ID0998,complete
+53,Round Grinding,2013-03-18 03:14:49.435843,ID4355,start
+53,Round Grinding,2013-03-18 08:01:01.606035,ID4355,complete
+53,Round Grinding,2013-03-18 16:10:16.959746,ID4355,start
+53,Round Grinding,2013-03-18 18:19:37.590570,ID4355,complete
+53,Laser Marking,2013-03-19 01:57:54.084328,ID0998,start
+53,Laser Marking,2013-03-19 03:57:15.966695,ID0998,complete
+53,Final Inspection Q.C.,2013-03-20 09:46:06.663027,ID4493,start
+53,Final Inspection Q.C.,2013-03-20 10:41:49.562012,ID4493,complete
+53,Packing,2013-04-26 10:02:50.889285,ID4820,start
+53,Packing,2013-04-26 11:02:50.889285,ID4820,complete
+53,Final Inspection Q.C.,2013-04-26 13:19:35.982149,ID4493,start
+53,Final Inspection Q.C.,2013-04-26 17:00:19.874223,ID4493,complete
+53,End,2013-04-26 17:00:19.874223,End,start
+53,End,2013-04-26 17:00:19.874223,End,complete
+54,Start,2013-03-28 06:25:54.679304,Start,start
+54,Start,2013-03-28 06:25:54.679304,Start,complete
+54,Milling,2013-03-28 06:25:54.679304,ID4326,start
+54,Milling,2013-03-28 17:11:18.560130,ID4326,complete
+54,Milling,2013-03-28 20:30:52.271010,ID4326,start
+54,Milling,2013-03-29 04:17:19.849425,ID4326,complete
+54,Final Inspection Q.C.,2013-03-29 17:17:19.849425,ID4163,start
+54,Milling,2013-03-29 17:17:19.849425,ID4326,start
+54,Final Inspection Q.C.,2013-03-29 23:07:19.849425,ID4163,complete
+54,Milling,2013-03-30 02:11:56.276654,ID4326,complete
+54,Milling,2013-03-30 02:11:56.276654,ID4326,start
+54,Milling,2013-03-30 07:14:31.753215,ID4326,complete
+54,Milling,2013-03-30 07:14:31.753215,ID4326,start
+54,Milling,2013-03-30 19:56:30.564370,ID4326,complete
+54,Laser Marking,2013-03-31 16:29:30.564370,ID0998,start
+54,Laser Marking,2013-03-31 17:46:24.871405,ID0998,complete
+54,Final Inspection Q.C.,2013-04-01 14:52:35.803053,ID4163,start
+54,Final Inspection Q.C.,2013-04-01 16:05:51.944772,ID4163,start
+54,Final Inspection Q.C.,2013-04-01 17:36:37.730946,ID4163,start
+54,Final Inspection Q.C.,2013-04-01 19:09:35.496715,ID4163,complete
+54,Final Inspection Q.C.,2013-04-01 19:09:35.496715,ID4163,complete
+54,Final Inspection Q.C.,2013-04-01 19:09:35.496715,ID4163,complete
+54,Final Inspection Q.C.,2013-04-02 19:30:34.011549,ID4163,start
+54,Final Inspection Q.C.,2013-04-02 20:45:04.250628,ID4163,complete
+54,Final Inspection Q.C.,2013-04-02 20:45:04.250628,ID4163,start
+54,Final Inspection Q.C.,2013-04-02 21:18:50.856528,ID4163,complete
+54,Final Inspection Q.C.,2013-04-02 21:18:50.856528,ID4163,start
+54,Final Inspection Q.C.,2013-04-02 21:41:40.469948,ID4163,complete
+54,Packing,2013-04-04 22:01:57.417317,ID4820,start
+54,Packing,2013-04-04 23:01:57.417317,ID4820,complete
+54,End,2013-04-04 23:01:57.417317,End,start
+54,End,2013-04-04 23:01:57.417317,End,complete
+55,Start,2013-03-28 06:25:54.679304,Start,start
+55,Start,2013-03-28 06:25:54.679304,Start,complete
+55,Turning & Milling,2013-03-28 06:25:54.679304,ID4794,start
+55,Turning & Milling,2013-03-28 18:46:37.794773,ID4794,start
+55,Turning & Milling,2013-03-28 20:44:48.495141,ID4794,complete
+55,Turning & Milling,2013-03-29 02:12:00.978854,ID4794,complete
+55,Turning & Milling,2013-03-29 03:32:44.824272,ID4794,start
+55,Turning & Milling,2013-03-29 03:32:44.824272,ID4794,complete
+55,Turning & Milling,2013-03-29 06:47:58.479270,ID4794,start
+55,Turning & Milling Q.C.,2013-03-29 08:33:13.397968,ID4618,start
+55,Turning & Milling Q.C.,2013-03-29 08:33:13.397968,ID4618,complete
+55,Turning & Milling,2013-03-29 08:33:13.397968,ID4794,complete
+55,Turning & Milling,2013-03-29 16:06:42.797882,ID4529,start
+55,Turning & Milling,2013-03-29 23:29:10.328270,ID4529,complete
+55,Turning & Milling,2013-03-30 06:41:30.077060,ID4794,start
+55,Turning & Milling Q.C.,2013-03-30 11:18:25.348812,ID4618,start
+55,Turning & Milling Q.C.,2013-03-30 11:55:15.661152,ID4618,complete
+55,Turning & Milling,2013-03-30 15:07:58.473781,ID4794,complete
+55,Turning & Milling,2013-03-30 15:07:58.473781,ID4932,start
+55,Turning & Milling,2013-03-30 22:14:48.131981,ID4932,complete
+55,Turning & Milling,2013-03-31 00:59:04.876563,ID4718,start
+55,Turning & Milling,2013-03-31 04:29:04.424225,ID4718,complete
+55,Turning & Milling Q.C.,2013-03-31 04:29:04.424225,ID4618,start
+55,Turning & Milling Q.C.,2013-03-31 05:45:24.040775,ID4618,complete
+55,Laser Marking,2013-03-31 05:45:24.040775,ID0998,start
+55,Laser Marking,2013-03-31 07:38:05.120717,ID0998,complete
+55,Flat Grinding,2013-04-04 11:59:26.747599,ID0998,start
+55,Laser Marking,2013-04-04 14:36:12.506745,ID4882,start
+55,Laser Marking,2013-04-04 15:54:45.329659,ID4882,complete
+55,Flat Grinding,2013-04-04 16:56:10.044565,ID0998,complete
+55,Flat Grinding,2013-04-05 14:41:31.400791,ID0998,start
+55,Flat Grinding,2013-04-05 15:43:04.057003,ID0998,complete
+55,Flat Grinding,2013-04-05 18:45:20.680018,ID0998,start
+55,Flat Grinding,2013-04-05 19:15:37.816526,ID0998,complete
+55,Round Grinding,2013-04-06 11:27:21.333201,ID4872,start
+55,Round Grinding,2013-04-06 14:39:55.833765,ID4872,complete
+55,Round Grinding,2013-04-06 14:39:55.833765,ID4872,start
+55,Round Grinding,2013-04-06 16:50:56.794172,ID4872,complete
+55,Round Grinding,2013-04-07 11:24:52.838484,ID4872,start
+55,Round Grinding,2013-04-07 11:24:52.838484,ID4872,complete
+55,Round Grinding,2013-04-08 03:57:29.447927,ID4528,start
+55,Round Grinding,2013-04-08 10:32:55.398208,ID4528,complete
+55,Round Grinding,2013-04-08 14:51:11.133012,ID4528,start
+55,Round Grinding,2013-04-08 14:51:11.133012,ID4872,start
+55,Round Grinding,2013-04-08 20:26:27.169905,ID4528,complete
+55,Round Grinding,2013-04-08 20:26:27.169905,ID4872,complete
+55,Round Grinding,2013-04-09 01:39:43.976635,ID4872,start
+55,Round Grinding,2013-04-09 02:39:56.329865,ID4872,complete
+55,Round Grinding,2013-04-10 11:12:44.385901,ID4528,start
+55,Round Grinding,2013-04-10 19:10:32.109450,ID4528,complete
+55,Round Grinding,2013-04-10 19:10:32.109450,ID4872,start
+55,Round Grinding,2013-04-10 20:50:09.175583,ID4872,complete
+55,Round Grinding,2013-04-10 22:06:38.571929,ID4872,start
+55,Round Grinding,2013-04-10 22:50:41.595484,ID4872,complete
+55,Round Grinding,2013-04-10 22:50:41.595484,ID4160,start
+55,Round Grinding,2013-04-10 22:50:41.595484,ID4160,start
+55,Round Grinding,2013-04-11 09:32:48.470777,ID4160,complete
+55,Round Grinding,2013-04-11 09:32:48.470777,ID4160,complete
+55,Round Grinding,2013-04-11 09:32:48.470777,ID4160,start
+55,Round Grinding,2013-04-11 09:47:20.314806,ID4872,start
+55,Round Grinding,2013-04-11 13:34:08.233927,ID4160,complete
+55,Round Grinding,2013-04-12 04:47:57.250369,ID4528,start
+55,Round Grinding,2013-04-12 09:13:36.178164,ID4872,complete
+55,Round Grinding,2013-04-12 09:13:36.178164,ID4528,complete
+55,Round Grinding,2013-04-12 17:09:54.449643,ID4160,start
+55,Round Grinding,2013-04-12 17:58:44.862487,ID4160,complete
+55,Round Grinding,2013-04-12 19:10:51.306732,ID4160,start
+55,Round Grinding,2013-04-12 21:48:02.503188,ID4160,complete
+55,Round Grinding,2013-04-12 21:48:02.503188,ID4160,start
+55,Round Grinding,2013-04-13 01:23:54.320764,ID4160,complete
+55,Final Inspection Q.C.,2013-04-14 14:59:33.708985,ID4618,start
+55,Final Inspection Q.C.,2013-04-14 16:03:34.011280,ID4618,complete
+55,Final Inspection Q.C.,2013-04-16 07:25:10.758069,ID4618,start
+55,Final Inspection Q.C.,2013-04-16 13:27:25.354622,ID4618,complete
+55,Packing,2013-04-18 19:58:59.187407,ID4820,start
+55,Packing,2013-04-18 20:58:59.187407,ID4820,complete
+55,Fix,2013-05-07 21:19:05.610732,ID4445,start
+55,Fix,2013-05-07 23:48:03.701804,ID4445,complete
+55,Fix,2013-05-07 23:48:03.701804,ID4445,start
+55,Fix,2013-05-08 05:10:53.980332,ID4445,complete
+55,Final Inspection Q.C.,2013-05-08 06:02:53.980332,ID4618,start
+55,Final Inspection Q.C.,2013-05-08 06:18:32.229633,ID4618,complete
+55,Packing,2013-05-08 21:28:56.897356,ID4820,start
+55,Packing,2013-05-08 22:28:56.897356,ID4820,complete
+55,Final Inspection Q.C.,2013-05-09 16:45:42.438296,ID4618,start
+55,Final Inspection Q.C.,2013-05-09 16:58:42.459439,ID4618,complete
+55,End,2013-05-09 16:58:42.459439,End,start
+55,End,2013-05-09 16:58:42.459439,End,complete
+56,Start,2013-03-28 06:25:54.679304,Start,start
+56,Start,2013-03-28 06:25:54.679304,Start,complete
+56,Turning & Milling,2013-03-28 06:25:54.679304,ID4132,start
+56,Turning & Milling,2013-03-28 13:47:03.249059,ID4132,complete
+56,Turning & Milling,2013-03-28 23:43:45.882163,ID4132,start
+56,Turning & Milling,2013-03-29 06:46:12.073332,ID4132,complete
+56,Turning & Milling,2013-03-29 06:46:12.073332,ID4132,start
+56,Turning & Milling,2013-03-29 07:25:37.926322,ID4132,complete
+56,Turning & Milling Q.C.,2013-03-30 14:48:26.816356,ID4493,start
+56,Turning & Milling Q.C.,2013-03-30 16:15:58.859084,ID4493,complete
+56,End,2013-03-30 16:15:58.859084,End,start
+56,End,2013-03-30 16:15:58.859084,End,complete
+57,Start,2013-04-17 17:46:04.854284,Start,start
+57,Start,2013-04-17 17:46:04.854284,Start,complete
+57,Turning & Milling,2013-04-17 17:46:04.854284,ID4219,start
+57,Turning & Milling,2013-04-17 21:37:03.826773,ID4219,complete
+57,Turning & Milling,2013-04-18 04:15:36.427311,ID0997,start
+57,Turning & Milling,2013-04-18 05:19:54.475341,ID0997,complete
+57,Turning & Milling,2013-04-18 17:41:47.496967,ID4219,start
+57,Turning & Milling Q.C.,2013-04-18 17:41:47.496967,ID4493,start
+57,Turning & Milling,2013-04-18 18:04:09.075996,ID4529,complete
+57,Turning & Milling Q.C.,2013-04-18 20:37:17.057486,ID4493,complete
+57,Turning & Milling Q.C.,2013-04-19 12:46:31.791103,ID4493,start
+57,Turning & Milling Q.C.,2013-04-19 14:02:34.898579,ID4493,complete
+57,Laser Marking,2013-04-19 14:02:34.898579,ID0998,start
+57,Laser Marking,2013-04-19 14:33:02.000025,ID0998,complete
+57,End,2013-04-19 14:33:02.000025,End,start
+57,End,2013-04-19 14:33:02.000025,End,complete
+58,Start,2013-06-12 08:15:21.312491,Start,start
+58,Start,2013-06-12 08:15:21.312491,Start,complete
+58,Turning & Milling,2013-06-12 08:15:21.312491,ID4529,start
+58,Turning & Milling,2013-06-12 08:15:21.312491,ID4529,complete
+58,Turning & Milling,2013-06-12 08:15:21.312491,ID4718,start
+58,Turning & Milling,2013-06-12 15:16:05.769187,ID4529,complete
+58,Turning & Milling,2013-06-12 15:16:05.769187,ID4529,start
+58,Turning & Milling,2013-06-12 23:11:39.245551,ID4529,complete
+58,Turning & Milling,2013-06-13 12:03:01.484685,ID4529,start
+58,Turning & Milling,2013-06-13 22:42:02.081221,ID4529,complete
+58,Turning & Milling Q.C.,2013-06-13 22:42:02.081221,ID4493,start
+58,Turning & Milling Q.C.,2013-06-13 22:42:02.081221,ID4493,complete
+58,Laser Marking,2013-06-14 05:26:53.367488,ID0998,start
+58,Laser Marking,2013-06-14 07:50:34.877972,ID0998,complete
+58,Flat Grinding,2013-06-14 13:48:40.750641,ID4882,start
+58,Flat Grinding,2013-06-14 15:00:44.952124,ID4882,complete
+58,Lapping,2013-06-24 17:15:01.254285,ID0998,start
+58,Lapping,2013-06-24 18:20:26.407726,ID0998,complete
+58,Round Grinding,2013-06-24 18:20:26.407726,ID4355,start
+58,Round Grinding,2013-06-24 19:08:12.745712,ID4355,complete
+58,Round Grinding,2013-06-24 19:08:12.745712,ID4355,start
+58,Round Grinding,2013-06-24 20:25:57.868980,ID4355,complete
+58,Grinding Rework,2013-06-29 05:07:56.866010,ID4528,start
+58,Grinding Rework,2013-06-29 09:51:00.757301,ID4528,complete
+58,Final Inspection Q.C.,2013-07-01 15:39:33.626003,ID4493,start
+58,Final Inspection Q.C.,2013-07-01 15:39:33.626003,ID4493,complete
+58,Packing,2013-07-02 09:54:11.893326,ID4820,start
+58,Packing,2013-07-02 10:54:11.893326,ID4820,complete
+58,Final Inspection Q.C.,2013-07-02 17:14:35.033886,ID4493,start
+58,Final Inspection Q.C.,2013-07-03 01:40:49.829983,ID4493,complete
+58,End,2013-07-03 01:40:49.829983,End,start
+58,End,2013-07-03 01:40:49.829983,End,complete
+59,Start,2013-06-29 01:42:51.727151,Start,start
+59,Start,2013-06-29 01:42:51.727151,Start,complete
+59,Turning & Milling,2013-06-29 01:42:51.727151,ID3846,start
+59,Turning & Milling,2013-06-29 10:58:24.611010,ID3846,complete
+59,Turning & Milling,2013-06-29 10:58:24.611010,ID3846,start
+59,Turning & Milling,2013-06-29 15:02:48.607833,ID3846,complete
+59,Turning & Milling,2013-07-01 18:24:01.963384,ID4641,start
+59,Turning & Milling Q.C.,2013-07-01 18:24:01.963384,ID4493,start
+59,Turning & Milling Q.C.,2013-07-01 20:23:00.892573,ID4493,complete
+59,Turning & Milling,2013-07-02 10:51:38.665593,ID4529,complete
+59,Turning & Milling Q.C.,2013-07-03 19:57:58.148195,ID4493,start
+59,Turning & Milling Q.C.,2013-07-03 21:12:44.373599,ID4493,complete
+59,Turning & Milling,2013-07-04 14:35:09.271996,ID4529,start
+59,Turning & Milling,2013-07-04 23:41:13.733430,ID4529,complete
+59,Turning & Milling,2013-07-05 04:09:33.351988,ID4529,start
+59,Turning & Milling,2013-07-05 15:18:22.853871,ID4529,complete
+59,Turning & Milling Q.C.,2013-07-05 15:18:22.853871,ID4493,start
+59,Turning & Milling,2013-07-05 16:17:40.540745,ID4529,start
+59,Turning & Milling Q.C.,2013-07-05 16:33:14.908574,ID4493,complete
+59,Turning & Milling,2013-07-05 18:45:44.748921,ID4529,complete
+59,Turning & Milling,2013-07-05 18:45:44.748921,ID4529,start
+59,Turning & Milling,2013-07-05 18:45:44.748921,ID4529,complete
+59,Turning & Milling,2013-07-05 18:45:44.748921,ID4529,start
+59,Turning & Milling,2013-07-05 19:19:18.749062,ID4529,complete
+59,Turning & Milling,2013-07-05 19:19:18.749062,ID4529,start
+59,Turning & Milling,2013-07-05 23:10:37.172794,ID4529,complete
+59,Turning & Milling,2013-07-06 04:15:17.303081,ID4529,start
+59,Turning & Milling,2013-07-06 11:34:51.759790,ID4529,complete
+59,Turning & Milling Q.C.,2013-07-08 03:21:24.984332,ID4493,start
+59,Turning & Milling,2013-07-08 03:56:49.230805,ID4529,start
+59,Turning & Milling,2013-07-08 11:29:54.045063,ID4529,complete
+59,Turning & Milling Q.C.,2013-07-08 12:10:26.412184,ID4493,complete
+59,Turning & Milling Q.C.,2013-07-12 02:48:34.882537,ID4493,start
+59,Turning & Milling Q.C.,2013-07-12 03:22:38.293536,ID4493,complete
+59,Turning & Milling Q.C.,2013-07-12 22:23:18.168429,ID4493,start
+59,Turning & Milling Q.C.,2013-07-12 23:31:14.749445,ID4493,complete
+59,Turning & Milling,2013-07-12 23:31:14.749445,ID4529,start
+59,Turning & Milling,2013-07-13 00:22:46.067556,ID4529,complete
+59,Turning & Milling,2013-07-13 21:49:39.422814,ID4529,start
+59,Turning & Milling,2013-07-14 04:21:02.456398,ID4529,complete
+59,Turning & Milling,2013-07-14 04:21:02.456398,ID4529,start
+59,Turning & Milling,2013-07-14 05:39:22.342735,ID4529,complete
+59,Turning & Milling Q.C.,2013-07-15 04:40:56.606556,ID4493,start
+59,Turning & Milling Q.C.,2013-07-15 05:02:45.472989,ID4493,complete
+59,Turning & Milling,2013-07-17 22:37:57.844819,ID4529,start
+59,Turning & Milling,2013-07-17 22:38:21.095926,ID4529,complete
+59,Turning & Milling Q.C.,2013-07-22 22:35:33.398273,ID4493,start
+59,Turning & Milling Q.C.,2013-07-22 22:35:33.398273,ID4493,complete
+59,Turning & Milling,2013-07-22 22:35:33.398273,ID4529,start
+59,Turning & Milling Q.C.,2013-07-22 22:35:33.398273,ID4493,start
+59,Turning & Milling Q.C.,2013-07-23 01:32:59.957429,ID4493,complete
+59,Turning & Milling,2013-07-23 05:44:30.239653,ID4529,complete
+59,Turning & Milling,2013-07-23 05:44:30.239653,ID4529,start
+59,Turning & Milling,2013-07-23 06:29:28.065943,ID4529,complete
+59,Turning & Milling,2013-07-23 13:53:37.350852,ID4529,start
+59,Turning & Milling,2013-07-23 22:04:35.075513,ID4529,start
+59,Turning & Milling,2013-07-24 04:01:49.123155,ID4529,complete
+59,Turning & Milling,2013-07-24 09:27:50.391627,ID4529,complete
+59,Turning & Milling,2013-07-24 09:27:50.391627,ID4529,start
+59,Turning & Milling,2013-07-24 11:15:06.458981,ID4529,complete
+59,Turning & Milling,2013-07-25 08:41:17.714949,ID4529,start
+59,Turning & Milling,2013-07-25 15:33:58.269031,ID4529,complete
+59,Turning & Milling,2013-07-26 03:28:58.045807,ID4529,start
+59,Turning & Milling,2013-07-26 05:01:36.909830,ID4529,complete
+59,Turning & Milling,2013-07-26 12:20:52.230968,ID4529,start
+59,Turning & Milling,2013-07-26 13:41:37.497277,ID4529,complete
+59,Turning & Milling Q.C.,2013-07-26 13:41:37.497277,ID4493,start
+59,Turning & Milling Q.C.,2013-07-26 15:18:25.177309,ID4493,complete
+59,Nitration Q.C.,2013-08-02 20:08:02.950677,ID4493,start
+59,Nitration Q.C.,2013-08-02 20:08:02.950677,ID4493,complete
+59,Lapping,2013-08-03 07:54:02.950677,ID0998,start
+59,Lapping,2013-08-03 07:54:02.950677,ID0998,start
+59,Lapping,2013-08-03 09:11:50.125243,ID0998,complete
+59,Lapping,2013-08-03 09:11:50.125243,ID0998,complete
+59,Laser Marking,2013-08-03 09:24:13.668176,ID0998,start
+59,Lapping,2013-08-03 09:33:07.761620,ID0998,start
+59,Lapping,2013-08-03 11:59:49.643159,ID0998,start
+59,Laser Marking,2013-08-03 11:59:49.643159,ID0998,complete
+59,Lapping,2013-08-03 12:09:13.646679,ID0998,complete
+59,Lapping,2013-08-03 15:26:45.656269,ID0998,start
+59,Lapping,2013-08-03 17:19:23.965334,ID0998,complete
+59,Lapping,2013-08-03 17:19:23.965334,ID0998,complete
+59,Lapping,2013-08-03 21:46:16.695349,ID0998,start
+59,Lapping,2013-08-03 23:35:10.365292,ID0998,complete
+59,Round Grinding,2013-08-09 03:55:57.574145,ID4355,start
+59,Round Grinding,2013-08-09 06:32:08.955278,ID4355,complete
+59,Round Grinding,2013-08-09 22:22:39.293496,ID4355,start
+59,Round Grinding,2013-08-10 00:26:56.218877,ID4355,complete
+59,Round Grinding,2013-08-10 07:07:56.887416,ID4355,start
+59,Round Grinding,2013-08-10 08:12:41.719582,ID4355,complete
+59,Round Grinding,2013-08-11 08:02:28.488809,ID4355,start
+59,Round Grinding,2013-08-11 14:37:23.774364,ID4355,complete
+59,Round Grinding,2013-08-12 20:20:20.584332,ID4355,start
+59,Round Grinding,2013-08-13 03:50:07.927833,ID4355,complete
+59,Round Grinding,2013-08-13 07:31:45.103833,ID4355,start
+59,Round Grinding,2013-08-13 10:19:17.627713,ID4355,complete
+59,Round Grinding,2013-08-13 10:39:04.543766,ID4355,start
+59,Round Grinding,2013-08-13 12:56:01.452046,ID4355,complete
+59,Round Grinding,2013-08-13 12:56:01.452046,ID4355,start
+59,Round Grinding,2013-08-13 15:31:44.012788,ID4355,complete
+59,Round Grinding,2013-08-13 15:31:44.012788,ID4355,start
+59,Final Inspection Q.C.,2013-08-13 15:31:44.012788,ID4493,start
+59,Round Grinding,2013-08-13 18:51:44.775993,ID4355,complete
+59,Round Grinding,2013-08-13 18:51:44.775993,ID4355,start
+59,Final Inspection Q.C.,2013-08-13 19:23:58.084496,ID4493,complete
+59,Round Grinding,2013-08-14 00:08:46.957999,ID4355,complete
+59,Round Grinding,2013-08-14 00:08:46.957999,ID4355,start
+59,Round Grinding,2013-08-14 00:29:42.631544,ID4355,complete
+59,Round Grinding,2013-08-15 05:08:43.911972,ID4355,start
+59,Packing,2013-08-15 08:00:56.139862,ID4820,start
+59,Packing,2013-08-15 08:00:56.139862,ID4820,start
+59,Packing,2013-08-15 09:00:56.139862,ID4820,complete
+59,Packing,2013-08-15 09:00:56.139862,ID4820,complete
+59,Round Grinding,2013-08-15 11:54:04.831596,ID4355,complete
+59,Final Inspection Q.C.,2013-08-15 11:54:04.831596,ID4493,start
+59,Final Inspection Q.C.,2013-08-15 13:34:41.901570,ID4493,complete
+59,Packing,2013-08-17 17:35:12.151708,ID4820,start
+59,Packing,2013-08-17 18:35:12.151708,ID4820,complete
+59,Final Inspection Q.C.,2013-08-17 22:34:29.509609,ID4493,start
+59,Final Inspection Q.C.,2013-08-18 01:10:49.589353,ID4493,complete
+59,Packing,2013-08-18 19:13:01.664599,ID4820,start
+59,Packing,2013-08-18 20:13:01.664599,ID4820,complete
+59,Packing,2013-08-21 12:43:47.941509,ID4820,start
+59,Packing,2013-08-21 13:43:47.941509,ID4820,complete
+59,End,2013-08-21 13:43:47.941509,End,start
+59,End,2013-08-21 13:43:47.941509,End,complete
+60,Start,2013-06-29 01:42:51.727151,Start,start
+60,Start,2013-06-29 01:42:51.727151,Start,complete
+60,Turning & Milling,2013-06-29 01:42:51.727151,ID4429,start
+60,Turning & Milling,2013-06-29 08:24:42.886495,ID4429,complete
+60,Turning & Milling,2013-06-29 10:18:29.203533,ID4167,start
+60,Turning & Milling,2013-06-29 16:07:24.779744,ID4167,complete
+60,Turning & Milling,2013-06-30 07:08:30.782741,ID4932,start
+60,Turning & Milling,2013-06-30 13:12:07.560908,ID4529,complete
+60,Turning & Milling Q.C.,2013-06-30 20:47:50.207522,ID4493,start
+60,Turning & Milling,2013-06-30 21:40:06.859090,ID4529,start
+60,Turning & Milling Q.C.,2013-06-30 22:55:04.294681,ID4493,complete
+60,Turning & Milling,2013-07-01 01:15:43.452294,ID4529,complete
+60,Turning & Milling,2013-07-01 08:14:30.420648,ID4529,start
+60,Turning & Milling,2013-07-01 13:47:22.107082,ID4529,complete
+60,Turning & Milling,2013-07-01 20:57:33.310141,ID4529,start
+60,Turning & Milling,2013-07-02 08:14:42.609081,ID4529,complete
+60,Turning & Milling,2013-07-02 11:44:00.589642,ID4529,start
+60,Turning & Milling,2013-07-02 13:27:30.990328,ID4529,complete
+60,Turning & Milling,2013-07-02 13:27:30.990328,ID4529,start
+60,Turning & Milling,2013-07-02 20:30:48.134008,ID4529,complete
+60,Turning & Milling,2013-07-02 20:30:48.134008,ID4529,start
+60,Turning & Milling,2013-07-02 23:30:48.684092,ID4529,complete
+60,Turning & Milling,2013-07-04 19:47:58.299808,ID4529,start
+60,Turning & Milling,2013-07-05 04:13:13.539791,ID4529,complete
+60,Turning & Milling,2013-07-05 07:56:10.177987,ID4529,start
+60,Turning & Milling,2013-07-05 09:43:01.857413,ID4529,complete
+60,Turning & Milling Q.C.,2013-07-05 12:41:07.277602,ID4493,start
+60,Turning & Milling Q.C.,2013-07-05 12:41:07.277602,ID4493,start
+60,Turning & Milling Q.C.,2013-07-05 14:13:19.387398,ID4493,complete
+60,Turning & Milling Q.C.,2013-07-05 14:13:19.387398,ID4493,complete
+60,Laser Marking,2013-07-08 03:27:49.101451,ID0998,start
+60,Laser Marking,2013-07-08 04:46:52.898781,ID0998,complete
+60,Lapping,2013-07-08 04:46:52.898781,ID0998,start
+60,Lapping,2013-07-08 06:07:08.931133,ID0998,complete
+60,Turning & Milling,2013-07-08 15:35:40.447851,ID4529,start
+60,Turning & Milling,2013-07-08 18:48:21.602567,ID4529,complete
+60,Turning & Milling,2013-07-09 06:33:57.053609,ID4529,start
+60,Turning & Milling,2013-07-09 07:57:08.292505,ID4529,complete
+60,Turning & Milling,2013-07-09 07:57:08.292505,ID4529,start
+60,Turning & Milling,2013-07-09 14:22:59.579351,ID4529,complete
+60,Turning & Milling,2013-07-09 14:22:59.579351,ID4529,start
+60,Turning & Milling,2013-07-09 16:53:17.652777,ID4529,complete
+60,Turning & Milling,2013-07-09 16:53:17.652777,ID4529,start
+60,Turning & Milling,2013-07-09 19:00:55.937788,ID4529,complete
+60,Turning & Milling,2013-07-09 19:00:55.937788,ID4529,start
+60,Final Inspection Q.C.,2013-07-09 23:10:55.937788,ID4493,start
+60,Final Inspection Q.C.,2013-07-10 00:59:25.057054,ID4493,complete
+60,Final Inspection Q.C.,2013-07-10 00:59:25.057054,ID4493,start
+60,Final Inspection Q.C.,2013-07-10 01:16:06.365933,ID4493,complete
+60,Turning & Milling,2013-07-10 01:16:06.365933,ID4529,complete
+60,Turning & Milling,2013-07-10 03:16:49.275692,ID4529,start
+60,Packing,2013-07-10 05:46:49.275692,ID4820,start
+60,Packing,2013-07-10 05:46:49.275692,ID4820,start
+60,Packing,2013-07-10 06:46:49.275692,ID4820,complete
+60,Packing,2013-07-10 06:46:49.275692,ID4820,complete
+60,Turning & Milling,2013-07-10 09:15:49.275692,ID4529,complete
+60,Turning & Milling Q.C.,2013-07-11 07:59:05.606789,ID4493,start
+60,Turning & Milling Q.C.,2013-07-11 09:02:44.332301,ID4493,complete
+60,Laser Marking,2013-07-11 13:34:18.555986,ID0998,start
+60,Laser Marking,2013-07-11 13:34:18.555986,ID0998,complete
+60,Turning & Milling,2013-07-12 00:48:30.732713,ID4529,start
+60,Turning & Milling,2013-07-12 07:45:46.113025,ID4529,complete
+60,Turning & Milling,2013-07-12 07:45:46.113025,ID4529,start
+60,Turning & Milling,2013-07-12 17:08:16.011161,ID4529,complete
+60,Grinding Rework,2013-07-13 19:48:42.022761,ID4528,start
+60,Grinding Rework,2013-07-13 23:22:06.471685,ID4528,complete
+60,Grinding Rework,2013-07-13 23:22:06.471685,ID4528,start
+60,Lapping,2013-07-14 00:21:07.996519,ID0998,start
+60,Grinding Rework,2013-07-14 02:26:24.707242,ID4528,complete
+60,Lapping,2013-07-14 03:23:15.011296,ID0998,complete
+60,Final Inspection Q.C.,2013-07-14 03:23:15.011296,ID4493,start
+60,Final Inspection Q.C.,2013-07-14 05:16:56.174566,ID4493,complete
+60,Packing,2013-07-16 15:04:08.165225,ID4820,start
+60,Packing,2013-07-16 16:04:08.165225,ID4820,complete
+60,Final Inspection Q.C.,2013-07-17 07:22:39.052594,ID4493,start
+60,Final Inspection Q.C.,2013-07-17 08:05:09.668359,ID4493,complete
+60,End,2013-07-17 08:05:09.668359,End,start
+60,End,2013-07-17 08:05:09.668359,End,complete
+61,Start,2013-06-29 01:42:51.727151,Start,start
+61,Start,2013-06-29 01:42:51.727151,Start,complete
+61,Turning & Milling,2013-06-29 01:42:51.727151,ID4529,start
+61,Turning & Milling,2013-06-29 01:42:51.727151,ID4529,complete
+61,Turning & Milling,2013-06-29 01:42:51.727151,ID4718,start
+61,Turning & Milling,2013-06-29 05:44:33.598019,ID4529,complete
+61,Turning & Milling,2013-06-30 08:58:21.326406,ID4529,start
+61,Turning & Milling Q.C.,2013-06-30 11:26:50.907902,ID4493,start
+61,Turning & Milling,2013-06-30 12:50:30.506675,ID4529,complete
+61,Turning & Milling,2013-06-30 12:50:30.506675,ID4529,start
+61,Turning & Milling Q.C.,2013-06-30 13:33:18.856811,ID4493,complete
+61,Turning & Milling,2013-06-30 14:36:37.328626,ID4529,complete
+61,Turning & Milling Q.C.,2013-06-30 15:23:25.054570,ID4493,start
+61,Turning & Milling Q.C.,2013-06-30 16:48:35.980803,ID4493,complete
+61,Laser Marking,2013-07-01 04:12:10.593100,ID0998,start
+61,Laser Marking,2013-07-01 05:36:41.108309,ID0998,complete
+61,Lapping,2013-07-01 05:36:41.108309,ID0998,start
+61,Lapping,2013-07-01 06:43:48.772774,ID0998,complete
+61,Lapping,2013-07-01 08:20:16.415560,ID0998,start
+61,Lapping,2013-07-01 08:26:13.805108,ID0998,start
+61,Lapping,2013-07-01 09:48:11.281756,ID0998,complete
+61,Lapping,2013-07-01 10:53:12.449765,ID0998,complete
+61,Round Grinding,2013-07-01 10:53:12.449765,ID4355,start
+61,Round Grinding,2013-07-01 14:44:41.490406,ID4355,complete
+61,Round Grinding,2013-07-04 05:11:22.445184,ID4355,start
+61,Round Grinding,2013-07-04 07:56:59.885458,ID4355,complete
+61,Round Grinding,2013-07-05 01:27:05.864823,ID4355,start
+61,Round Grinding,2013-07-05 04:21:35.399488,ID4355,complete
+61,Final Inspection Q.C.,2013-07-05 15:37:14.217201,ID4493,start
+61,Final Inspection Q.C.,2013-07-05 16:41:07.961072,ID4493,complete
+61,Packing,2013-07-07 00:08:29.257940,ID4820,start
+61,Packing,2013-07-07 01:08:29.257940,ID4820,complete
+61,End,2013-07-07 01:08:29.257940,End,start
+61,End,2013-07-07 01:08:29.257940,End,complete
+62,Start,2013-06-29 01:42:51.727151,Start,start
+62,Start,2013-06-29 01:42:51.727151,Start,complete
+62,Round Grinding,2013-06-29 01:42:51.727151,ID4445,start
+62,Round Grinding,2013-06-29 10:00:44.655132,ID4445,complete
+62,End,2013-06-29 10:00:44.655132,End,start
+62,End,2013-06-29 10:00:44.655132,End,complete
+63,Start,2013-06-29 01:42:51.727151,Start,start
+63,Start,2013-06-29 01:42:51.727151,Start,complete
+63,Turning,2013-06-29 01:42:51.727151,ID0997,start
+63,Turning,2013-06-29 05:42:33.157514,ID0997,complete
+63,Turning,2013-06-29 05:42:33.157514,ID4932,start
+63,Turning,2013-06-29 08:58:14.803900,ID4932,complete
+63,Turning,2013-06-29 08:58:14.803900,ID4794,start
+63,Turning,2013-06-29 14:52:19.443636,ID4794,complete
+63,Turning Q.C.,2013-07-02 16:19:00.365979,ID4287,start
+63,Turning Q.C.,2013-07-02 17:52:50.958834,ID4287,complete
+63,Turning,2013-07-06 16:52:25.893628,ID0997,start
+63,Turning,2013-07-06 18:08:26.157763,ID0997,complete
+63,Turning,2013-07-07 10:07:52.730181,ID4219,start
+63,Turning,2013-07-07 10:07:52.730181,ID4219,complete
+63,Turning,2013-07-07 10:22:11.995456,ID4219,start
+63,Turning,2013-07-07 12:10:42.626138,ID4219,complete
+63,Turning,2013-07-09 19:01:01.336513,ID4219,start
+63,Turning,2013-07-09 21:59:55.863037,ID4219,complete
+63,Turning,2013-07-10 02:06:38.947685,ID4794,start
+63,Turning,2013-07-10 05:43:30.053728,ID4794,complete
+63,Turning,2013-07-10 16:58:36.123164,ID0997,start
+63,Turning Q.C.,2013-07-11 01:38:18.089105,ID4287,start
+63,Turning,2013-07-11 02:37:18.089105,ID0997,complete
+63,Turning Q.C.,2013-07-11 03:28:18.089105,ID4287,complete
+63,Turning & Milling,2013-07-11 03:28:18.089105,ID4132,start
+63,Turning & Milling,2013-07-11 07:51:02.471773,ID4132,complete
+63,Turning & Milling Q.C.,2013-07-11 07:51:02.471773,ID4287,start
+63,Turning & Milling Q.C.,2013-07-11 09:31:19.182912,ID4287,complete
+63,Turning & Milling,2013-07-13 12:36:01.251873,ID4132,start
+63,Turning & Milling Q.C.,2013-07-13 15:03:51.966176,ID4287,start
+63,Turning & Milling,2013-07-13 15:36:15.399881,ID4132,complete
+63,Turning & Milling,2013-07-13 15:36:15.399881,ID4132,start
+63,Turning & Milling Q.C.,2013-07-13 17:13:25.491366,ID4287,complete
+63,Turning & Milling,2013-07-13 20:01:06.890598,ID4132,complete
+63,Turning & Milling,2013-07-14 03:58:01.925920,ID3846,start
+63,Turning & Milling,2013-07-14 12:56:25.611802,ID3846,complete
+63,Turning & Milling,2013-07-19 01:40:22.352413,ID4641,start
+63,Turning & Milling,2013-07-19 01:40:22.352413,ID4641,complete
+63,Turning & Milling,2013-07-19 05:07:48.623544,ID3846,start
+63,Turning & Milling,2013-07-19 10:30:48.879822,ID3846,complete
+63,Turning & Milling,2013-07-19 10:30:48.879822,ID4132,start
+63,Turning & Milling Q.C.,2013-07-19 12:40:49.602194,ID4287,start
+63,Turning & Milling,2013-07-19 12:40:49.602194,ID4132,complete
+63,Turning & Milling,2013-07-19 12:40:49.602194,ID4132,start
+63,Turning & Milling Q.C.,2013-07-19 13:38:53.940718,ID4287,complete
+63,Turning & Milling,2013-07-19 17:29:25.702835,ID4132,complete
+63,Turning & Milling,2013-07-20 06:06:05.377016,ID4132,start
+63,Turning & Milling Q.C.,2013-07-20 08:00:18.971692,ID4287,start
+63,Turning & Milling,2013-07-20 08:52:34.175956,ID4132,complete
+63,Turning & Milling Q.C.,2013-07-20 09:19:25.898094,ID4287,complete
+63,Turning & Milling,2013-07-24 02:07:17.968708,ID4641,start
+63,Turning & Milling,2013-07-24 10:20:57.857903,ID4641,complete
+63,Turning & Milling Q.C.,2013-07-24 10:20:57.857903,ID4287,start
+63,Turning & Milling,2013-07-24 10:34:07.135731,ID4132,start
+63,Turning & Milling Q.C.,2013-07-24 12:02:24.640932,ID4287,complete
+63,Lapping,2013-08-03 12:07:15.033437,ID0998,start
+63,Lapping,2013-08-03 14:43:19.869954,ID0998,complete
+63,Turning & Milling Q.C.,2013-08-03 18:24:07.690713,ID4287,start
+63,Turning & Milling Q.C.,2013-08-03 18:53:34.867616,ID4287,complete
+63,Turning & Milling,2013-08-03 21:37:32.728626,ID4132,complete
+63,Turning & Milling,2013-08-03 21:37:32.728626,ID4641,start
+63,Turning & Milling,2013-08-04 00:58:17.127933,ID4641,complete
+63,Round Grinding,2013-08-05 06:08:43.329820,ID4385,start
+63,Turning & Milling,2013-08-05 06:29:43.329820,ID4132,start
+63,Turning & Milling Q.C.,2013-08-05 12:48:00.362666,ID4287,start
+63,Round Grinding,2013-08-05 14:57:42.046355,ID4385,complete
+63,Round Grinding,2013-08-06 02:48:13.442643,ID4385,start
+63,Round Grinding,2013-08-06 02:48:13.442643,ID0420,start
+63,Turning & Milling Q.C.,2013-08-06 03:06:33.010614,ID4287,complete
+63,Round Grinding,2013-08-06 04:48:21.540515,ID4385,complete
+63,Round Grinding,2013-08-06 04:48:21.540515,ID4385,start
+63,Round Grinding,2013-08-06 08:12:35.301356,ID0420,complete
+63,Round Grinding,2013-08-06 12:13:15.373145,ID0420,start
+63,Lapping,2013-08-06 13:04:58.626620,ID0998,start
+63,Turning & Milling,2013-08-06 13:04:58.626620,ID4132,complete
+63,Turning & Milling Q.C.,2013-08-06 13:04:58.626620,ID4287,start
+63,Lapping,2013-08-06 13:30:31.494815,ID0998,complete
+63,Turning & Milling Q.C.,2013-08-06 13:54:57.291492,ID4287,complete
+63,Round Grinding,2013-08-06 13:54:57.291492,ID4287,start
+63,Round Grinding,2013-08-06 21:18:50.273728,ID4385,complete
+63,Round Grinding,2013-08-08 18:58:42.120974,ID4355,start
+63,Lapping,2013-08-08 22:04:30.309456,ID0998,start
+63,Lapping,2013-08-08 22:35:58.510286,ID0998,complete
+63,Round Grinding,2013-08-09 01:00:33.795829,ID0420,complete
+63,Round Grinding,2013-08-09 01:00:33.795829,ID4287,complete
+63,Round Grinding,2013-08-09 01:00:33.795829,ID4445,start
+63,Round Grinding,2013-08-09 04:26:23.902560,ID4355,complete
+63,Round Grinding,2013-08-09 07:33:52.082234,ID4445,complete
+63,Round Grinding,2013-08-09 21:58:29.270046,ID4445,start
+63,Round Grinding,2013-08-10 05:42:59.764433,ID4445,complete
+63,Round Grinding,2013-08-10 14:22:49.786754,ID4385,start
+63,Round Grinding,2013-08-10 22:49:42.934464,ID0420,start
+63,Round Grinding,2013-08-10 22:49:42.934464,ID4287,start
+63,Round Grinding,2013-08-11 06:51:48.305296,ID4385,complete
+63,Round Grinding,2013-08-11 12:10:29.590144,ID0420,complete
+63,Round Grinding,2013-08-11 12:53:52.622622,ID4287,complete
+63,Round Grinding,2013-08-12 05:51:17.470981,ID4355,start
+63,Round Grinding,2013-08-12 08:24:13.067316,ID4355,complete
+63,Round Grinding,2013-08-12 08:24:13.067316,ID4355,start
+63,Round Grinding,2013-08-12 11:15:50.126348,ID4355,complete
+63,Round Grinding,2013-08-12 11:15:50.126348,ID4445,start
+63,Round Grinding,2013-08-12 21:42:52.141302,ID4445,complete
+63,Round Grinding,2013-08-12 21:42:52.141302,ID4287,start
+63,Round Grinding,2013-08-13 00:03:31.815511,ID4287,complete
+63,Round Grinding,2013-08-13 14:08:15.108915,ID4287,start
+63,Round Grinding,2013-08-13 22:44:57.906076,ID4287,complete
+63,Round Grinding,2013-08-14 02:19:50.929106,ID4287,start
+63,Round Grinding,2013-08-14 04:22:44.224791,ID4287,complete
+63,Round Grinding,2013-08-14 08:43:17.456328,ID4287,start
+63,Round Grinding,2013-08-14 10:06:56.255162,ID4287,complete
+63,Laser Marking,2013-08-14 10:06:56.255162,ID0998,start
+63,Round Grinding,2013-08-14 10:29:35.004025,ID4287,start
+63,Laser Marking,2013-08-14 10:38:35.004025,ID0998,complete
+63,Round Grinding,2013-08-14 11:08:16.599969,ID4287,complete
+63,Round Grinding,2013-08-14 19:30:21.408510,ID4287,start
+63,Round Grinding,2013-08-14 19:30:21.408510,ID4287,complete
+63,Laser Marking,2013-08-16 18:09:24.180052,ID0998,start
+63,Laser Marking,2013-08-16 19:14:51.009594,ID0998,complete
+63,Final Inspection Q.C.,2013-08-19 06:16:46.286167,ID4287,start
+63,Final Inspection Q.C.,2013-08-19 09:02:59.884070,ID4287,complete
+63,Final Inspection Q.C.,2013-08-19 09:02:59.884070,ID4493,start
+63,Final Inspection Q.C.,2013-08-19 10:43:41.408700,ID4493,complete
+63,Packing,2013-08-19 16:53:37.398442,ID4820,start
+63,Packing,2013-08-19 17:53:37.398442,ID4820,complete
+63,Final Inspection Q.C.,2013-08-20 00:04:03.672585,ID4493,start
+63,Final Inspection Q.C.,2013-08-20 07:42:27.084935,ID4493,complete
+63,End,2013-08-20 07:42:27.084935,End,start
+63,End,2013-08-20 07:42:27.084935,End,complete
+64,Start,2013-06-29 01:42:51.727151,Start,start
+64,Start,2013-06-29 01:42:51.727151,Start,complete
+64,Turning & Milling,2013-06-29 01:42:51.727151,ID4219,start
+64,Turning & Milling Q.C.,2013-06-29 02:58:43.293350,ID4287,start
+64,Turning & Milling Q.C.,2013-06-29 03:37:52.216465,ID4287,complete
+64,Turning & Milling,2013-06-29 06:50:27.045029,ID4219,complete
+64,Turning & Milling,2013-07-01 15:06:52.026898,ID4219,start
+64,Turning & Milling,2013-07-02 00:10:32.627741,ID4219,complete
+64,Turning & Milling,2013-07-02 02:23:44.294981,ID0997,start
+64,Turning & Milling,2013-07-02 11:16:10.119920,ID0997,complete
+64,Turning & Milling Q.C.,2013-07-03 11:00:26.728444,ID4287,start
+64,Turning & Milling Q.C.,2013-07-03 11:00:26.728444,ID4287,complete
+64,Lapping,2013-07-12 05:06:49.838007,ID0998,start
+64,Lapping,2013-07-12 06:01:55.841689,ID0998,complete
+64,Lapping,2013-07-12 06:01:55.841689,ID4287,start
+64,Lapping,2013-07-12 07:02:47.068831,ID4287,complete
+64,Packing,2013-07-14 20:53:20.629284,ID4820,start
+64,Packing,2013-07-14 21:53:20.629284,ID4820,complete
+64,Final Inspection Q.C.,2013-07-15 04:32:13.088992,ID4287,start
+64,Final Inspection Q.C.,2013-07-15 05:26:47.357961,ID4287,complete
+64,Laser Marking,2013-07-15 05:26:47.357961,ID0998,start
+64,Laser Marking,2013-07-15 05:43:33.806642,ID0998,complete
+64,End,2013-07-15 05:43:33.806642,End,start
+64,End,2013-07-15 05:43:33.806642,End,complete
+65,Start,2013-06-29 01:42:51.727151,Start,start
+65,Start,2013-06-29 01:42:51.727151,Start,complete
+65,Turning & Milling,2013-06-29 01:42:51.727151,ID0997,start
+65,Turning & Milling,2013-06-29 08:36:21.841170,ID0997,complete
+65,Turning & Milling,2013-06-29 08:36:21.841170,ID4219,start
+65,Turning & Milling,2013-06-29 16:15:43.611775,ID4219,complete
+65,Turning & Milling,2013-06-29 16:15:43.611775,ID4529,start
+65,Turning & Milling,2013-06-29 18:23:56.216393,ID4529,complete
+65,Turning & Milling,2013-06-29 18:23:56.216393,ID4529,start
+65,Turning & Milling,2013-06-29 20:50:48.056971,ID4529,complete
+65,Turning & Milling,2013-06-30 02:53:39.349478,ID4529,start
+65,Turning & Milling,2013-06-30 09:15:59.214519,ID4529,complete
+65,Turning & Milling,2013-06-30 22:08:19.200962,ID4529,start
+65,Turning & Milling,2013-07-01 16:48:44.090068,ID4529,complete
+65,Turning & Milling,2013-07-01 16:48:44.090068,ID4529,start
+65,Turning & Milling,2013-07-01 18:20:41.875698,ID4529,complete
+65,Turning & Milling,2013-07-04 03:11:51.053935,ID4529,start
+65,Turning & Milling,2013-07-04 04:40:19.062581,ID4529,complete
+65,Turning & Milling,2013-07-04 19:59:33.767780,ID4529,start
+65,Turning & Milling,2013-07-04 23:15:37.166086,ID4529,complete
+65,Turning & Milling,2013-07-05 08:59:34.077347,ID4529,start
+65,Turning & Milling Q.C.,2013-07-05 12:15:37.315338,ID4493,start
+65,Turning & Milling Q.C.,2013-07-05 15:11:58.272135,ID4493,complete
+65,Turning & Milling,2013-07-05 20:09:38.917789,ID4529,complete
+65,Turning & Milling,2013-07-05 20:09:38.917789,ID4529,start
+65,Turning & Milling,2013-07-05 20:09:38.917789,ID4529,start
+65,Turning & Milling,2013-07-06 07:40:53.060570,ID4529,complete
+65,Turning & Milling,2013-07-07 18:39:38.341053,ID4529,start
+65,Turning & Milling,2013-07-07 21:36:27.292075,ID4529,complete
+65,Turning & Milling,2013-07-08 06:30:03.439903,ID4529,start
+65,Turning & Milling Q.C.,2013-07-08 06:30:03.439903,ID4493,start
+65,Turning & Milling,2013-07-08 06:58:04.499373,ID4529,complete
+65,Turning & Milling,2013-07-08 10:10:22.883461,ID4529,start
+65,Turning & Milling,2013-07-08 10:24:26.158729,ID4529,complete
+65,Turning & Milling,2013-07-08 10:24:26.158729,ID4529,start
+65,Turning & Milling,2013-07-08 12:57:04.386221,ID4529,complete
+65,Turning & Milling Q.C.,2013-07-08 13:48:10.337421,ID4493,complete
+65,Turning & Milling,2013-07-08 14:04:58.091699,ID4529,complete
+65,Laser Marking,2013-07-08 14:04:58.091699,ID0998,start
+65,Laser Marking,2013-07-08 14:22:01.458010,ID0998,complete
+65,End,2013-07-08 14:22:01.458010,End,start
+65,End,2013-07-08 14:22:01.458010,End,complete
+66,Start,2013-06-29 01:42:51.727151,Start,start
+66,Start,2013-06-29 01:42:51.727151,Start,complete
+66,Round Grinding,2013-06-29 01:42:51.727151,ID4872,start
+66,Round Grinding,2013-06-29 02:46:20.995516,ID4872,complete
+66,Round Grinding,2013-06-29 14:19:46.036558,ID4872,start
+66,Round Grinding,2013-06-29 15:27:30.844081,ID4872,complete
+66,Turning & Milling Q.C.,2013-06-30 11:34:43.097654,ID4493,start
+66,Round Grinding,2013-06-30 11:52:28.744185,ID4355,start
+66,Turning & Milling Q.C.,2013-06-30 11:52:28.744185,ID4493,complete
+66,Round Grinding,2013-06-30 22:32:04.831414,ID4355,complete
+66,Round Grinding,2013-07-01 15:05:24.814410,ID4355,start
+66,Round Grinding,2013-07-01 18:21:09.608648,ID4355,complete
+66,Round Grinding,2013-07-01 18:21:09.608648,ID4355,start
+66,Round Grinding,2013-07-02 00:50:09.061929,ID4355,complete
+66,Final Inspection Q.C.,2013-07-08 18:43:24.617546,ID4493,start
+66,Final Inspection Q.C.,2013-07-08 22:57:24.106760,ID4493,complete
+66,Packing,2013-07-08 22:57:24.106760,ID4820,start
+66,Packing,2013-07-08 23:57:24.106760,ID4820,complete
+66,End,2013-07-08 23:57:24.106760,End,start
+66,End,2013-07-08 23:57:24.106760,End,complete
+67,Start,2013-07-01 06:35:07.268622,Start,start
+67,Start,2013-07-01 06:35:07.268622,Start,complete
+67,Turning & Milling,2013-07-01 06:35:07.268622,ID4529,start
+67,Turning & Milling,2013-07-01 13:06:39.116602,ID4529,complete
+67,Turning & Milling,2013-07-02 04:43:36.357653,ID4718,start
+67,Turning & Milling,2013-07-02 05:29:20.162278,ID4529,complete
+67,Turning & Milling,2013-07-02 05:29:20.162278,ID4529,start
+67,Turning & Milling,2013-07-02 14:17:47.820833,ID4529,complete
+67,Turning & Milling,2013-07-02 14:17:47.820833,ID4529,start
+67,Turning & Milling,2013-07-02 19:01:12.256209,ID4529,complete
+67,Turning & Milling,2013-07-03 00:41:54.034518,ID4529,start
+67,Turning & Milling,2013-07-03 06:25:05.018248,ID4529,complete
+67,Turning & Milling Q.C.,2013-07-03 06:25:05.018248,ID4493,start
+67,Turning & Milling Q.C.,2013-07-03 06:25:05.018248,ID4493,complete
+67,Turning & Milling Q.C.,2013-07-03 06:25:05.018248,ID4493,start
+67,Turning & Milling Q.C.,2013-07-03 07:22:57.840951,ID4493,complete
+67,Turning & Milling Q.C.,2013-07-03 07:22:57.840951,ID4493,start
+67,Turning & Milling Q.C.,2013-07-03 08:20:59.068045,ID4493,complete
+67,Laser Marking,2013-07-04 08:57:15.443678,ID0998,start
+67,Laser Marking,2013-07-04 09:07:45.493567,ID0998,complete
+67,End,2013-07-04 09:07:45.493567,End,start
+67,End,2013-07-04 09:07:45.493567,End,complete
+68,Start,2013-08-01 20:09:09.158135,Start,start
+68,Start,2013-08-01 20:09:09.158135,Start,complete
+68,Rework Milling,2013-08-01 20:09:09.158135,ID3641,start
+68,Rework Milling,2013-08-01 22:03:22.005352,ID3641,complete
+68,Turning & Milling Q.C.,2013-08-01 22:11:22.005352,ID4287,start
+68,Turning & Milling Q.C.,2013-08-02 00:18:43.305728,ID4287,complete
+68,Turning & Milling,2013-08-03 11:32:00.890892,ID4132,start
+68,Turning & Milling,2013-08-03 13:31:44.646878,ID4132,complete
+68,Turning & Milling Q.C.,2013-08-04 07:44:44.890813,ID4287,start
+68,Turning & Milling,2013-08-04 07:55:43.166493,ID4132,start
+68,Turning & Milling Q.C.,2013-08-04 08:39:52.793978,ID4287,complete
+68,Turning & Milling,2013-08-04 12:56:47.963367,ID4132,complete
+68,Turning & Milling,2013-08-05 14:35:46.186122,ID4132,start
+68,Turning & Milling,2013-08-05 17:51:28.031408,ID4132,complete
+68,Turning & Milling,2013-08-05 17:51:28.031408,ID4641,start
+68,Turning & Milling,2013-08-05 19:21:29.226586,ID4641,complete
+68,Turning & Milling Q.C.,2013-08-06 03:34:56.120501,ID4287,start
+68,Turning & Milling,2013-08-06 03:34:56.120501,ID4132,start
+68,Turning & Milling Q.C.,2013-08-06 04:43:31.360634,ID4287,complete
+68,Turning & Milling,2013-08-06 06:19:28.173542,ID4132,complete
+68,Turning & Milling,2013-08-06 06:19:28.173542,ID3846,start
+68,Turning & Milling,2013-08-06 06:19:28.173542,ID3846,complete
+68,Turning & Milling,2013-08-06 06:19:28.173542,ID4641,start
+68,Turning & Milling,2013-08-06 12:13:53.110529,ID4641,complete
+68,Turning & Milling,2013-08-07 12:22:03.057375,ID3846,start
+68,Turning & Milling Q.C.,2013-08-07 12:28:40.534894,ID4287,start
+68,Turning & Milling Q.C.,2013-08-07 13:16:19.592133,ID4287,complete
+68,Turning & Milling,2013-08-07 16:59:15.201959,ID3846,complete
+68,Turning & Milling,2013-08-08 06:31:45.377908,ID4132,start
+68,Turning & Milling,2013-08-08 13:59:40.209561,ID4132,complete
+68,Turning & Milling,2013-08-08 13:59:40.209561,ID3846,start
+68,Turning & Milling,2013-08-08 18:53:11.699897,ID3846,complete
+68,Turning & Milling,2013-08-08 20:13:00.584676,ID3846,start
+68,Turning & Milling,2013-08-08 20:13:00.584676,ID3846,complete
+68,Turning & Milling,2013-08-08 20:41:50.326346,ID4132,start
+68,Turning & Milling Q.C.,2013-08-08 22:55:29.646101,ID4287,start
+68,Turning & Milling Q.C.,2013-08-08 22:55:29.646101,ID4287,complete
+68,Turning & Milling,2013-08-09 01:07:11.020709,ID4132,complete
+68,Turning & Milling,2013-08-10 22:11:41.231573,ID4794,start
+68,Turning & Milling,2013-08-10 22:45:44.794747,ID4794,complete
+68,Turning & Milling,2013-08-11 11:33:32.212314,ID3846,start
+68,Turning & Milling Q.C.,2013-08-11 17:52:08.445344,ID4287,start
+68,Turning & Milling Q.C.,2013-08-11 18:29:41.952206,ID4287,start
+68,Turning & Milling Q.C.,2013-08-11 18:37:49.233010,ID4287,complete
+68,Turning & Milling Q.C.,2013-08-11 18:37:49.233010,ID4287,complete
+68,Turning & Milling,2013-08-11 23:13:08.004831,ID3846,complete
+68,Turning & Milling,2013-08-11 23:13:08.004831,ID3846,start
+68,Turning & Milling Q.C.,2013-08-12 00:33:16.905044,ID4287,start
+68,Turning & Milling,2013-08-12 00:33:16.905044,ID3846,complete
+68,Turning & Milling Q.C.,2013-08-12 01:14:11.280457,ID4287,complete
+68,Turning & Milling,2013-08-12 10:57:50.356040,ID4132,start
+68,Turning & Milling,2013-08-12 16:20:51.707499,ID4132,complete
+68,Turning & Milling,2013-08-12 16:20:51.707499,ID4132,start
+68,Turning & Milling,2013-08-12 19:45:58.661863,ID4132,complete
+68,Turning & Milling,2013-08-12 19:45:58.661863,ID4932,start
+68,Turning & Milling,2013-08-12 23:17:45.097197,ID4932,complete
+68,Turning & Milling,2013-08-13 04:37:45.921471,ID3846,start
+68,Turning & Milling Q.C.,2013-08-13 05:39:09.718391,ID4287,start
+68,Turning & Milling,2013-08-13 06:12:57.421914,ID3846,complete
+68,Turning & Milling,2013-08-14 00:33:38.574602,ID3846,start
+68,Turning & Milling,2013-08-14 00:33:38.574602,ID3846,start
+68,Turning & Milling Q.C.,2013-08-14 00:33:38.574602,ID4287,complete
+68,Turning & Milling,2013-08-14 07:27:49.313490,ID3846,complete
+68,Turning & Milling,2013-08-14 12:59:47.341969,ID3846,complete
+68,Turning & Milling,2013-08-14 23:32:10.741851,ID4132,start
+68,Turning & Milling,2013-08-15 03:13:50.202617,ID4132,complete
+68,Turning & Milling,2013-08-15 03:13:50.202617,ID4932,start
+68,Turning & Milling,2013-08-15 03:13:50.202617,ID4932,complete
+68,Turning & Milling,2013-08-15 03:53:22.959436,ID3846,start
+68,Turning & Milling Q.C.,2013-08-15 12:17:30.455721,ID4287,start
+68,Turning & Milling,2013-08-15 13:04:48.977343,ID3846,complete
+68,Turning & Milling Q.C.,2013-08-15 14:08:08.215354,ID4287,complete
+68,Turning & Milling,2013-08-15 14:08:08.215354,ID4132,start
+68,Turning & Milling,2013-08-15 16:24:51.063693,ID4132,complete
+68,Turning & Milling,2013-08-15 22:49:43.280514,ID4932,start
+68,Turning & Milling,2013-08-15 22:49:43.280514,ID4932,complete
+68,Turning & Milling,2013-08-16 03:48:30.972311,ID3846,start
+68,Turning & Milling,2013-08-16 13:56:27.532018,ID3846,complete
+68,Turning & Milling,2013-08-17 20:10:08.508783,ID3846,start
+68,Turning & Milling Q.C.,2013-08-17 21:51:50.995506,ID4287,start
+68,Turning & Milling,2013-08-17 22:22:05.952290,ID4287,start
+68,Turning & Milling,2013-08-17 22:22:05.952290,ID3846,complete
+68,Turning & Milling,2013-08-18 05:26:46.290326,ID4287,complete
+68,Milling,2013-08-18 05:26:46.290326,ID4162,start
+68,Turning & Milling Q.C.,2013-08-18 06:16:46.290326,ID4287,complete
+68,Milling,2013-08-18 06:16:46.290326,ID4162,complete
+68,Milling,2013-08-18 06:16:46.290326,ID4162,start
+68,Final Inspection Q.C.,2013-08-18 08:30:13.956787,ID4287,start
+68,Final Inspection Q.C.,2013-08-18 09:36:02.039784,ID4287,complete
+68,Milling,2013-08-18 11:04:38.472284,ID4162,complete
+68,Turning & Milling,2013-08-21 07:40:24.079337,ID4162,start
+68,Turning & Milling,2013-08-21 12:05:06.626244,ID4162,complete
+68,Milling,2013-08-22 08:56:29.468895,ID4162,start
+68,Milling,2013-08-22 18:08:37.042435,ID4162,complete
+68,Milling,2013-08-22 18:08:37.042435,ID4162,start
+68,Milling,2013-08-22 22:31:04.928161,ID4162,complete
+68,Milling,2013-08-25 03:21:05.504095,ID4873,start
+68,Milling,2013-08-25 16:12:34.760122,ID4873,complete
+68,Milling,2013-08-26 02:04:02.341015,ID4162,start
+68,Milling,2013-08-26 02:04:02.341015,ID4162,complete
+68,Milling,2013-08-27 04:27:47.911159,ID4162,start
+68,Milling,2013-08-27 10:05:16.894766,ID4162,complete
+68,Turning & Milling,2013-08-28 01:36:37.801972,ID4140,start
+68,Milling,2013-08-28 01:37:37.801972,ID4140,start
+68,Turning & Milling,2013-08-28 02:51:37.801972,ID4140,complete
+68,Milling,2013-08-28 04:11:37.801972,ID4140,complete
+68,Milling,2013-08-28 14:28:32.893206,ID4140,start
+68,Milling,2013-08-28 14:38:32.893206,ID4873,start
+68,Milling,2013-08-29 00:29:28.899280,ID4140,complete
+68,Milling,2013-08-29 09:35:28.899280,ID4873,complete
+68,Milling,2013-08-31 09:34:13.650265,ID4162,start
+68,Milling,2013-08-31 15:07:20.780484,ID4162,complete
+68,Milling,2013-08-31 15:07:20.780484,ID4162,start
+68,Milling,2013-08-31 22:13:55.912487,ID4162,complete
+68,Milling,2013-09-01 11:13:00.874771,ID4873,start
+68,Milling,2013-09-01 11:13:00.874771,ID4873,complete
+68,Milling,2013-09-02 12:59:25.709006,ID4162,start
+68,Milling,2013-09-02 19:40:55.991127,ID4162,complete
+68,Milling,2013-09-03 00:30:33.172990,ID4162,start
+68,Milling,2013-09-03 12:26:54.236055,ID4162,complete
+68,Milling,2013-09-04 02:37:31.356387,ID4162,start
+68,Milling,2013-09-04 15:19:09.626863,ID4162,complete
+68,Milling,2013-09-04 15:19:09.626863,ID4873,start
+68,Milling,2013-09-04 22:16:45.376902,ID4873,complete
+68,Packing,2013-09-07 04:48:58.477631,ID4291,start
+68,Packing,2013-09-07 05:48:58.477631,ID4291,complete
+68,Final Inspection Q.C.,2013-09-07 17:35:26.775422,ID4287,start
+68,Final Inspection Q.C.,2013-09-07 17:40:53.055258,ID4287,complete
+68,End,2013-09-07 17:40:53.055258,End,start
+68,End,2013-09-07 17:40:53.055258,End,complete
