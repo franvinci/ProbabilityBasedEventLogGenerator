@@ -3,7 +3,13 @@ from src.train_utils import splitEventLog
 from EventLogGenerator import EventLogGenerator
 
 
-case_studies = ['bpi17']
+case_studies = [
+    'Purchasing',
+    'Production',
+    'Consulta',
+    'bpi12',
+    'bpi17'
+    ]
 
 
 for case_study in case_studies:
