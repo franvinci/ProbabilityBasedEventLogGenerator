@@ -3,7 +3,7 @@ from src.train_utils import splitEventLog
 from EventLogGenerator import EventLogGenerator
 
 
-case_studies = ['Consulta', 'Production', 'Purchasing']
+case_studies = ['bpi17']
 
 
 for case_study in case_studies:
@@ -35,7 +35,7 @@ for case_study in case_studies:
 
 
     log = xes_importer.apply(path_log)
-    train_log, test_log = splitEventLog(log, train_size = 0.7, split_temporal = True, save_to = save_split_to)
+    train_log, test_log = splitEventLog(log, train_size = 0.8, split_temporal = True, save_to = save_split_to)
 
     start_timestamp = test_log[0][0]['time:timestamp'].strftime('%Y-%m-%d %H:%M:%S')
 
