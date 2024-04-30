@@ -18,7 +18,7 @@ def from_lifecycles_to_start_end(trace):
     new_trace = pd.DataFrame(columns=trace.columns)
     del new_trace['lifecycle:transition']
     del new_trace['time:timestamp']
-    new_trace['START'], new_trace['END'] = np.zeros(len(new_trace)), np.zeros(len(new_trace))
+    new_trace['start:timestamp'], new_trace['time:timestamp'] = np.zeros(len(new_trace)), np.zeros(len(new_trace))
 
     #Get the index of the lifecycle:transition and the time:timestamp column
     lifecycle_index, time_index = trace.columns.get_loc('lifecycle:transition'), trace.columns.get_loc('time:timestamp')
@@ -36,7 +36,10 @@ def from_lifecycles_to_start_end(trace):
         if lifecycle == 'complete':
             vec = trace.iloc[line].values.tolist()
             el = vec.pop(time_index)
-            el = vec.pop(lifecycle_index)
+            if time_index < lifecycle_index:
+                el = vec.pop(lifecycle_index - 1)
+            else:
+                el = vec.pop(lifecycle_index)
             vec_to_append = pd.Series(vec+ [trace.iloc[line]['time:timestamp']] + [trace.iloc[line]['time:timestamp']], index=new_trace.columns)
             new_trace = append_row(new_trace, vec_to_append)
 
@@ -45,7 +48,10 @@ def from_lifecycles_to_start_end(trace):
             if 'complete' not in trace['lifecycle:transition'].values:
                 vec = trace.iloc[line].values.tolist()
                 el = vec.pop(time_index)
-                el = vec.pop(lifecycle_index)
+                if time_index < lifecycle_index:
+                    el = vec.pop(lifecycle_index - 1)
+                else:
+                    el = vec.pop(lifecycle_index)
                 vec_to_append = pd.Series(vec+ [trace.iloc[line]['time:timestamp']] + [trace.iloc[line]['time:timestamp']], index=new_trace.columns)
                 new_trace = append_row(new_trace, vec_to_append)
                 continue
@@ -63,7 +69,10 @@ def from_lifecycles_to_start_end(trace):
                 # vec['org:resource'] = trace.iloc[line]['org:resource']
                 vec = vec.values.tolist()
                 el = vec.pop(time_index)
-                el = vec.pop(lifecycle_index)
+                if time_index < lifecycle_index:
+                    el = vec.pop(lifecycle_index - 1)
+                else:
+                    el = vec.pop(lifecycle_index)
                 vec_to_append = pd.Series(vec+ [trace.iloc[line]['time:timestamp']] + [trace.iloc[line]['time:timestamp']], index=new_trace.columns)
                 new_trace = append_row(new_trace, vec_to_append)
 
@@ -72,7 +81,11 @@ def from_lifecycles_to_start_end(trace):
                 vec['org:resource'] = res_end
                 vec = vec.values.tolist()
                 el = vec.pop(time_index)
-                el = vec.pop(lifecycle_index)
+                if time_index < lifecycle_index:
+                    el = vec.pop(lifecycle_index - 1)
+                else:
+                    el = vec.pop(lifecycle_index)
+
                 vec_to_append = pd.Series(vec+ [trace.iloc[line]['time:timestamp']] + [trace.iloc[end]['time:timestamp']], index=new_trace.columns)
                 new_trace = append_row(new_trace, vec_to_append)
                 
@@ -94,7 +107,7 @@ def convert_log(log):
     ret_log = pd.DataFrame(columns=log.columns)
     del ret_log['lifecycle:transition']
     del ret_log['time:timestamp']
-    ret_log['START'], ret_log['END'] = np.zeros(len(ret_log)), np.zeros(len(ret_log))
+    ret_log['start:timestamp'], ret_log['time:timestamp'] = np.zeros(len(ret_log)), np.zeros(len(ret_log))
 
     for trace_id in tqdm.tqdm(log['case:concept:name'].unique()):
         log_trace = log[log['case:concept:name'] == trace_id]
