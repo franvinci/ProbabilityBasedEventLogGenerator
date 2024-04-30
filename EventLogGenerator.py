@@ -90,7 +90,7 @@ class EventLogGenerator:
     
     def generate_lifecyle(self, df):
 
-        df['lifecyle:transition'] = df['concept:name'].apply(lambda x: x.split('_lc:')[-1])
+        df['lifecycle:transition'] = df['concept:name'].apply(lambda x: x.split('_lc:')[-1])
         df['concept:name'] = df['concept:name'].apply(lambda x: ''.join(x.split('_lc:')[:-1]))
 
         return df
@@ -112,7 +112,7 @@ class EventLogGenerator:
         resources = [ev[1] for trace in log for ev in trace]
         timestamps = [t for trace in timestamps_log for t in trace]
         
-        df = pd.DataFrame({'case:concept:name': ids, 'concept:name': activities, 'time:timestamp': timestamps, 'org:resources': resources})
+        df = pd.DataFrame({'case:concept:name': ids, 'concept:name': activities, 'time:timestamp': timestamps, 'org:resource': resources})
         df = self.generate_lifecyle(df)
 
         return df
