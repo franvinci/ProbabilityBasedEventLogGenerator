@@ -2,6 +2,8 @@ from pm4py.objects.log.importer.xes import importer as xes_importer
 from src.train_utils import splitEventLog
 from EventLogGenerator import EventLogGenerator
 
+import warnings
+warnings.filterwarnings('ignore')
 
 case_studies = [
     'Purchasing',

@@ -1,4 +1,4 @@
-from scipy.stats import gaussian_kde
+from src.distribution_utils import find_best_fit_distribution, sample_time
 
 def get_arrival_times(log):
     
@@ -28,38 +28,40 @@ def get_ex_times(log):
     return ex_times
 
 
-def get_kde_arrival_time(log):
+def get_distr_arrival_time(log):
     
     arrival_times = get_arrival_times(log)
-    kde = gaussian_kde(arrival_times)
+    distr = find_best_fit_distribution(arrival_times)
+    max_t = max(arrival_times)
 
-    return kde
+    return distr, max_t
 
 
-def get_kde_ex_times(log):
+def get_distr_ex_times(log):
 
     ex_times = get_ex_times(log)
-    ex_times_kde = dict()
+    ex_times_distr = dict()
 
     acts_couples = list(ex_times.keys())
     for acts in acts_couples:
         if len(set(ex_times[acts])) > 1:
-            ex_times_kde[acts] = gaussian_kde(ex_times[acts])
+            max_t = max(ex_times[acts])
+            ex_times_distr[acts] = find_best_fit_distribution(ex_times[acts]), max_t
         else:
-            ex_times_kde[acts] = {'fixed': ex_times[acts][0]}
+            ex_times_distr[acts] = {'fixed': ex_times[acts][0]}, None
 
-    return ex_times_kde
+    return ex_times_distr
 
 
-def sample_arrival_times(kde, N):
+def sample_arrival_times(distr, max_t, N):
 
-    arrival_times_sim = list(kde.resample(N)[0])
-    arrival_times_sim = [max(0, x) for x in arrival_times_sim]
+    arrival_times_sim = sample_time(distr, N)
+    arrival_times_sim = [min(x, max_t) for x in arrival_times_sim]
 
     return arrival_times_sim
 
 
-def sample_ex_times_acts(kde, acts, sim_traces):
+def sample_ex_times_acts(distr, max_t, acts, sim_traces):
 
     prev = acts[0]
     cur = acts[1]
@@ -67,25 +69,25 @@ def sample_ex_times_acts(kde, acts, sim_traces):
     N = 0
     for trace in sim_traces:
         for i in range(1, len(trace)):
-            if (trace[i-1] == prev) and (trace[i] == cur):
+            if (trace[i-1][0] == prev) and (trace[i][0] == cur):
                 N += 1
 
-    if type(kde) == dict:
-        ex_times_acts = [kde['fixed']]*N
+    if not max_t:
+        ex_times_acts = [distr['fixed']]*N
     else:
-        ex_times_acts = list(kde.resample(N)[0])
-        ex_times_acts = [max(0, x) for x in ex_times_acts]
+        ex_times_acts = sample_time(distr, N)
+        ex_times_acts = [min(x, max_t) for x in ex_times_acts]
 
     return ex_times_acts
 
 
-def sample_ex_times(ex_times_kde, sim_traces):
+def sample_ex_times(ex_times_distr, sim_traces):
 
     ex_times_sim = dict()
 
-    acts_couples = list(ex_times_kde.keys())
+    acts_couples = list(ex_times_distr.keys())
     for acts in acts_couples:
-        ex_times_sim[acts] = sample_ex_times_acts(ex_times_kde[acts], acts, sim_traces)
+        ex_times_sim[acts] = sample_ex_times_acts(ex_times_distr[acts][0], ex_times_distr[acts][1], acts, sim_traces)
 
     return ex_times_sim
 
