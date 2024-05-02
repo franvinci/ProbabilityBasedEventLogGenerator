@@ -1,3 +1,4 @@
+import pm4py
 from pm4py.objects.log.importer.xes import importer as xes_importer
 from src.train_utils import splitEventLog
 from EventLogGenerator import EventLogGenerator
@@ -43,6 +44,13 @@ for case_study in case_studies:
 
 
     log = xes_importer.apply(path_log)
+
+    # sort event log by time:timestamp
+    df_log = pm4py.convert_to_dataframe(log)
+    df_log.sort_values(by='time:timestamp', inplace=True)
+    df_log.index = range(len(df_log))
+    log = pm4py.convert_to_event_log(df_log)
+
     train_log, test_log = splitEventLog(log, train_size = 0.8, split_temporal = True, save_to = save_split_to)
 
     start_timestamp = test_log[0][0]['time:timestamp'].strftime('%Y-%m-%d %H:%M:%S')
