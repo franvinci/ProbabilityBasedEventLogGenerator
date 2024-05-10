@@ -114,3 +114,20 @@ def convert_log(log):
         ret_log = pd.concat([ret_log, from_lifecycles_to_start_end(log_trace)])
 
     return ret_log
+
+
+def order_for_trace_start(log):
+
+    # For each trace id, get the first timestamp
+    first_timestamps = []
+    for trace_id in log['case:concept:name'].unique():
+        trace = log[log['case:concept:name'] == trace_id]
+        first_timestamps.append((trace_id, trace['time:timestamp'].min()))
+    
+    # Sort the log by the first timestamp
+    first_timestamps = sorted(first_timestamps, key=lambda x: x[1])
+
+    # sort the log by trace if following first timestamp order
+    log = log[log['case:concept:name'].isin([x[0] for x in first_timestamps])]
+    
+    return log

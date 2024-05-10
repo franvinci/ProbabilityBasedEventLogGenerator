@@ -1,11 +1,18 @@
+import pm4py
 from src.distribution_utils import find_best_fit_distribution, sample_time
 
 def get_arrival_times(log):
+
+    # sort event log by time:timestamp
+    df_log = pm4py.convert_to_dataframe(log)
+    df_log.sort_values(by='time:timestamp', inplace=True)
+    df_log.index = range(len(df_log))
+    log_sorted = pm4py.convert_to_event_log(df_log)
     
     arrival_times = []
-    for i in range(1, len(log)):
-        time_prec = log[i-1][0]['time:timestamp']
-        time_curr = log[i][0]['time:timestamp']
+    for i in range(1, len(log_sorted)):
+        time_prec = log_sorted[i-1][0]['time:timestamp']
+        time_curr = log_sorted[i][0]['time:timestamp']
         arrival_times.append((time_curr - time_prec).total_seconds())
 
     return arrival_times
