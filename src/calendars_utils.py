@@ -8,7 +8,6 @@ def n_to_weekday(i):
 def find_calendars(log):
     """
     {resource: {WEEKDAY: (sH,eH)}}
-    se quel weekday non si lavora mettere None
     """
 
     weekday_labels = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -36,7 +35,6 @@ def find_calendars(log):
 def find_calendars_roles(log):
     """
     {role: {WEEKDAY: (sH,eH)}}
-    se quel weekday non si lavora mettere None
     """
 
     weekday_labels = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
