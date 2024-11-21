@@ -22,6 +22,12 @@ def get_prefix_res_freq(log):
 
 
 def get_prefix_res_proba(log):
+    """
+    
+    Returns a dictionary: {'prefix': {'res': probability to execute 'res' after 'prefix'}}
+    'prefix' is a list of (act, res)
+
+    """
 
     prefixes_freq_next_res = get_prefix_res_freq(log)
     prefixes_act = prefixes_freq_next_res.keys()
@@ -34,7 +40,7 @@ def get_prefix_res_proba(log):
     return prefixes_proba_next_res
 
 
-def get_possible_prefixes_act(prefixes_proba_next_res):
+def get_possible_prefixes_res_act(prefixes_proba_next_res):
 
     possible_prefixes_act = list(prefixes_proba_next_res.keys())
     possible_prefixes = dict()

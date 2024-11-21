@@ -1,92 +1,61 @@
 import numpy as np
-from scipy import stats
+import scipy.stats as stats
 
+# Define the possible distributions
 possible_distributions = [
-    'fixed',
-    'normal',
-    'exponential',
-    'uniform',
-    'triangular',
-    'lognormal',
-    'gamma'
-    ]
+    'norm',       # Normal distribution
+    'expon',      # Exponential distribution
+    'uniform',    # Uniform distribution
+    'triang',     # Triangular distribution
+    'lognorm',    # Log-normal distribution
+    'gamma'       # Gamma distribution
+]
 
-
-def find_best_fit_distribution(observed_values, N=None, remove_outliars=False):
-
-    if remove_outliars:
-        q1 = np.percentile(observed_values, 25)
-        q3 = np.percentile(observed_values, 75)
-        iqr = q3 - q1
-        lower_limit = q1 - 1.5 * iqr
-        upper_limit = q3 + 1.5 * iqr
-        observed_values = observed_values[(observed_values < lower_limit) | (observed_values > upper_limit)]
+def find_best_fit_distribution(data):
+    """
+    Finds the best-fitting distribution for the given data.
+    Args:
+        data (array-like): The observed values.
+    Returns:
+        dict: Dictionary containing the best-fitting distribution, its name, and parameters.
+    """
+    best_fit = None
+    best_stat = np.inf  # Lower is better for goodness-of-fit
     
-    if not N:
-        N = len(observed_values)
+    for dist_name in possible_distributions:
+        dist = getattr(stats, dist_name)  # Get the distribution object
+        try:
+            # Fit the distribution to the data
+            params = dist.fit(data)
+            
+            # Perform a goodness-of-fit test (Kolmogorov-Smirnov)
+            ks_stat, _ = stats.kstest(data, dist_name, args=params)
+            
+            # Save if this distribution is better
+            if ks_stat < best_stat:
+                best_stat = ks_stat
+                best_fit = {'name': dist_name, 'params': params}
+        except Exception as e:
+            # Skip distributions that fail to fit
+            print(f"Skipping {dist_name}: {e}")
+            continue
+    
+    return best_fit
 
-    generated_values = dict()
-    distr_params = {d: dict() for d in possible_distributions}
+def sample_time(distribution, n_samples=1):
+    
+    """
+    Samples values from a given distribution.
+    Args:
+        distribution (dict): A dictionary with 'name' and 'params'.
+        n_samples (int): Number of samples to generate.
+    Returns:
+        np.ndarray: Array of sampled values.
+    """
 
-    if np.min(observed_values) == np.max(observed_values):
-        return 'fixed', {'value': 0}
+    if distribution['name'] == 'fixed':
+        return [distribution['value']]*n_samples
+    
+    dist = getattr(stats, distribution['name'])
 
-    for distr_name in possible_distributions:
-        if distr_name == 'fixed':
-            distr_params[distr_name] = {'value' : np.mean(observed_values)}
-            generated_values[distr_name] = np.array([distr_params[distr_name]['value']] * N)
-        elif distr_name == 'normal':
-            dist = stats.norm
-            loc, scale = dist.fit(observed_values)
-            distr_params[distr_name] = {'loc': loc, 'scale': scale}
-            generated_values[distr_name] = dist.rvs(loc=loc, scale=scale, size=N)
-        elif distr_name == 'exponential':
-            dist = stats.expon
-            loc, scale = dist.fit(observed_values)
-            distr_params[distr_name] = {'loc': loc, 'scale': scale}
-            generated_values[distr_name] = dist.rvs(loc=loc, scale=scale, size=N)
-        elif distr_name == 'uniform':
-            dist = stats.uniform
-            loc, scale = dist.fit(observed_values)
-            distr_params[distr_name] = {'loc': loc, 'scale': scale}
-            generated_values[distr_name] = dist.rvs(loc=loc, scale=scale, size=N)
-        elif distr_name == 'triangular':
-            dist = stats.triang
-            c, loc, scale = dist.fit(observed_values)
-            distr_params[distr_name] = {'c': c, 'loc': loc, 'scale': scale}
-            generated_values[distr_name] = dist.rvs(c=c, loc=loc, scale=scale, size=N)
-        elif distr_name == 'lognormal':
-            dist = stats.lognorm
-            s, loc, scale = dist.fit(observed_values)
-            distr_params[distr_name] = {'s': s, 'loc': loc, 'scale': scale}
-            generated_values[distr_name] = dist.rvs(s=s, loc=loc, scale=scale, size=N)
-        elif distr_name == 'gamma':
-            dist = stats.gamma
-            a, loc, scale = dist.fit(observed_values)
-            distr_params[distr_name] = {'a': a, 'loc': loc, 'scale': scale}
-            generated_values[distr_name] = dist.rvs(a=a, loc=loc, scale=scale, size=N)
-
-    wass_distances = {d_name: stats.wasserstein_distance(observed_values, generated_values[d_name]) for d_name in possible_distributions}
-    best_distr = min(wass_distances, key=wass_distances.get)
-
-    return best_distr, distr_params[best_distr]
-
-def sample_time(distr, N=1):
-
-    distr_name, distr_params = distr
-
-    if distr_name == 'fixed':
-        return [distr_params['value']]*N
-    elif distr_name == 'normal':
-        sampled_t = stats.norm(loc=distr_params['loc'], scale=distr_params['scale']).rvs(size=N)
-        return sampled_t * (sampled_t > 0)
-    elif distr_name == 'exponential':
-        return stats.expon(loc=distr_params['loc'], scale=distr_params['scale']).rvs(size=N)
-    elif distr_name == 'uniform':
-        return stats.uniform(loc=distr_params['loc'], scale=distr_params['scale']).rvs(size=N)
-    elif distr_name == 'triangular':
-        return stats.triang(c=distr_params['c'], loc=distr_params['loc'], scale=distr_params['scale']).rvs(size=N)
-    elif distr_name == 'lognormal':
-        return stats.lognorm(s=distr_params['s'], loc=distr_params['loc'], scale=distr_params['scale']).rvs(size=N)
-    elif distr_name == 'gamma':
-        return stats.gamma(a=distr_params['a'], loc=distr_params['loc'], scale=distr_params['scale']).rvs(size=N)
+    return dist.rvs(*distribution['params'], size=n_samples)

@@ -1,5 +1,6 @@
 import pm4py
 import numpy as np
+import pandas as pd
 
 
 def splitEventLog(log, train_size = 0.7, split_temporal = True, save_to = ''):
@@ -9,8 +10,11 @@ def splitEventLog(log, train_size = 0.7, split_temporal = True, save_to = ''):
 
     """
 
-
     df_real = pm4py.convert_to_dataframe(log)
+    df_real['time:timestamp'] = pd.to_datetime(df_real['time:timestamp'])
+    df_real.sort_values(by='time:timestamp', inplace=True)
+    df_real.index = range(len(df_real))
+
 
     cases = df_real['case:concept:name'].unique()
     np.random.seed(72)

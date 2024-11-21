@@ -1,24 +1,20 @@
 import pm4py
 from src.distribution_utils import find_best_fit_distribution, sample_time
+from src.calendar_utils import count_false_hours
 
-def get_arrival_times(log):
+def get_arrival_times(log, arrival_calendar):
 
-    # sort event log by time:timestamp
-    df_log = pm4py.convert_to_dataframe(log)
-    df_log.sort_values(by='time:timestamp', inplace=True)
-    df_log.index = range(len(df_log))
-    log_sorted = pm4py.convert_to_event_log(df_log)
-    
     arrival_times = []
-    for i in range(1, len(log_sorted)):
-        time_prec = log_sorted[i-1][0]['time:timestamp']
-        time_curr = log_sorted[i][0]['time:timestamp']
-        arrival_times.append((time_curr - time_prec).total_seconds())
+    for i in range(1, len(log)):
+        time_prec = log[i-1][0]['time:timestamp']
+        time_curr = log[i][0]['time:timestamp']
+        ar_time = max((time_curr - time_prec).total_seconds()/60 - count_false_hours(arrival_calendar, time_prec, time_curr)*60, 0)
+        arrival_times.append(ar_time)
 
     return arrival_times
 
 
-def get_ex_times(log):
+def get_ex_times(log, res_calendars):
 
     ex_times = dict()
     for trace in log:
@@ -27,26 +23,29 @@ def get_ex_times(log):
             cur_t = trace[i]['time:timestamp']
             prec_a = trace[i-1]['concept:name']
             cur_a = trace[i]['concept:name']
+            cur_res = trace[i]['org:resource']
+            calendar = res_calendars[cur_res]
+            ex_t = max((cur_t - prec_t).total_seconds()/60 - count_false_hours(calendar, prec_t, cur_t)*60, 0)
             if (prec_a, cur_a) in ex_times.keys():
-                ex_times[(prec_a, cur_a)].append((cur_t - prec_t).total_seconds())
+                ex_times[(prec_a, cur_a)].append(ex_t)
             else:
-                ex_times[(prec_a, cur_a)] = [(cur_t - prec_t).total_seconds()]
+                ex_times[(prec_a, cur_a)] = [ex_t]
 
     return ex_times
 
 
-def get_distr_arrival_time(log):
+def get_distr_arrival_time(log, arrival_calendar):
     
-    arrival_times = get_arrival_times(log)
+    arrival_times = get_arrival_times(log, arrival_calendar)
     distr = find_best_fit_distribution(arrival_times)
     max_t = max(arrival_times)
 
     return distr, max_t
 
 
-def get_distr_ex_times(log):
+def get_distr_ex_times(log, res_calendars):
 
-    ex_times = get_ex_times(log)
+    ex_times = get_ex_times(log, res_calendars)
     ex_times_distr = dict()
 
     acts_couples = list(ex_times.keys())
@@ -55,7 +54,7 @@ def get_distr_ex_times(log):
             max_t = max(ex_times[acts])
             ex_times_distr[acts] = find_best_fit_distribution(ex_times[acts]), max_t
         else:
-            ex_times_distr[acts] = {'fixed': ex_times[acts][0]}, None
+            ex_times_distr[acts] = {'name': 'fixed', 'value': ex_times[acts][0]}, None
 
     return ex_times_distr
 
@@ -80,7 +79,7 @@ def sample_ex_times_acts(distr, max_t, acts, sim_traces):
                 N += 1
 
     if not max_t:
-        ex_times_acts = [distr['fixed']]*N
+        ex_times_acts = [distr['value']]*N
     else:
         ex_times_acts = sample_time(distr, N)
         ex_times_acts = [min(x, max_t) for x in ex_times_acts]

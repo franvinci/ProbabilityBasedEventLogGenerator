@@ -1,30 +1,45 @@
 from src.gen_seq_utils import get_prefix_proba
-# from src.gen_res_utils import get_prefix_res_proba, get_possible_prefixes_act
-from src.gen_role_utils import add_roles_to_log, get_prefix_role_proba, get_possible_prefixes_act
+from src.gen_res_utils import get_prefix_res_proba, get_possible_prefixes_res_act
+from src.gen_attr_utils import get_prefix_attr_proba, get_possible_prefixes_attr_act
 from src.gen_time_utils import get_distr_arrival_time, get_distr_ex_times, sample_arrival_times, sample_ex_times
 from src.prefix_utils import get_more_similar_prefix
 from src.preprocess_utils import add_lc_to_act
-from src.calendars_utils import find_calendars, find_calendars_roles, return_time_from_calendar
+from src.calendar_utils import discover_arrival_calendar, discover_res_calendars, add_minutes_with_calendar
 import random
 import pandas as pd
-from datetime import timedelta, datetime
+from datetime import datetime
 from tqdm import tqdm
+import pm4py
 
 class EventLogGenerator:
-    def __init__(self, log):
-        self.log = log
+    def __init__(self, log, label_data_attributes=[]):
+
+        # sort event log by time:timestamp
+        df_log = pm4py.convert_to_dataframe(log)
+        df_log['time:timestamp'] = pd.to_datetime(df_log['time:timestamp'])
+        df_log.sort_values(by='time:timestamp', inplace=True)
+        df_log.index = range(len(df_log))
+        self.log = pm4py.convert_to_event_log(df_log)
 
         self.log = add_lc_to_act(log)
 
-        # enrich with roles
-        self.log = add_roles_to_log(log)
+        self.label_data_attributes = label_data_attributes
 
-        # compute conditional probabilities: probability to execute an activity given a prefix
-        self.prefixes_proba_next_act = get_prefix_proba(log)
-        self.prefixes_proba_next_role = get_prefix_role_proba(log)
-        self.arrival_times_distr = get_distr_arrival_time(log)
-        self.ex_times_distr = get_distr_ex_times(log)
-        self.role_calendars = find_calendars_roles(log)
+
+        # compute conditional probabilities
+        self.prefixes_proba_next_act = get_prefix_proba(self.log)
+        self.prefixes_proba_next_res = get_prefix_res_proba(self.log)
+
+        if label_data_attributes:
+            self.prefixes_proba_next_attr = get_prefix_attr_proba(self.log, self.label_data_attributes)
+
+        # calendars discovery
+        self.arrival_calendar = discover_arrival_calendar(self.log)
+        self.res_calendars = discover_res_calendars(self.log)
+
+        # compute durations distributions
+        self.arrival_times_distr = get_distr_arrival_time(self.log, self.arrival_calendar)
+        self.ex_times_distr = get_distr_ex_times(self.log, self.res_calendars)
 
 
     def generate_seq(self, N_seq=100):
@@ -59,13 +74,13 @@ class EventLogGenerator:
         return gen_seq_log
     
 
-    def generate_roles(self, log_seqs_times):
+    def generate_resources(self, log_seqs):
 
-        possible_prefixes = get_possible_prefixes_act(self.prefixes_proba_next_role)
-        simulated_traces_act_role = []
+        possible_prefixes = get_possible_prefixes_res_act(self.prefixes_proba_next_res)
+        simulated_traces_act_res = []
         similar_prefixes = dict()
-        for sim_trace_act in tqdm(log_seqs_times):
-            sim_trace_act_role = []
+        for sim_trace_act in tqdm(log_seqs):
+            sim_trace_act_res = []
             prefix = tuple()
             for act in sim_trace_act:
                 pref_act = (prefix, act)
@@ -75,12 +90,36 @@ class EventLogGenerator:
                     if act not in similar_prefixes[prefix].keys():
                         similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
                     pref_act = (similar_prefixes[prefix][act], act)
-                role = random.choices(list(self.prefixes_proba_next_role[pref_act].keys()), weights = self.prefixes_proba_next_role[pref_act].values())[0]
-                sim_trace_act_role.append((act, role))
-                prefix = prefix + ((act, role),)
-            simulated_traces_act_role.append(sim_trace_act_role)  
+                res = random.choices(list(self.prefixes_proba_next_res[pref_act].keys()), weights = self.prefixes_proba_next_res[pref_act].values())[0]
+                sim_trace_act_res.append((act, res))
+                prefix = prefix + ((act, res),)
+            simulated_traces_act_res.append(sim_trace_act_res)  
 
-        return simulated_traces_act_role
+        return simulated_traces_act_res
+    
+
+    def generate_attributes(self, log_seqs, log_seqs_res):
+
+        possible_prefixes = get_possible_prefixes_attr_act(self.prefixes_proba_next_attr)
+        simulated_traces_act_res_attr = []
+        similar_prefixes = dict()
+        for i, sim_trace_act in tqdm(enumerate(log_seqs), total=len(log_seqs)):
+            sim_trace_act_res_attr = []
+            prefix = tuple()
+            for j, act in enumerate(sim_trace_act):
+                pref_act = (prefix, act)
+                if prefix not in possible_prefixes[act]:
+                    if prefix not in similar_prefixes.keys():
+                        similar_prefixes[prefix] = dict()
+                    if act not in similar_prefixes[prefix].keys():
+                        similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
+                    pref_act = (similar_prefixes[prefix][act], act)
+                attr = random.choices(list(self.prefixes_proba_next_attr[pref_act].keys()), weights = self.prefixes_proba_next_attr[pref_act].values())[0]
+                sim_trace_act_res_attr.append((act, log_seqs_res[i][j][1], attr))
+                prefix = prefix + ((act, attr),)
+            simulated_traces_act_res_attr.append(sim_trace_act_res_attr)  
+
+        return simulated_traces_act_res_attr
     
 
     def generate_timestamps(self, log_seqs, start_timestamp):
@@ -88,23 +127,18 @@ class EventLogGenerator:
         arrival_times = sample_arrival_times(self.arrival_times_distr[0], self.arrival_times_distr[1], len(log_seqs)-1)
         ex_times = sample_ex_times(self.ex_times_distr, log_seqs)
 
-        role = log_seqs[0][0][1]
-        start_timestamp = return_time_from_calendar(start_timestamp, self.role_calendars[role])
         timestamps = [[start_timestamp]]
         for i, a_t in enumerate(arrival_times):
-            start_timestamp = start_timestamp + timedelta(seconds=a_t)
-            role = log_seqs[i+1][0][1]
-            start_timestamp = return_time_from_calendar(start_timestamp, self.role_calendars[role])
+            start_timestamp = add_minutes_with_calendar(start_timestamp, a_t, self.arrival_calendar)
             timestamps.append([start_timestamp])
         
         for i in tqdm(range(len(log_seqs))):
             for j in range(1, len(log_seqs[i])):
                 prev_a = log_seqs[i][j-1][0]
                 cur_a = log_seqs[i][j][0]
-                role = log_seqs[i][j][1]
+                res = log_seqs[i][j][1]
                 t_seconds = ex_times[(prev_a, cur_a)].pop()
-                t = timestamps[i][-1] + timedelta(seconds=t_seconds)
-                t = return_time_from_calendar(t, self.role_calendars[role])
+                t = add_minutes_with_calendar(timestamps[i][-1], t_seconds, self.res_calendars[res])
                 timestamps[i].append(t)
 
         return timestamps
@@ -117,23 +151,35 @@ class EventLogGenerator:
         return df
     
 
-    def apply(self, N=1000, start_timestamp = "2020-10-15 00:00:00"):
+    def apply(self, N, start_timestamp):
 
-        start_timestamp = datetime.strptime(start_timestamp, "%Y-%m-%d %H:%M:%S")
+        # start_timestamp = datetime.strptime(start_timestamp, "%Y-%m-%d %H:%M:%S")
 
         print('Generate sequences...')
         log_seq = self.generate_seq(N)
-        print('Generate roles...')
-        log_seq = self.generate_roles(log_seq)
+        print('Generate resources...')
+        log_seq_res = self.generate_resources(log_seq)
+        if self.label_data_attributes:
+            print('Generate attributes...')
+            log_seq = self.generate_attributes(log_seq, log_seq_res)
+        else:
+            log_seq = log_seq_res
+
         print('Generate timestamps...')
         timestamps_log = self.generate_timestamps(log_seq, start_timestamp)
 
         ids = [str(i) for i in range(1, len(log_seq)+1) for _ in range(len(log_seq[i-1]))]
         activities = [ev[0] for trace in log_seq for ev in trace]
         roles = [ev[1] for trace in log_seq for ev in trace]
+        if self.label_data_attributes:
+            attributes_dict = {l: [] for l in self.label_data_attributes}
+            for i, l in enumerate(self.label_data_attributes):
+                attributes_dict[l] = [ev[2][i] for trace in log_seq for ev in trace]
+        else:
+            attributes_dict = dict()
         timestamps = [t for trace in timestamps_log for t in trace]
         
-        df = pd.DataFrame({'case:concept:name': ids, 'concept:name': activities, 'time:timestamp': timestamps, 'org:role': roles})
+        df = pd.DataFrame({'case:concept:name': ids, 'concept:name': activities, 'time:timestamp': timestamps, 'org:resource': roles} | attributes_dict)
         df = self.generate_lifecyle(df)
 
         return df
