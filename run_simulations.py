@@ -7,12 +7,20 @@ from EventLogGenerator import EventLogGenerator
 import warnings
 warnings.filterwarnings('ignore')
 
+import time
+
+# Start time
+start_time = time.time()
+
 case_studies = [
-    'Purchasing',
+    # 'Purchasing',
     'Production',
-    'Consulta',
-    'bpi12',
-    'bpi17',
+    # 'Consulta',
+    # 'bpi12',
+    # 'bpi17',
+    # 'sepsis',
+    # 'rtf',
+    # 'bpi19'
     ]
 
 N_SIM = 5
@@ -50,6 +58,41 @@ if __name__ == '__main__':
             save_simulations_to = 'simulations/Purchasing'
             label_data_attributes=[]
 
+        if case_study == 'sepsis':
+            path_log = 'data/sepsis/sepsis.xes'
+            save_split_to = 'data/sepsis'
+            save_simulations_to = 'simulations/sepsis'
+            label_data_attributes=['InfectionSuspected', 'DiagnosticBlood', 'DisfuncOrg', 'SIRSCritTachypnea', 'Hypotensie', 'SIRSCritHeartRate', 'Infusion', 'DiagnosticArtAstrup', 'Age', 'DiagnosticIC', 'DiagnosticSputum', 'DiagnosticLiquor', 'DiagnosticOther', 'SIRSCriteria2OrMore', 'DiagnosticXthorax', 'SIRSCritTemperature', 'DiagnosticUrinaryCulture', 'SIRSCritLeucos', 'Oligurie', 'DiagnosticLacticAcid', 'Diagnose', 'Hypoxie', 'DiagnosticUrinarySediment', 'DiagnosticECG', 'Leucocytes', 'CRP', 'LacticAcid']
+
+        if case_study == 'rtf':
+            path_log = 'data/rtf/rtf.xes'
+            save_split_to = 'data/rtf'
+            save_simulations_to = 'simulations/rtf'
+            label_data_attributes=['amount', 'dismissal', 'vehicleClass', 'totalPaymentAmount', 'article', 'points', 'expense', 'notificationType', 'lastSent', 'paymentAmount', 'matricola']
+
+        if case_study == 'bpi19':
+            path_log = 'data/bpi19/bpi19.xes'
+            save_split_to = 'data/bpi19'
+            save_simulations_to = 'simulations/bpi19'
+            label_data_attributes=[
+                                    'Cumulative net worth (EUR)', 
+                                    'case:Spend area text', 
+                                    'case:Company', 
+                                    'case:Document Type', 
+                                    'case:Sub spend area text',
+                                    'case:Purchasing Document', 
+                                    'case:Purch. Doc. Category name',
+                                    'case:Vendor', 
+                                    'case:Item Type', 
+                                    'case:Item Category',
+                                    'case:Spend classification text', 
+                                    'case:Source', 
+                                    'case:Name',
+                                    'case:GR-Based Inv. Verif.', 
+                                    'case:Item',
+                                    'case:Goods Receipt'
+                                ]
+
 
         log = xes_importer.apply(path_log)
 
@@ -62,3 +105,21 @@ if __name__ == '__main__':
             simulated_traces = generator.apply(N=len(test_log), start_timestamp = start_timestamp)
             simulated_traces.to_csv(save_simulations_to + f'/sim_{i}.csv', index=False)
             print(f'{case_study} simulation {i} done!')
+
+# End time
+end_time = time.time()
+
+# Execution time
+execution_time = end_time - start_time
+
+# Calculate hours, minutes, seconds
+hours = int(execution_time // 3600)  # Divide by 3600 to get hours
+minutes = int((execution_time % 3600) // 60)  # Remainder divided by 60 to get minutes
+seconds = execution_time % 60  # Remainder of seconds
+
+#Save it into the folder of the simulations
+with open(save_simulations_to + '/execution_time.txt', 'w') as f:
+    f.write(f"Execution Time: {hours} hours, {minutes} minutes, {seconds:.6f} seconds")
+
+# Print the formatted output
+print(f"Execution Time: {hours} hours, {minutes} minutes, {seconds:.6f} seconds")
