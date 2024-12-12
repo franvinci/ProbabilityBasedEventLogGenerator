@@ -9,24 +9,24 @@ warnings.filterwarnings('ignore')
 
 import time
 
-# Start time
-start_time = time.time()
-
 case_studies = [
     # 'Purchasing',
-    'Production',
+    # 'Production',
     # 'Consulta',
-    # 'bpi12',
-    # 'bpi17',
+    'bpi12',
+    'bpi17',
     # 'sepsis',
-    # 'rtf',
-    # 'bpi19'
+    'rtf',
+    'bpi19'
     ]
 
 N_SIM = 5
 
 if __name__ == '__main__':
     for case_study in case_studies:
+
+        # Start time
+        start_time = time.time()
 
         if case_study == 'bpi12':
             path_log = 'data/bpi12/bpi12w.xes'
@@ -105,21 +105,20 @@ if __name__ == '__main__':
             simulated_traces = generator.apply(N=len(test_log), start_timestamp = start_timestamp)
             simulated_traces.to_csv(save_simulations_to + f'/sim_{i}.csv', index=False)
             print(f'{case_study} simulation {i} done!')
+        
+        # End time
+        end_time = time.time()
 
-# End time
-end_time = time.time()
+        # Execution time
+        execution_time = end_time - start_time
 
-# Execution time
-execution_time = end_time - start_time
+        # Calculate hours, minutes, seconds
+        hours = int(execution_time // 3600)  # Divide by 3600 to get hours
+        minutes = int((execution_time % 3600) // 60)  # Remainder divided by 60 to get minutes
+        seconds = execution_time % 60  # Remainder of seconds
 
-# Calculate hours, minutes, seconds
-hours = int(execution_time // 3600)  # Divide by 3600 to get hours
-minutes = int((execution_time % 3600) // 60)  # Remainder divided by 60 to get minutes
-seconds = execution_time % 60  # Remainder of seconds
+        #Save it into the folder of the simulations
+        with open(save_simulations_to + '/execution_time.txt', 'w') as f:
+            f.write(f"Execution Time: {hours} hours, {minutes} minutes, {seconds:.6f} seconds")
 
-#Save it into the folder of the simulations
-with open(save_simulations_to + '/execution_time.txt', 'w') as f:
-    f.write(f"Execution Time: {hours} hours, {minutes} minutes, {seconds:.6f} seconds")
 
-# Print the formatted output
-print(f"Execution Time: {hours} hours, {minutes} minutes, {seconds:.6f} seconds")
