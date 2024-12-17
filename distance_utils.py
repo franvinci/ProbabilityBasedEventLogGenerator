@@ -22,7 +22,7 @@ def emd_categ(a: list, b: list):
     return distance
 
 
-def emd_attributes(df_real: pd.DataFrame, df_sim:pd.DataFrame, attr_names=[], fillna=True):
+def emd_attributes(df_real: pd.DataFrame, df_sim:pd.DataFrame, attr_names=[]):
     
     for a in attr_names:
         if a not in df_real.columns:
@@ -33,14 +33,8 @@ def emd_attributes(df_real: pd.DataFrame, df_sim:pd.DataFrame, attr_names=[], fi
     emds = []
     for a in attr_names:
         if df_real[a].dtype == float:
-            if fillna:
-                emds.append(wasserstein_distance(df_real[a].fillna(df_real[a].mean()), df_sim[a].fillna(df_sim[a].mean())))
-            else:
-                emds.append(wasserstein_distance(df_real[a].dropna(), df_sim[a].dropna()))
+            emds.append(wasserstein_distance(df_real[a].dropna(), df_sim[a].dropna()))
         else:
-            if fillna:
-                emds.append(emd_categ(list(df_real[a].fillna("N/A")), list(df_sim[a].fillna("N/A"))))
-            else:
-                emds.append(emd_categ(list(df_real[a].dropna(), list(df_sim[a].dropna()))))
+            emds.append(emd_categ(list(df_real[a].fillna("N/A")), list(df_sim[a].fillna("N/A"))))
 
     return np.mean(emds)

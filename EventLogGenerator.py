@@ -1,6 +1,6 @@
 from src.gen_seq_utils import get_prefix_proba
 from src.gen_res_utils import get_prefix_res_proba, get_possible_prefixes_res_act
-from src.gen_attr_utils import get_prefix_attr_proba, get_possible_prefixes_attr_act
+from src.gen_attr_utils import get_prefix_attr_proba, get_possible_prefixes_attr_act, get_trace_attribute_labels, get_trace_attribute_proba
 from src.gen_time_utils import get_distr_arrival_time, get_distr_ex_times, sample_arrival_times, sample_ex_times
 from src.prefix_utils import get_more_similar_prefix
 from src.preprocess_utils import add_lc_to_act
@@ -31,7 +31,11 @@ class EventLogGenerator:
         self.prefixes_proba_next_res = get_prefix_res_proba(self.log)
 
         if label_data_attributes:
-            self.prefixes_proba_next_attr = get_prefix_attr_proba(self.log, self.label_data_attributes)
+            self.trace_attribute_labels = get_trace_attribute_labels(self.log, self.label_data_attributes)
+            self.event_attributes_labels = list(set(self.label_data_attributes) - set(self.trace_attribute_labels))
+
+            self.prob_trace_attributes = get_trace_attribute_proba(self.log, self.trace_attribute_labels)
+            self.prefixes_proba_next_attr = get_prefix_attr_proba(self.log, self.event_attributes_labels)
 
         # calendars discovery
         self.arrival_calendar = discover_arrival_calendar(self.log)
@@ -161,6 +165,7 @@ class EventLogGenerator:
         log_seq_res = self.generate_resources(log_seq)
         if self.label_data_attributes:
             print('Generate attributes...')
+            trace_attributes = random.choices(list(self.prob_trace_attributes.keys()), weights=self.prob_trace_attributes.values(), k=N)
             log_seq = self.generate_attributes(log_seq, log_seq_res)
         else:
             log_seq = log_seq_res
@@ -173,8 +178,12 @@ class EventLogGenerator:
         roles = [ev[1] for trace in log_seq for ev in trace]
         if self.label_data_attributes:
             attributes_dict = {l: [] for l in self.label_data_attributes}
-            for i, l in enumerate(self.label_data_attributes):
+            for i, l in enumerate(self.event_attributes_labels):
                 attributes_dict[l] = [ev[2][i] for trace in log_seq for ev in trace]
+            for k, l in enumerate(self.trace_attribute_labels):
+                for i in range(len(trace_attributes)):
+                    for _ in range(len(log_seq[i])):
+                        attributes_dict[l].append(trace_attributes[i][k])
         else:
             attributes_dict = dict()
         timestamps = [t for trace in timestamps_log for t in trace]

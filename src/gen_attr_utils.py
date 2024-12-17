@@ -1,5 +1,5 @@
 import pm4py
-
+import random
 
 def get_prefix_attr_freq(log, data_attr_labels):
 
@@ -57,3 +57,34 @@ def get_possible_prefixes_attr_act(prefixes_proba_next_attr):
             possible_prefixes[cur_act] = [pref]
 
     return possible_prefixes
+
+
+def get_trace_attribute_labels(log, data_attr_labels):
+
+    trace_attributes = []
+    df_log = pm4py.convert_to_dataframe(log)
+
+    for a in data_attr_labels:
+        if df_log[a].dtype == float:
+            if df_log[["case:concept:name"]+data_attr_labels].groupby("case:concept:name")[a].std().mean() == 0:
+                trace_attributes.append(a)
+        else:
+            if df_log[["case:concept:name"]+data_attr_labels].groupby("case:concept:name")[a].unique().apply(lambda x: len(x)).mean() == 1:
+                trace_attributes.append(a)
+
+    return trace_attributes
+
+
+def get_trace_attribute_proba(log, trace_attribute_labels):
+    
+    trace_attribute_proba = dict()
+
+    for trace in log:
+        for l in trace_attribute_labels:
+            attr = tuple(trace[0][l] for l in trace_attribute_labels) 
+            if attr not in trace_attribute_proba.keys():
+                trace_attribute_proba[attr] = 1
+            else:
+                trace_attribute_proba[attr] += 1
+
+    return trace_attribute_proba
