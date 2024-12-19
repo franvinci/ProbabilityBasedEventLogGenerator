@@ -13,7 +13,7 @@ from tqdm import tqdm
 import pm4py
 
 class EventLogGenerator:
-    def __init__(self, log, k=0, label_data_attributes=[]):
+    def __init__(self, log, k, label_data_attributes=[]):
 
         # sort event log by time:timestamp
         df_log = pm4py.convert_to_dataframe(log)
@@ -21,7 +21,7 @@ class EventLogGenerator:
         df_log.sort_values(by='time:timestamp', inplace=True)
         df_log.index = range(len(df_log))
         self.log = pm4py.convert_to_event_log(df_log)
-
+        self.k = k
         self.log = add_lc_to_act(log)
 
         self.label_data_attributes = label_data_attributes
@@ -112,7 +112,7 @@ class EventLogGenerator:
                     break
                 trace.append(act)
                 prefix = prefix + (act,)
-            
+                prefix = prefix[-self.k:]
             gen_seq_log.append(trace)
 
         return gen_seq_log
@@ -168,6 +168,7 @@ class EventLogGenerator:
                 res = random.choices(list(self.prefixes_proba_next_res[pref_act].keys()), weights = self.prefixes_proba_next_res[pref_act].values())[0]
                 sim_trace_act_res.append((act, res))
                 prefix = prefix + ((act, res),)
+                prefix = prefix[-self.k:]
             simulated_traces_act_res.append(sim_trace_act_res)  
 
         return simulated_traces_act_res
@@ -225,6 +226,7 @@ class EventLogGenerator:
                     pref_act = (similar_prefixes[prefix][act], act)
                 attr = random.choices(list(self.prefixes_proba_next_attr[pref_act].keys()), weights = self.prefixes_proba_next_attr[pref_act].values())[0]
                 sim_trace_act_res_attr.append((act, log_seqs_res[i][j][1], attr))
+                prefix = prefix[-self.k:]
                 prefix = prefix + ((act, attr),)
             simulated_traces_act_res_attr.append(sim_trace_act_res_attr)  
 

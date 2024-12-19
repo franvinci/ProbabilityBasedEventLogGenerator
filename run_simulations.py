@@ -13,15 +13,15 @@ case_studies = [
     # 'Purchasing',
     # 'Production',
     # 'Consulta',
-    'bpi12',
-    'bpi17',
+    # 'bpi12',
+    # 'bpi17',
     # 'sepsis',
     'rtf',
-    'bpi19'
+    # 'bpi19'
     ]
 
 N_SIM = 5
-k = 0
+k = 4
 
 if __name__ == '__main__':
     for case_study in case_studies:
