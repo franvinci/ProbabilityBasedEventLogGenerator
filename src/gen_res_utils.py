@@ -1,7 +1,7 @@
 import pm4py
 
 
-def get_prefix_res_freq(log):
+def get_prefix_res_freq(log, k = 0):
 
     prefixes_freq_next_res = dict()
     resources = pm4py.get_event_attribute_values(log, "org:resource").keys()
@@ -17,11 +17,12 @@ def get_prefix_res_freq(log):
                 prefixes_freq_next_res[pref_act] = {r: 0 for r in resources}
                 prefixes_freq_next_res[pref_act][res] += 1
             prefix = prefix + ((act, res),)
+            prefix = prefix[-k:]
 
     return prefixes_freq_next_res
 
 
-def get_prefix_res_proba(log):
+def get_prefix_res_proba(log, k = 0):
     """
     
     Returns a dictionary: {'prefix': {'res': probability to execute 'res' after 'prefix'}}
@@ -29,7 +30,7 @@ def get_prefix_res_proba(log):
 
     """
 
-    prefixes_freq_next_res = get_prefix_res_freq(log)
+    prefixes_freq_next_res = get_prefix_res_freq(log, k=k)
     prefixes_act = prefixes_freq_next_res.keys()
     prefixes_proba_next_res = prefixes_freq_next_res.copy()
     for prefix_act in prefixes_act:

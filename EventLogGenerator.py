@@ -13,7 +13,7 @@ from tqdm import tqdm
 import pm4py
 
 class EventLogGenerator:
-    def __init__(self, log, label_data_attributes=[]):
+    def __init__(self, log, k=0, label_data_attributes=[]):
 
         # sort event log by time:timestamp
         df_log = pm4py.convert_to_dataframe(log)
@@ -28,15 +28,15 @@ class EventLogGenerator:
 
 
         # compute conditional probabilities
-        self.prefixes_proba_next_act = get_prefix_proba(self.log)
-        self.prefixes_proba_next_res = get_prefix_res_proba(self.log)
+        self.prefixes_proba_next_act = get_prefix_proba(self.log, k)
+        self.prefixes_proba_next_res = get_prefix_res_proba(self.log, k)
 
         if label_data_attributes:
             self.trace_attribute_labels = get_trace_attribute_labels(self.log, self.label_data_attributes)
             self.event_attributes_labels = list(set(self.label_data_attributes) - set(self.trace_attribute_labels))
 
             self.prob_trace_attributes = get_trace_attribute_proba(self.log, self.trace_attribute_labels)
-            self.prefixes_proba_next_attr = get_prefix_attr_proba(self.log, self.event_attributes_labels)
+            self.prefixes_proba_next_attr = get_prefix_attr_proba(self.log, self.event_attributes_labels, k)
 
         # calendars discovery
         self.arrival_calendar = discover_arrival_calendar(self.log)
@@ -47,44 +47,24 @@ class EventLogGenerator:
         self.ex_times_distr = get_distr_ex_times(self.log, self.res_calendars)
 
 
-    def generate_single_sequence(self, args):
-        possible_prefixes, similar_prefixes = args
-        prefix = ()
-        trace = []
-        while True:
-            if prefix not in self.prefixes_proba_next_act.keys():
-                if prefix not in similar_prefixes.keys():
-                    similar_prefixes[prefix] = get_more_similar_prefix(prefix, possible_prefixes)
-                prefix = similar_prefixes[prefix]
-            act = random.choices(
-                list(self.prefixes_proba_next_act[prefix].keys()),
-                weights=self.prefixes_proba_next_act[prefix].values()
-            )[0]
-            if act == '<END>':
-                break
-            trace.append(act)
-            prefix = prefix + (act,)
-        return trace
-
-    def generate_seq(self, N_seq=100):
-        """
-
-        This generate sequences of activities from conditional probabilities
-        N_seq: number of seuqences to generate
-        Output : list of activity sequences
-        Output example : with N_seq=2 --> [['act_1','act_2'], ['act_1','act_2', 'act_3]]
-
-        """
-
-        possible_prefixes = list(self.prefixes_proba_next_act.keys())
-        similar_prefixes = dict()
-
-        with Pool(processes=cpu_count()) as pool:
-            args = [(possible_prefixes, similar_prefixes)] * N_seq
-            gen_seq_log = list(tqdm(pool.imap_unordered(self.generate_single_sequence, args), total=N_seq))
-
-        return gen_seq_log
-
+    # def generate_single_sequence(self, args):
+    #     possible_prefixes, similar_prefixes = args
+    #     prefix = ()
+    #     trace = []
+    #     while True:
+    #         if prefix not in self.prefixes_proba_next_act.keys():
+    #             if prefix not in similar_prefixes.keys():
+    #                 similar_prefixes[prefix] = get_more_similar_prefix(prefix, possible_prefixes)
+    #             prefix = similar_prefixes[prefix]
+    #         act = random.choices(
+    #             list(self.prefixes_proba_next_act[prefix].keys()),
+    #             weights=self.prefixes_proba_next_act[prefix].values()
+    #         )[0]
+    #         if act == '<END>':
+    #             break
+    #         trace.append(act)
+    #         prefix = prefix + (act,)
+    #     return trace
 
     # def generate_seq(self, N_seq=100):
     #     """
@@ -97,138 +77,158 @@ class EventLogGenerator:
     #     """
 
     #     possible_prefixes = list(self.prefixes_proba_next_act.keys())
-    #     gen_seq_log = []
     #     similar_prefixes = dict()
-    #     for _ in tqdm(range(N_seq)):
-    #         prefix = ()
-    #         trace = []
-    #         while True:
-    #             if prefix not in self.prefixes_proba_next_act.keys():
-    #                 if prefix not in similar_prefixes.keys():   
-    #                     similar_prefixes[prefix] = get_more_similar_prefix(prefix, possible_prefixes)
-    #                 prefix = similar_prefixes[prefix]
-    #             act = random.choices(list(self.prefixes_proba_next_act[prefix].keys()), weights = self.prefixes_proba_next_act[prefix].values())[0]
-    #             if act == '<END>':
-    #                 break
-    #             trace.append(act)
-    #             prefix = prefix + (act,)
-            
-    #         gen_seq_log.append(trace)
+
+    #     with Pool(processes=cpu_count()) as pool:
+    #         args = [(possible_prefixes, similar_prefixes)] * N_seq
+    #         gen_seq_log = list(tqdm(pool.imap_unordered(self.generate_single_sequence, args), total=N_seq))
 
     #     return gen_seq_log
-    
 
-    def generate_single_resource(self, args):
-        sim_trace_act, possible_prefixes, similar_prefixes = args
-        sim_trace_act_res = []
-        prefix = tuple()
-        for act in sim_trace_act:
-            pref_act = (prefix, act)
-            if prefix not in possible_prefixes[act]:
-                if prefix not in similar_prefixes.keys():
-                    similar_prefixes[prefix] = dict()
-                if act not in similar_prefixes[prefix].keys():
-                    similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
-                pref_act = (similar_prefixes[prefix][act], act)
-            res = random.choices(
-                list(self.prefixes_proba_next_res[pref_act].keys()),
-                weights=self.prefixes_proba_next_res[pref_act].values()
-            )[0]
-            sim_trace_act_res.append((act, res))
-            prefix = prefix + ((act, res),)
-        return sim_trace_act_res
 
-    def generate_resources(self, log_seqs):
-        possible_prefixes = get_possible_prefixes_res_act(self.prefixes_proba_next_res)
+    def generate_seq(self, N_seq=100):
+        """
+
+        This generate sequences of activities from conditional probabilities
+        N_seq: number of seuqences to generate
+        Output : list of activity sequences
+        Output example : with N_seq=2 --> [['act_1','act_2'], ['act_1','act_2', 'act_3]]
+
+        """
+
+        possible_prefixes = list(self.prefixes_proba_next_act.keys())
+        gen_seq_log = []
         similar_prefixes = dict()
+        for _ in tqdm(range(N_seq)):
+            prefix = ()
+            trace = []
+            while True:
+                if prefix not in self.prefixes_proba_next_act.keys():
+                    if prefix not in similar_prefixes.keys():   
+                        similar_prefixes[prefix] = get_more_similar_prefix(prefix, possible_prefixes)
+                    prefix = similar_prefixes[prefix]
+                act = random.choices(list(self.prefixes_proba_next_act[prefix].keys()), weights = self.prefixes_proba_next_act[prefix].values())[0]
+                if act == '<END>':
+                    break
+                trace.append(act)
+                prefix = prefix + (act,)
+            
+            gen_seq_log.append(trace)
 
-        with Pool(processes=cpu_count()) as pool:
-            args = [(sim_trace_act, possible_prefixes, similar_prefixes) for sim_trace_act in log_seqs]
-            simulated_traces_act_res = list(tqdm(pool.imap_unordered(self.generate_single_resource, args), total=len(log_seqs)))
-
-        return simulated_traces_act_res
+        return gen_seq_log
     
+
+    # def generate_single_resource(self, args):
+    #     sim_trace_act, possible_prefixes, similar_prefixes = args
+    #     sim_trace_act_res = []
+    #     prefix = tuple()
+    #     for act in sim_trace_act:
+    #         pref_act = (prefix, act)
+    #         if prefix not in possible_prefixes[act]:
+    #             if prefix not in similar_prefixes.keys():
+    #                 similar_prefixes[prefix] = dict()
+    #             if act not in similar_prefixes[prefix].keys():
+    #                 similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
+    #             pref_act = (similar_prefixes[prefix][act], act)
+    #         res = random.choices(
+    #             list(self.prefixes_proba_next_res[pref_act].keys()),
+    #             weights=self.prefixes_proba_next_res[pref_act].values()
+    #         )[0]
+    #         sim_trace_act_res.append((act, res))
+    #         prefix = prefix + ((act, res),)
+    #     return sim_trace_act_res
 
     # def generate_resources(self, log_seqs):
-
     #     possible_prefixes = get_possible_prefixes_res_act(self.prefixes_proba_next_res)
-    #     simulated_traces_act_res = []
     #     similar_prefixes = dict()
-    #     for sim_trace_act in tqdm(log_seqs):
-    #         sim_trace_act_res = []
-    #         prefix = tuple()
-    #         for act in sim_trace_act:
-    #             pref_act = (prefix, act)
-    #             if prefix not in possible_prefixes[act]:
-    #                 if prefix not in similar_prefixes.keys():
-    #                     similar_prefixes[prefix] = dict()
-    #                 if act not in similar_prefixes[prefix].keys():
-    #                     similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
-    #                 pref_act = (similar_prefixes[prefix][act], act)
-    #             res = random.choices(list(self.prefixes_proba_next_res[pref_act].keys()), weights = self.prefixes_proba_next_res[pref_act].values())[0]
-    #             sim_trace_act_res.append((act, res))
-    #             prefix = prefix + ((act, res),)
-    #         simulated_traces_act_res.append(sim_trace_act_res)  
+
+    #     with Pool(processes=cpu_count()) as pool:
+    #         args = [(sim_trace_act, possible_prefixes, similar_prefixes) for sim_trace_act in log_seqs]
+    #         simulated_traces_act_res = list(tqdm(pool.imap_unordered(self.generate_single_resource, args), total=len(log_seqs)))
 
     #     return simulated_traces_act_res
     
 
-    def generate_single_attribute(self, args):
-        i, sim_trace_act, log_seqs_res, possible_prefixes, similar_prefixes = args
-        sim_trace_act_res_attr = []
-        prefix = tuple()
-        for j, act in enumerate(sim_trace_act):
-            pref_act = (prefix, act)
-            if prefix not in possible_prefixes[act]:
-                if prefix not in similar_prefixes.keys():
-                    similar_prefixes[prefix] = dict()
-                if act not in similar_prefixes[prefix].keys():
-                    similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
-                pref_act = (similar_prefixes[prefix][act], act)
-            attr = random.choices(
-                list(self.prefixes_proba_next_attr[pref_act].keys()),
-                weights=self.prefixes_proba_next_attr[pref_act].values()
-            )[0]
-            sim_trace_act_res_attr.append((act, log_seqs_res[i][j][1], attr))
-            prefix = prefix + ((act, attr),)
-        return sim_trace_act_res_attr
+    def generate_resources(self, log_seqs):
 
-    def generate_attributes(self, log_seqs, log_seqs_res):
-        possible_prefixes = get_possible_prefixes_attr_act(self.prefixes_proba_next_attr)
+        possible_prefixes = get_possible_prefixes_res_act(self.prefixes_proba_next_res)
+        simulated_traces_act_res = []
         similar_prefixes = dict()
+        for sim_trace_act in tqdm(log_seqs):
+            sim_trace_act_res = []
+            prefix = tuple()
+            for act in sim_trace_act:
+                pref_act = (prefix, act)
+                if prefix not in possible_prefixes[act]:
+                    if prefix not in similar_prefixes.keys():
+                        similar_prefixes[prefix] = dict()
+                    if act not in similar_prefixes[prefix].keys():
+                        similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
+                    pref_act = (similar_prefixes[prefix][act], act)
+                res = random.choices(list(self.prefixes_proba_next_res[pref_act].keys()), weights = self.prefixes_proba_next_res[pref_act].values())[0]
+                sim_trace_act_res.append((act, res))
+                prefix = prefix + ((act, res),)
+            simulated_traces_act_res.append(sim_trace_act_res)  
 
-        with Pool(processes=cpu_count()) as pool:
-            args = [
-                (i, sim_trace_act, log_seqs_res, possible_prefixes, similar_prefixes)
-                for i, sim_trace_act in enumerate(log_seqs)
-            ]
-            simulated_traces_act_res_attr = list(tqdm(pool.imap_unordered(self.generate_single_attribute, args), total=len(log_seqs)))
-
-        return simulated_traces_act_res_attr
+        return simulated_traces_act_res
     
 
-    # def generate_attributes(self, log_seqs, log_seqs_res):
+    # def generate_single_attribute(self, args):
+    #     i, sim_trace_act, log_seqs_res, possible_prefixes, similar_prefixes = args
+    #     sim_trace_act_res_attr = []
+    #     prefix = tuple()
+    #     for j, act in enumerate(sim_trace_act):
+    #         pref_act = (prefix, act)
+    #         if prefix not in possible_prefixes[act]:
+    #             if prefix not in similar_prefixes.keys():
+    #                 similar_prefixes[prefix] = dict()
+    #             if act not in similar_prefixes[prefix].keys():
+    #                 similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
+    #             pref_act = (similar_prefixes[prefix][act], act)
+    #         attr = random.choices(
+    #             list(self.prefixes_proba_next_attr[pref_act].keys()),
+    #             weights=self.prefixes_proba_next_attr[pref_act].values()
+    #         )[0]
+    #         sim_trace_act_res_attr.append((act, log_seqs_res[i][j][1], attr))
+    #         prefix = prefix + ((act, attr),)
+    #     return sim_trace_act_res_attr
 
+    # def generate_attributes(self, log_seqs, log_seqs_res):
     #     possible_prefixes = get_possible_prefixes_attr_act(self.prefixes_proba_next_attr)
-    #     simulated_traces_act_res_attr = []
     #     similar_prefixes = dict()
-    #     for i, sim_trace_act in tqdm(enumerate(log_seqs), total=len(log_seqs)):
-    #         sim_trace_act_res_attr = []
-    #         prefix = tuple()
-    #         for j, act in enumerate(sim_trace_act):
-    #             pref_act = (prefix, act)
-    #             if prefix not in possible_prefixes[act]:
-    #                 if prefix not in similar_prefixes.keys():
-    #                     similar_prefixes[prefix] = dict()
-    #                 if act not in similar_prefixes[prefix].keys():
-    #                     similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
-    #                 pref_act = (similar_prefixes[prefix][act], act)
-    #             attr = random.choices(list(self.prefixes_proba_next_attr[pref_act].keys()), weights = self.prefixes_proba_next_attr[pref_act].values())[0]
-    #             sim_trace_act_res_attr.append((act, log_seqs_res[i][j][1], attr))
-    #             prefix = prefix + ((act, attr),)
-    #         simulated_traces_act_res_attr.append(sim_trace_act_res_attr)  
+
+    #     with Pool(processes=cpu_count()) as pool:
+    #         args = [
+    #             (i, sim_trace_act, log_seqs_res, possible_prefixes, similar_prefixes)
+    #             for i, sim_trace_act in enumerate(log_seqs)
+    #         ]
+    #         simulated_traces_act_res_attr = list(tqdm(pool.imap_unordered(self.generate_single_attribute, args), total=len(log_seqs)))
 
     #     return simulated_traces_act_res_attr
+    
+
+    def generate_attributes(self, log_seqs, log_seqs_res):
+
+        possible_prefixes = get_possible_prefixes_attr_act(self.prefixes_proba_next_attr)
+        simulated_traces_act_res_attr = []
+        similar_prefixes = dict()
+        for i, sim_trace_act in tqdm(enumerate(log_seqs), total=len(log_seqs)):
+            sim_trace_act_res_attr = []
+            prefix = tuple()
+            for j, act in enumerate(sim_trace_act):
+                pref_act = (prefix, act)
+                if prefix not in possible_prefixes[act]:
+                    if prefix not in similar_prefixes.keys():
+                        similar_prefixes[prefix] = dict()
+                    if act not in similar_prefixes[prefix].keys():
+                        similar_prefixes[prefix][act] = get_more_similar_prefix(prefix, possible_prefixes[act])
+                    pref_act = (similar_prefixes[prefix][act], act)
+                attr = random.choices(list(self.prefixes_proba_next_attr[pref_act].keys()), weights = self.prefixes_proba_next_attr[pref_act].values())[0]
+                sim_trace_act_res_attr.append((act, log_seqs_res[i][j][1], attr))
+                prefix = prefix + ((act, attr),)
+            simulated_traces_act_res_attr.append(sim_trace_act_res_attr)  
+
+        return simulated_traces_act_res_attr
     
 
     def generate_timestamps(self, log_seqs, start_timestamp):

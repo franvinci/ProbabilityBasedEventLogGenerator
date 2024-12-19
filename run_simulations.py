@@ -21,6 +21,7 @@ case_studies = [
     ]
 
 N_SIM = 5
+k = 0
 
 if __name__ == '__main__':
     for case_study in case_studies:
@@ -100,7 +101,7 @@ if __name__ == '__main__':
 
         start_timestamp = test_log[0][0]['time:timestamp']
 
-        generator = EventLogGenerator(train_log, label_data_attributes=label_data_attributes)
+        generator = EventLogGenerator(train_log, k=k, label_data_attributes=label_data_attributes)
         for i in range(N_SIM):
             simulated_traces = generator.apply(N=len(test_log), start_timestamp = start_timestamp)
             simulated_traces.to_csv(save_simulations_to + f'/sim_{i}.csv', index=False)

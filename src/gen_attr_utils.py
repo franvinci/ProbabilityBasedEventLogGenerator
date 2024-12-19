@@ -1,7 +1,7 @@
 import pm4py
 import random
 
-def get_prefix_attr_freq(log, data_attr_labels):
+def get_prefix_attr_freq(log, data_attr_labels, k = 0):
 
     prefixes_freq_next_attr = dict()
     for trace in log:
@@ -21,11 +21,12 @@ def get_prefix_attr_freq(log, data_attr_labels):
             else:
                 prefixes_freq_next_attr[pref_act] = {attr: 1}
             prefix = prefix + ((act, attr),)
+            prefix = prefix[-k:]
 
     return prefixes_freq_next_attr
 
 
-def get_prefix_attr_proba(log, data_attr_labels):
+def get_prefix_attr_proba(log, data_attr_labels, k = 0):
     """
     
     Returns a dictionary: {'prefix': {'attr': probability to execute 'attr' after 'prefix'}}
@@ -33,7 +34,7 @@ def get_prefix_attr_proba(log, data_attr_labels):
 
     """
 
-    prefixes_freq_next_attr = get_prefix_attr_freq(log, data_attr_labels)
+    prefixes_freq_next_attr = get_prefix_attr_freq(log, data_attr_labels, k)
     prefixes_act = prefixes_freq_next_attr.keys()
     prefixes_proba_next_attr = prefixes_freq_next_attr.copy()
     for prefix_act in prefixes_act:
