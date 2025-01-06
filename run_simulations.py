@@ -16,11 +16,11 @@ case_studies = [
     # 'bpi12',
     # 'bpi17',
     # 'sepsis',
-    'rtf',
-    # 'bpi19'
+    # 'rtf',
+    'bpi19'
     ]
 
-N_SIM = 5
+N_SIM = 1
 k = 4
 
 if __name__ == '__main__':
