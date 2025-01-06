@@ -28,7 +28,7 @@ class EventLogGenerator:
 
 
         # compute conditional probabilities
-        self.prefixes_proba_next_act = get_prefix_proba(self.log, k=0)
+        self.prefixes_proba_next_act = get_prefix_proba(self.log, k)
         self.prefixes_proba_next_res = get_prefix_res_proba(self.log, k)
 
         if label_data_attributes:
