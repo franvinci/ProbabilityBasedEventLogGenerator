@@ -112,7 +112,7 @@ class EventLogGenerator:
                     break
                 trace.append(act)
                 prefix = prefix + (act,)
-                prefix = prefix[-self.k:]
+                prefix = prefix[-self.k:] #TODO: I removed this line cause it was filtering the prefix's generation
             gen_seq_log.append(trace)
 
         return gen_seq_log

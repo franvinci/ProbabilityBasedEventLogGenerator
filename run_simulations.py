@@ -14,14 +14,13 @@ case_studies = [
     # 'Production',
     # 'Consulta',
     # 'bpi12',
-    # 'bpi17',
+    'bpi17',
     # 'sepsis',
-    # 'rtf',
+    'rtf',
     'bpi19'
     ]
 
 N_SIM = 1
-k = 4
 
 if __name__ == '__main__':
     for case_study in case_studies:
@@ -34,42 +33,49 @@ if __name__ == '__main__':
             save_split_to = 'data/bpi12'
             save_simulations_to = 'simulations/bpi12'
             label_data_attributes=['AMOUNT_REQ']
+            k = 2
 
         if case_study == 'bpi17':
             path_log = 'data/bpi17/bpi17w.xes'
             save_split_to = 'data/bpi17'
             save_simulations_to = 'simulations/bpi17'
             label_data_attributes=['LoanGoal', 'ApplicationType', 'RequestedAmount']
+            k = 4
 
         if case_study == 'Consulta':
             path_log = 'data/Consulta/ConsultaDataMining201618.xes'
             save_split_to = 'data/Consulta'
             save_simulations_to = 'simulations/Consulta'
             label_data_attributes=[]
+            k = 11
 
         if case_study == 'Production':
             path_log = 'data/Production/production.xes'
             save_split_to = 'data/Production'
             save_simulations_to = 'simulations/Production'
             label_data_attributes=['Work Order  Qty', 'Part Desc.', 'Report Type', 'Qty Completed', 'Qty Rejected', 'Qty for MRB', 'Rework']
+            k = 22
 
         if case_study == 'Purchasing':
             path_log = 'data/Purchasing/PurchasingExample.xes'
             save_split_to = 'data/Purchasing'
             save_simulations_to = 'simulations/Purchasing'
             label_data_attributes=[]
+            k = 32
 
         if case_study == 'sepsis':
             path_log = 'data/sepsis/sepsis.xes'
             save_split_to = 'data/sepsis'
             save_simulations_to = 'simulations/sepsis'
             label_data_attributes=['InfectionSuspected', 'DiagnosticBlood', 'DisfuncOrg', 'SIRSCritTachypnea', 'Hypotensie', 'SIRSCritHeartRate', 'Infusion', 'DiagnosticArtAstrup', 'Age', 'DiagnosticIC', 'DiagnosticSputum', 'DiagnosticLiquor', 'DiagnosticOther', 'SIRSCriteria2OrMore', 'DiagnosticXthorax', 'SIRSCritTemperature', 'DiagnosticUrinaryCulture', 'SIRSCritLeucos', 'Oligurie', 'DiagnosticLacticAcid', 'Diagnose', 'Hypoxie', 'DiagnosticUrinarySediment', 'DiagnosticECG', 'Leucocytes', 'CRP', 'LacticAcid']
+            k = None
 
         if case_study == 'rtf':
             path_log = 'data/rtf/rtf.xes'
             save_split_to = 'data/rtf'
             save_simulations_to = 'simulations/rtf'
             label_data_attributes=['amount', 'dismissal', 'vehicleClass', 'totalPaymentAmount', 'article', 'points', 'expense', 'notificationType', 'lastSent', 'paymentAmount', 'matricola']
+            k = 2
 
         if case_study == 'bpi19':
             path_log = 'data/bpi19/bpi19.xes'
@@ -94,6 +100,7 @@ if __name__ == '__main__':
                                     'case:Goods Receipt'
                                 ]
 
+            k = 4
 
         log = xes_importer.apply(path_log)
 

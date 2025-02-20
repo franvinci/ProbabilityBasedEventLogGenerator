@@ -1,5 +1,6 @@
 import pm4py
 import pandas as pd
+import numpy as np
 from pm4py.objects.log.importer.xes import importer as xes_importer
 
 def add_lc_to_act(log):
@@ -70,3 +71,27 @@ def add_start_end_times(log_path):
     log_df["case:concept:name"] = log_df["case:concept:name"].astype(str)
 
     return log_df
+
+
+def pareto_traces(log_path):
+
+    # If the the log is in .xes format, import it and cast to dataframe
+    if log_path[-4:] == ".xes":
+        xes_log = xes_importer.apply(log_path)
+        log_df = pm4py.convert_to_dataframe(xes_log)
+
+    else:
+        log_df = pd.read_csv(log_path)
+
+    # Return the lenght of the traces in the log
+    trace_lengths = log_df.groupby('case:concept:name').size()
+
+    # For each trace in the log, append the length of the trace in the log
+    # for index in log_df["case:concept:name"].unique():
+    #     l.append(len(log_df[log_df["case:concept:name"] == index]))
+
+    # Return the first quantile of the trace lengths
+    # q = np.percentile(trace_lengths, 10)
+    q = np.median(trace_lengths)
+
+    return q
