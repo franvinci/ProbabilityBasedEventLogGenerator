@@ -10,12 +10,12 @@ warnings.filterwarnings('ignore')
 import time
 
 case_studies = [
-    # 'Purchasing',
-    # 'Production',
-    # 'Consulta',
-    # 'bpi12',
+    'Purchasing',
+    'Production',
+    'Consulta',
+    'bpi12',
     'bpi17',
-    # 'sepsis',
+    'sepsis',
     'rtf',
     'bpi19'
     ]
@@ -54,7 +54,7 @@ if __name__ == '__main__':
             save_split_to = 'data/Production'
             save_simulations_to = 'simulations/Production'
             label_data_attributes=['Work Order  Qty', 'Part Desc.', 'Report Type', 'Qty Completed', 'Qty Rejected', 'Qty for MRB', 'Rework']
-            k = 22
+            k = 3
 
         if case_study == 'Purchasing':
             path_log = 'data/Purchasing/PurchasingExample.xes'
