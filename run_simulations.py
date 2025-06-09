@@ -12,12 +12,12 @@ import time
 case_studies = [
     'Purchasing',
     'Production',
-    'Consulta',
+    # 'Consulta',
     'bpi12',
     'bpi17',
-    'sepsis',
-    'rtf',
-    'bpi19'
+    # 'sepsis',
+    # 'rtf',
+    # 'bpi19'
     ]
 
 N_SIM = 1
@@ -32,14 +32,14 @@ if __name__ == '__main__':
             path_log = 'data/bpi12/bpi12w.xes'
             save_split_to = 'data/bpi12'
             save_simulations_to = 'simulations/bpi12'
-            label_data_attributes=['AMOUNT_REQ']
+            label_data_attributes=[] #['AMOUNT_REQ']
             k = 3
 
         if case_study == 'bpi17':
             path_log = 'data/bpi17/bpi17w.xes'
             save_split_to = 'data/bpi17'
             save_simulations_to = 'simulations/bpi17'
-            label_data_attributes=['LoanGoal', 'ApplicationType', 'RequestedAmount']
+            label_data_attributes=[] #['LoanGoal', 'ApplicationType', 'RequestedAmount']
             k = 3
 
         if case_study == 'Consulta':
@@ -53,52 +53,51 @@ if __name__ == '__main__':
             path_log = 'data/Production/production.xes'
             save_split_to = 'data/Production'
             save_simulations_to = 'simulations/Production'
-            label_data_attributes=['Work Order  Qty', 'Part Desc.', 'Report Type', 'Qty Completed', 'Qty Rejected', 'Qty for MRB', 'Rework']
+            label_data_attributes=[] #['Work Order  Qty', 'Part Desc.', 'Report Type', 'Qty Completed', 'Qty Rejected', 'Qty for MRB', 'Rework']
             k = 3
 
         if case_study == 'Purchasing':
             path_log = 'data/Purchasing/PurchasingExample.xes'
             save_split_to = 'data/Purchasing'
             save_simulations_to = 'simulations/Purchasing'
-            label_data_attributes=[]
+            label_data_attributes=[] #[]
             k = 3
 
         if case_study == 'sepsis':
             path_log = 'data/sepsis/sepsis.xes'
             save_split_to = 'data/sepsis'
             save_simulations_to = 'simulations/sepsis'
-            label_data_attributes=['InfectionSuspected', 'DiagnosticBlood', 'DisfuncOrg', 'SIRSCritTachypnea', 'Hypotensie', 'SIRSCritHeartRate', 'Infusion', 'DiagnosticArtAstrup', 'Age', 'DiagnosticIC', 'DiagnosticSputum', 'DiagnosticLiquor', 'DiagnosticOther', 'SIRSCriteria2OrMore', 'DiagnosticXthorax', 'SIRSCritTemperature', 'DiagnosticUrinaryCulture', 'SIRSCritLeucos', 'Oligurie', 'DiagnosticLacticAcid', 'Diagnose', 'Hypoxie', 'DiagnosticUrinarySediment', 'DiagnosticECG', 'Leucocytes', 'CRP', 'LacticAcid']
+            label_data_attributes=[] # ['InfectionSuspected', 'DiagnosticBlood', 'DisfuncOrg', 'SIRSCritTachypnea', 'Hypotensie', 'SIRSCritHeartRate', 'Infusion', 'DiagnosticArtAstrup', 'Age', 'DiagnosticIC', 'DiagnosticSputum', 'DiagnosticLiquor', 'DiagnosticOther', 'SIRSCriteria2OrMore', 'DiagnosticXthorax', 'SIRSCritTemperature', 'DiagnosticUrinaryCulture', 'SIRSCritLeucos', 'Oligurie', 'DiagnosticLacticAcid', 'Diagnose', 'Hypoxie', 'DiagnosticUrinarySediment', 'DiagnosticECG', 'Leucocytes', 'CRP', 'LacticAcid']
             k = 3
 
         if case_study == 'rtf':
             path_log = 'data/rtf/rtf.xes'
             save_split_to = 'data/rtf'
             save_simulations_to = 'simulations/rtf'
-            label_data_attributes=['amount', 'dismissal', 'vehicleClass', 'totalPaymentAmount', 'article', 'points', 'expense', 'notificationType', 'lastSent', 'paymentAmount', 'matricola']
+            label_data_attributes=[] #['amount', 'dismissal', 'vehicleClass', 'totalPaymentAmount', 'article', 'points', 'expense', 'notificationType', 'lastSent', 'paymentAmount', 'matricola']
             k = 3
 
         if case_study == 'bpi19':
             path_log = 'data/bpi19/bpi19.xes'
             save_split_to = 'data/bpi19'
             save_simulations_to = 'simulations/bpi19'
-            label_data_attributes=[
-                                    'Cumulative net worth (EUR)', 
-                                    'case:Spend area text', 
-                                    'case:Company', 
-                                    'case:Document Type', 
-                                    'case:Sub spend area text',
-                                    'case:Purchasing Document', 
-                                    'case:Purch. Doc. Category name',
-                                    'case:Vendor', 
-                                    'case:Item Type', 
-                                    'case:Item Category',
-                                    'case:Spend classification text', 
-                                    'case:Source', 
-                                    'case:Name',
-                                    'case:GR-Based Inv. Verif.', 
-                                    'case:Item',
-                                    'case:Goods Receipt'
-                                ]
+            label_data_attributes=[] # [
+                                #     'Cumulative net worth (EUR)', 
+                                #     'case:Spend area text', 
+                                #     'case:Company', 
+                                #     'case:Document Type', 
+                                #     'case:Sub spend area text',
+                                #     'case:Purchasing Document', 
+                                #     'case:Purch. Doc. Category name',
+                                #     'case:Vendor', 
+                                #     'case:Item Type', 
+                                #     'case:Item Category',
+                                #     'case:Spend classification text', 
+                                #     'case:Source', 
+                                #     'case:Name',
+                                #     'case:GR-Based Inv. Verif.', 
+                                #     'case:Item'
+                                # ]
 
             k = 3
 
@@ -110,7 +109,7 @@ if __name__ == '__main__':
 
         generator = EventLogGenerator(train_log, k=k, label_data_attributes=label_data_attributes)
         for i in range(N_SIM):
-            simulated_traces = generator.apply(N=len(test_log), start_timestamp = start_timestamp)
+            simulated_traces = generator.apply(N=len(test_log)*8, start_timestamp = start_timestamp)
             simulated_traces.to_csv(save_simulations_to + f'/sim_{i}.csv', index=False)
             print(f'{case_study} simulation {i} done!')
         
