@@ -99,7 +99,7 @@ def lenght_distribution(log):
         lens.append(len(trace))
     print(f'The distribution of the length of the traces is: {Counter(lens)}')
 
-def convert_log(log):
+def convert_log_from_lc_to_se(log):
 
     #Filter the log in just start and complete lifecycle transitions
     log = log[log['lifecycle:transition'].isin(['start', 'complete'])]
