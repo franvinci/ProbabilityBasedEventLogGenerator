@@ -1,0 +1,1 @@
+simod --configuration /home/padela/Scrivania/ProbabilityBasedEventLogGenerator/simod_new/complete_configuration.yml
