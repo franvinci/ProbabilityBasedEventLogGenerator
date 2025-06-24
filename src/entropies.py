@@ -68,9 +68,9 @@ def compute_etd_entropy(df_log: pd.DataFrame) -> float:
 
     # Cast the timestamps to datetime if they are not already
     if not pd.api.types.is_datetime64_any_dtype(df_log["start:timestamp"]):
-        df_log["start:timestamp"] = pd.to_datetime(df_log["start:timestamp"])
+        df_log["start:timestamp"] = pd.to_datetime(df_log["start:timestamp"], format='mixed')
     if not pd.api.types.is_datetime64_any_dtype(df_log["time:timestamp"]):
-        df_log["time:timestamp"] = pd.to_datetime(df_log["time:timestamp"])
+        df_log["time:timestamp"] = pd.to_datetime(df_log["time:timestamp"], format='mixed')
 
     activities = list(df_log["concept:name"].unique())
     etd_entropies = []
@@ -85,6 +85,19 @@ def compute_etd_entropy(df_log: pd.DataFrame) -> float:
 
 def compute_ctd_entropy(df_log: pd.DataFrame) -> float:
 
+    try:    
+        # Cast the timestamps to datetime if they are not already
+        if not pd.api.types.is_datetime64_any_dtype(df_log["start:timestamp"]):
+            df_log["start:timestamp"] = pd.to_datetime(df_log["start:timestamp"], format='mixed')
+    except: print('No start timestamp detected')
+    
+    try:
+        if not pd.api.types.is_datetime64_any_dtype(df_log["time:timestamp"]):
+            df_log["time:timestamp"] = pd.to_datetime(df_log["time:timestamp"], format='mixed')
+    except: print('No end timestamp detected')
+
+
+    df_log['case:concept:name'] = df_log['case:concept:name'].astype(str)
     log = pm4py.convert_to_event_log(df_log)
     cycle_times = []
     for trace in log:
