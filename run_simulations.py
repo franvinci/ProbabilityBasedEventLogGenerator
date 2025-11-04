@@ -21,7 +21,7 @@ case_studies = [
     ]
 
 N_SIM = 1
-k = 2
+k = 1
 
 if __name__ == '__main__':
     for case_study in case_studies:

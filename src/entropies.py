@@ -41,6 +41,9 @@ def get_all_prefixes(sequences):
 
 def cf_entropy(log, prefix=True, activity_name='concept:name', case_id_name='case:concept:name'):
 
+    # This function is used to compute the entropy of a log under the point of view of the prefix/trace perspective.
+    # You can use prefix=False for trace entropy, or prefix=True for prefix entropy.
+
     # Make a list of sequence of activities for each case
     cases = {}
     for index, row in log.iterrows():
@@ -61,6 +64,8 @@ def cf_entropy(log, prefix=True, activity_name='concept:name', case_id_name='cas
     return compute_entropy(sequences)
 
 def compute_etd_entropy(df_log: pd.DataFrame) -> float:
+
+    # This function computes the entropy in activities durations
 
     # Needed to do bucketing
     if "start:timestamp" not in df_log.columns or "time:timestamp" not in df_log.columns:
@@ -84,6 +89,15 @@ def compute_etd_entropy(df_log: pd.DataFrame) -> float:
     return np.mean(etd_entropies)
 
 def compute_ctd_entropy(df_log: pd.DataFrame) -> float:
+
+    # This function computes the entropy in traces durations
+    # Convert the log timestamp columns to datetime if they are not already
+    if not df_log['start:timestamp'].dtype == 'datetime64[ns]':
+        df_log['start:timestamp'] = pd.to_datetime(df_log['start:timestamp'], errors='coerce')
+    if not df_log['time:timestamp'].dtype == 'datetime64[ns]':
+        df_log['time:timestamp'] = pd.to_datetime(df_log['time:timestamp'], errors='coerce')
+
+    log['case:concept:name'] = df_log['case:concept:name'].dtype('object')
 
     try:    
         # Cast the timestamps to datetime if they are not already

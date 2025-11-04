@@ -66,6 +66,4 @@ print(f'Log saved to simulations/{case_study}/log_sim_augmented.csv')
 
 
 
-
-
 # %%
