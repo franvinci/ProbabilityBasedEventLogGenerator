@@ -1,4 +1,5 @@
 import pm4py
+import pandas as pd
 from pm4py.objects.log.importer.xes import importer as xes_importer
 from src.train_utils import splitEventLog
 from src.eventlog_utils import order_for_trace_start
@@ -10,18 +11,19 @@ warnings.filterwarnings('ignore')
 import time
 
 case_studies = [
-    'Purchasing',
-    'Production',
-    'Consulta',
-    'bpi12',
-    'bpi17',
-    'sepsis',
-    'bpi19'
-    'rtf',
+    # 'Purchasing',
+    # 'Production',
+    # 'Consulta',
+    # 'bpi12',
+    # 'bpi17',
+    # 'sepsis',
+    # 'bpi19'
+    # 'rtf',
+    'hospital'
     ]
 
 N_SIM = 1
-k = 1
+k = 10
 
 if __name__ == '__main__':
     for case_study in case_studies:
@@ -78,6 +80,12 @@ if __name__ == '__main__':
             label_data_attributes=[] #['amount', 'dismissal', 'vehicleClass', 'totalPaymentAmount', 'article', 'points', 'expense', 'notificationType', 'lastSent', 'paymentAmount', 'matricola']
             k = k
 
+        if case_study == 'hospital':
+            path_log = 'data/hospital/hospital.csv'
+            save_split_to = 'data/hospital'
+            save_simulations_to = 'simulations/hospital'
+            label_data_attributes=['Age','Urgency Code','Access Type','Pathology']
+
         if case_study == 'bpi19':
             path_log = 'data/bpi19/bpi19.xes'
             save_split_to = 'data/bpi19'
@@ -102,15 +110,34 @@ if __name__ == '__main__':
 
             k = k
 
-        log = xes_importer.apply(path_log)
+        # log = xes_importer.apply(path_log)
+        log = pd.read_csv(path_log)
+        log['start:timestamp'] = pd.to_datetime(log['start:timestamp'])
+        log['time:timestamp'] = pd.to_datetime(log['time:timestamp'])
+        log_start = log.copy()
+        log_start['lifecycle:transition'] = 'start'
+        del log_start['time:timestamp']
+        log_start.rename(columns={'start:timestamp': 'time:timestamp'}, inplace=True)
+        log_complete = log.copy()
+        log_complete['lifecycle:transition'] = 'complete'
+        del log_complete['start:timestamp']
+        log = pd.concat([log_start, log_complete], axis=0)
+        log.sort_values(by='time:timestamp', inplace=True)
+        log.index = range(len(log))
+        log['org:resource'] = 'gigipicchio'
+        # import ipdb; ipdb.set_trace()
+        log = pm4py.convert_to_event_log(log)
+        
 
-        train_log, test_log = splitEventLog(log, train_size = 0.8, split_temporal = True, save_to = save_split_to)
-
-        start_timestamp = test_log[0][0]['time:timestamp']
+        # train_log, test_log = splitEventLog(log, train_size = 0.8, split_temporal = True, save_to = save_split_to)
+        train_log = log
+        # start_timestamp = test_log[0][0]['time:timestamp']
+        start_timestamp = train_log[0][0]['time:timestamp']
 
         generator = EventLogGenerator(train_log, k=k, label_data_attributes=label_data_attributes)
         for i in range(N_SIM):
-            simulated_traces = generator.apply(N=len(test_log)*8, start_timestamp = start_timestamp)
+            # simulated_traces = generator.apply(N=len(test_log)*8, start_timestamp = start_timestamp)
+            simulated_traces = generator.apply(N=len(train_log), start_timestamp = start_timestamp)
             simulated_traces.to_csv(save_simulations_to + f'/sim_{i}_{k}.csv', index=False)
             print(f'{case_study} simulation {i} done!')
         
