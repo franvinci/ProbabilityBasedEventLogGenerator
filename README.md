@@ -1,7 +1,7 @@
 # ProbabilityBasedEventLogGenerator
-Code related to the implementation of the paper ''Event-Log Augmentation: An Experimental Comparison of Existing and of a Novel Alternative Proposal''
+Code related to the implementation of the paper ''Generating Event Logs That Matter: A Multi-Dimensional Evaluation of Augmentation Techniques in Process Mining''
 
-The code has been developed and tested on Both Windows 11 and Linux 22.04 LTS. With a Python 3.10.2 environment. The laptop running the code has 16GB of RAM and an Intel Core i7-10750H CPU @ 2.60GHz × 12. For storing all the Profiles generated, we used the SSD memory of the laptot, with 1TB of space.
+The code has been developed and tested on Both Windows 11 and Linux 22.04 LTS. With a Python 3.10.2 environment. The laptop running the code has 64GB of RAM and an Intel Core i7-10750H CPU @ 2.60GHz × 12.
 
 # How to run the code
 Create a virtual environment with the requirements in requirements.txt
